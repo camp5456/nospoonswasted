@@ -3,8 +3,7 @@
 title: No Spoons Lifehacks
 logo: /images/logo.png
 description: Life hacks for low-energy days. Recipes, shortcuts & gear for the chronically ill.
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
-
+color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 #-------------------------------
 # Navigation Settings
@@ -46,10 +45,7 @@ hero:
 
 #-------------------------------
 # Newsletter
-mailchimp: # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp__identifier: # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
-mailchimp__input__text: Your email address...
-mailchimp__button__text: Get updates
+
 
 
 #-------------------------------
