@@ -71,24 +71,15 @@ h6 {
 
 blockquote {
   position: relative;
-  margin: 64px 0;
-  font-family: $heading-font-family;
-  font-size: 32px;
-  line-height: 1.6;
-  font-weight: 900;
-  color: var(--heading-font-color);
-
-  &::after {
-    content: '\201C';
-    position: absolute;
-    top: 0.15em;
-    left: 0;
-    z-index: -1;
-    font-family: $heading-font-family;
-    font-size: 6em;
-    line-height: 0;
-    opacity: 0.08;
-  }
+  margin: 32px 0;
+  padding-left: 1rem;
+  font-family: 'Lora', Georgia, serif;
+  font-size: inherit;
+  line-height: 1.75;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-text-muted);
+  border-left: 3px solid var(--color-accent);
 
   p {
     margin-bottom: 0;
@@ -101,12 +92,12 @@ blockquote {
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
-    color: var(--heading-font-color);
+    color: var(--color-text-muted);
 
   }
 
   @media only screen and (max-width: $mobile) {
-    margin: 40px 0;
+    margin: 24px 0;
     font-size: 21px;
   }
 }

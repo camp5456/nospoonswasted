@@ -1,34 +1,37 @@
-/* Buttons */
+/* Buttons - No Spoons Lifehacks Brand */
 .button {
   display: inline-block;
-  padding: 20px 40px;
-  font-size: 16px;
-  font-weight: 700;
+  padding: 10px 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1.1;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 8px;
   border: none;
   outline: none;
   cursor: pointer;
   transition: all .2s;
-  color: var(--dark);
-  background: var(--brand-color);
+  color: var(--button-color);
+  background: var(--button-background-color);
 
   &:hover {
-    color: var(--dark);
+    color: var(--white);
+    background: var(--button-background-hover);
   }
 
   &--primary {
-    color: var(--dark);
+    color: var(--button-color);
     background-color: var(--button-background-color);
 
     &:hover {
+      color: var(--white);
       background: var(--button-background-hover);
     }
   }
 
   &--small {
-    padding: 20px 24px;
+    padding: 8px 16px;
   }
 
   &--big {
