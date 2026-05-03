@@ -15,9 +15,9 @@ All pairs are WCAG 2.1 AA accessible.
 | Primary (H1, H2, nav bg) | `#a3485b` | white `#ffffff` |
 | Secondary (H3, H4) | `#d17082` | black `#000000` |
 | Accent / section bands / tags | `#e5aab4` | black `#000000` |
-| Links | `#18807e` | white `#ffffff` |
-| Buttons / CTAs | `#2faaa7` | black `#000000` |
-| Page background | `#faf7f8` | — |
+| Links | `#18807e` | white/light bg |
+| Buttons / CTAs | `#18807e` | white `#ffffff` |
+| Page background | `#fdfcfc` | — |
 | Body text | `#1a1a1a` | — |
 | Muted text | `#555555` | — |
 
@@ -29,8 +29,8 @@ All pairs are WCAG 2.1 AA accessible.
   --color-primary-mid:  #d17082;
   --color-accent:       #e5aab4;
   --color-link:         #18807e;
-  --color-btn:          #2faaa7;
-  --color-bg:           #faf7f8;
+  --color-btn:          #18807e;
+  --color-bg:           #fdfcfc;
   --color-text:         #1a1a1a;
   --color-text-muted:   #555555;
   --font-heading:       'Lora', Georgia, serif;
@@ -59,7 +59,7 @@ All pairs are WCAG 2.1 AA accessible.
 | H4 | Lora | 1.1rem | 400 | `#d17082` |
 | Body | Nunito | 1rem | 400 | `#1a1a1a` |
 | Links | DM Sans | inherit | 400 | `#18807e` |
-| Buttons | Nunito | 0.9rem | 600 | white on `#2faaa7` |
+| Buttons | Nunito | 0.9rem | 600 | white on `#18807e` |
 | Tags / labels | DM Sans | 0.75rem | 500 | black on `#e5aab4` |
 | Captions / meta | DM Sans | 0.8rem | 400 | `#555555` |
 
@@ -84,8 +84,8 @@ All pairs are WCAG 2.1 AA accessible.
 
 ```css
 .btn {
-  background: #2faaa7;
-  color: #000000;
+  background: #18807e;
+  color: #ffffff;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
@@ -94,7 +94,7 @@ All pairs are WCAG 2.1 AA accessible.
   border: none;
 }
 .btn:hover {
-  background: #18807e;
+  background: #106663;
   color: #ffffff;
 }
 ```

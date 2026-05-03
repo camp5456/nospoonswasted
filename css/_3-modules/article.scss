@@ -73,6 +73,7 @@
   line-height: 1.1;
 
   a {
+    padding-bottom: 4px;
     background: linear-gradient(var(--brand-color),var(--brand-color)) no-repeat bottom /100% 0%;
     transition: background .2s ease-in-out;
 

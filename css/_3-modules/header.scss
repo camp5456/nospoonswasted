@@ -1,24 +1,37 @@
 /* Header */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--background-color);
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 32px;
+
   .header__inner {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px $base-spacing-unit;
+    padding: 12px 24px;
 
     @media only screen and (max-width: $desktop) {
-      padding: 40px $base-spacing-unit;
+      padding: 12px 24px;
     }
 
     @media only screen and (max-width: $mobile) {
-      padding: 32px $base-spacing-unit;
+      padding: 10px 16px;
     }
   }
 }
 
 /* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo__link {
   padding: 8px 0;
   font-family: $heading-font-family;
@@ -26,10 +39,14 @@
   line-height: 1;
   font-weight: 800;
   transition: color .25s ease;
+  display: block;
 }
 
 .logo__image {
-  max-height: 50px;
+  max-height: 70px;
+  width: auto;
+  display: block;
+  margin-left: 35px;
 }
 
 /* Nav */
@@ -82,40 +99,36 @@
           .nav__link {
             display: block;
             margin-bottom: 0;
-            font-size: 24px;
+            font-family: $base-font-family;
+            font-size: 20px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            color: var(--color-link);
+            background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+            transition: all .2s ease-in-out;
 
             &::after {
               content: none;
             }
 
             &::before {
-              content: "";
-              position: absolute;
-              display: block;
-              width: 6px;
-              left: 50%;
-              top: 6px;
-              transform: translateX(-50%);
-              height: 6px;
-              opacity: 0;
-              visibility: hidden;
-              transition: all .2s;
-              border-radius: 50%;
-              background-color: var(--link-color);
+              display: none;
             }
 
             &:hover {
+              color: var(--color-primary);
+              background-size: 100% 30%;
+
               &::before {
-                opacity: 1;
-                visibility: visible;
+                display: none;
               }
             }
 
             &.active-link {
               &::before {
-                opacity: 1;
-                visibility: visible;
-                background-color: var(--brand-color);
+                display: none;
               }
             }
 
@@ -129,8 +142,20 @@
           display: block;
           padding: 20px 0;
           margin-bottom: 0;
-          font-size: 24px;
-          transition: color .25s ease;
+          font-family: $base-font-family;
+          font-size: 20px;
+          font-weight: 800;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          text-decoration: none;
+          color: var(--color-link);
+          background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+          transition: all .2s ease-in-out;
+
+          &:hover {
+            color: var(--color-primary);
+            background-size: 100% 30%;
+          }
 
           .arrow-down {
             display: none;
@@ -222,12 +247,17 @@
 
     .nav__link {
       position: relative;
-      padding: 12px 0;
-      font-family: $heading-font-family;
-      font-size: 20px;
+      padding: 8px 0 12px 0;
+      font-family: $base-font-family;
+      font-size: 18px;
       line-height: 1;
-      font-weight: 700;
-      transition: color .2s ease;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: var(--color-link);
+      background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+      transition: all .2s ease-in-out;
 
       &::before {
         content: "";
@@ -246,17 +276,17 @@
       }
 
       &:hover {
+        color: var(--color-primary);
+        background-size: 100% 30%;
+
         &::before {
-          opacity: 1;
-          visibility: visible;
+          display: none;
         }
       }
 
       &.active-link {
         &::before {
-          opacity: 1;
-          visibility: visible;
-          background-color: var(--brand-color);
+          display: none;
         }
       }
 
@@ -278,8 +308,21 @@
       }
 
       .dropdown-toggle {
-        color: var(--link-color);
+        font-family: $base-font-family;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        color: var(--color-link);
+        background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+        transition: all .2s ease-in-out;
         cursor: pointer;
+
+        &:hover {
+          color: var(--color-primary);
+          background-size: 100% 30%;
+        }
 
         &::before {
           content: none;
@@ -311,11 +354,22 @@
       display: flex;
       padding: 6px 12px;
       margin-bottom: 4px;
-      font-size: 20px;
+      font-family: $base-font-family;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: var(--color-link);
+      background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+      transition: all .2s ease-in-out;
       line-height: 1;
       will-change: transform;
 
       &:hover {
+        color: var(--color-primary);
+        background-size: 100% 30%;
+
         &::after {
           opacity: .3;
         }

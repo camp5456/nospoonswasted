@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: No Spoons Lifehacks
-logo: # You can add own logo. For example '/images/logo.png'.
+logo: /images/logo.png
 description: Life hacks for low-energy days. Recipes, shortcuts & gear for the chronically ill.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -28,9 +28,9 @@ author:
   author__avatar: '/images/01-1.jpg'
 
 social:
-- {icon: "fa-brands fa-pinterest", link: "https://www.pinterest.com/nospoonslifehacks/"}
-- {icon: "fa-brands fa-instagram", link: "https://www.instagram.com/no.spoons_lifehacks"}
-- {icon: "fa-brands fa-tiktok", link: "https://www.tiktok.com/@no.spoons_lifehacks?lang=en"}
+- {icon: "fa-brands fa-pinterest", link: "https://www.pinterest.com/nospoonslifehacks/", name: "Pinterest"}
+- {icon: "fa-brands fa-instagram", link: "https://www.instagram.com/no.spoons_lifehacks", name: "Instagram"}
+- {icon: "fa-brands fa-tiktok", link: "https://www.tiktok.com/@no.spoons_lifehacks?lang=en", name: "TikTok"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/icons
