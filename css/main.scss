@@ -1,0 +1,118 @@
+---
+---
+
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: Template name: Hilton
+:: The Hilton theme is designed to give you the opportunity to present your works in the most creative and dignified way possible. The theme is very easy to customize and has such necessary sections as Works, Testimonials, Blog, and also has a light and dark mode for easy reading. The theme design is ideal for creative people who appreciate simplicity and functionality.
+:: Template Author: Artem Sheludko
+:: Version: 1.3.0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: 1-Tools and Libs
+    1.1-Normalize
+    1.2-Reset
+    1.3-Shared
+    1.4-Syntax Highlighting
+    1.5-Grid
+    1.6-Animate
+:: 2-Base Styles
+    2.1-Base
+:: 3-Modules
+    3.1-Header
+    3.2-Pagination
+    3.3-Buttons
+    3.4-Gallery
+    3.5-Hero
+    3.6-Article
+    3.7-Contact
+    3.8-Sections
+    3.9-Projects
+    3.10-Testimonials
+    3.11-Footer
+:: 4-Layouts
+    4.1-Post
+    4.2-Project
+    4.3-Tags Page
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+{% include_relative _0-settings/variables.scss %}
+{% include_relative _0-settings/color-scheme.scss %}
+{% include_relative _0-settings/mixins.scss %}
+{% include_relative _0-settings/helpers.scss %}
+
+
+/* Font Awesome (v6.7.2) */
+{% include_relative _0-settings/brands.scss %}
+{% include_relative _0-settings/solid.scss %}
+{% include_relative _0-settings/regular.scss %}
+{% include_relative _0-settings/fontawesome.scss %}
+
+
+/* =======================
+:: 1-Tools and Libs
+======================= */
+/* >>>>>>>>>>>>>> 1.1-Normalize <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/normalize.scss %}
+/* >>>>>>>>>>>>>> 1.2-Reset <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/reset.scss %}
+/* >>>>>>>>>>>>>> 1.3-Shared <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/shared.scss %}
+/* >>>>>>>>>>>>>> 1.4-Syntax Highlighting <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/syntax-highlighting.scss %}
+/* >>>>>>>>>>>>>> 1.5-Grid <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/grid.scss %}
+/* >>>>>>>>>>>>>> 1.6-Tiny Slider <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/tiny-slider.scss %}
+/* >>>>>>>>>>>>>> 1.7-Animate <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/animate.scss %}
+
+
+/* =======================
+:: 2-Base Styles
+======================= */
+/* >>>>>>>>>>>>>> 2.1-Base <<<<<<<<<<<<<<< */
+{% include_relative _2-base/base.scss %}
+
+
+/* =======================
+:: 3-Modules
+======================= */
+/* >>>>>>>>>>>>>> 3.1-Header <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/header.scss %}
+/* >>>>>>>>>>>>>> 3.2-Pagination <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/pagination.scss %}
+/* >>>>>>>>>>>>>> 3.3-Buttons <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/buttons.scss %}
+/* >>>>>>>>>>>>>> 3.4-Gallery <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/gallery.scss %}
+/* >>>>>>>>>>>>>> 3.5-Hero <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/hero.scss %}
+/* >>>>>>>>>>>>>> 3.6-Article <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/article.scss %}
+/* >>>>>>>>>>>>>> 3.7-Contact <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/contact.scss %}
+/* >>>>>>>>>>>>>> 3.8-Sections <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/sections.scss %}
+/* >>>>>>>>>>>>>> 3.9-Projects <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/projects.scss %}
+/* >>>>>>>>>>>>>> 3.10-Testimonials <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/testimonials.scss %}
+/* >>>>>>>>>>>>>> 3.11-Footer <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/footer.scss %}
+
+
+/* =======================
+:: 4-Layouts
+======================= */
+/* >>>>>>>>>>>>>> 4.1-Post <<<<<<<<<<<<<<< */
+{% include_relative _4-layouts/post.scss %}
+/* >>>>>>>>>>>>>> 4.2-Project <<<<<<<<<<<<<<< */
+{% include_relative _4-layouts/project.scss %}
+/* >>>>>>>>>>>>>> 4.3-Tags Page <<<<<<<<<<<<<<< */
+{% include_relative _4-layouts/tags-page.scss %}
