@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Post Builder — No Spoons Lifehacks</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --primary: #a3485b;
+      --primary-dark: #7d3245;
+      --teal: #18807e;
+      --teal-dark: #106663;
+      --accent: #e5aab4;
+      --bg: #fdfcfc;
+      --surface: #ffffff;
+      --border: #e5aab4;
+      --text: #1a1a1a;
+      --muted: #555555;
+      --radius: 8px;
+      --font-sans: 'Nunito', system-ui, sans-serif;
+      --font-serif: 'Lora', Georgia, serif;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0 0 80px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .page-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 28px 32px;
+      margin-bottom: 32px;
+    }
+    .page-header h1 { margin: 0 0 4px; font-family: var(--font-serif); font-size: 24px; }
+    .page-header p { margin: 0; opacity: 0.85; font-size: 14px; }
+
+    .container { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+
+    fieldset {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px 24px;
+      margin-bottom: 24px;
+      background: var(--surface);
+    }
+
+    legend {
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--primary);
+      padding: 0 8px;
+    }
+
+    .field { margin-bottom: 16px; }
+    .field:last-child { margin-bottom: 0; }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid #ccc;
+      border-radius: var(--radius);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg);
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(24,128,126,0.12);
+    }
+    textarea { resize: vertical; min-height: 100px; }
+
+    .field-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+    }
+
+    .hint {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+
+    /* Dynamic list rows */
+    .dynamic-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+
+    .list-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .list-row input,
+    .list-row textarea {
+      flex: 1;
+    }
+
+    .list-row textarea {
+      min-height: 60px;
+      resize: vertical;
+    }
+
+    .row-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      flex-shrink: 0;
+    }
+
+    .btn-icon {
+      width: 28px;
+      height: 28px;
+      border: 1px solid #ccc;
+      background: var(--surface);
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      padding: 0;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .btn-icon:hover { border-color: var(--primary); color: var(--primary); }
+    .btn-icon.delete:hover { border-color: #c0392b; color: #c0392b; }
+
+    .btn-add {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border: 1px dashed var(--teal);
+      background: transparent;
+      color: var(--teal);
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-add:hover { background: rgba(24,128,126,0.06); }
+
+    /* Nutrition toggle */
+    .nutrition-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted);
+      cursor: pointer;
+    }
+    .nutrition-toggle input { width: auto; cursor: pointer; accent-color: var(--teal); }
+    #nutrition-fields { display: none; }
+    #nutrition-fields.visible { display: block; }
+
+    /* Generate button */
+    .actions { text-align: center; margin: 32px 0 0; }
+    .btn-generate {
+      padding: 14px 40px;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-size: 16px;
+      font-weight: 700;
+      font-family: var(--font-sans);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-generate:hover { background: var(--primary-dark); }
+
+    /* Output section */
+    #output-section {
+      display: none;
+      margin-top: 40px;
+    }
+    #output-section.visible { display: block; }
+
+    .output-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .output-header h2 {
+      margin: 0;
+      font-family: var(--font-serif);
+      font-size: 20px;
+      color: var(--primary);
+    }
+    .output-filename {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 8px;
+      font-family: monospace;
+    }
+
+    .output-actions { display: flex; gap: 10px; }
+
+    .btn-copy, .btn-download {
+      padding: 9px 18px;
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s;
+      border: none;
+    }
+    .btn-copy {
+      background: var(--teal);
+      color: #fff;
+    }
+    .btn-copy:hover { background: var(--teal-dark); }
+    .btn-download {
+      background: var(--surface);
+      color: var(--teal);
+      border: 2px solid var(--teal);
+    }
+    .btn-download:hover { background: rgba(24,128,126,0.06); }
+
+    pre#output {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      padding: 20px;
+      border-radius: var(--radius);
+      overflow: auto;
+      font-size: 13px;
+      line-height: 1.6;
+      font-family: 'Menlo', 'Monaco', 'Consolas', monospace;
+      white-space: pre;
+      max-height: 600px;
+    }
+
+    .copy-success {
+      color: #2ecc71;
+      font-size: 13px;
+      font-weight: 600;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .copy-success.show { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Recipe Post Builder</h1>
+  <p>Fill in the details and click Generate to download a ready-to-use Jekyll post file.</p>
+</div>
+
+<div class="container">
+
+  <!-- POST DETAILS -->
+  <fieldset>
+    <legend>Post Details</legend>
+    <div class="field">
+      <label for="title">Title *</label>
+      <input type="text" id="title" placeholder="e.g. Creamy Lemon Pasta" required>
+    </div>
+    <div class="field">
+      <label for="description">Description (used for SEO meta and post card)</label>
+      <textarea id="description" rows="2" placeholder="A short 1–2 sentence description of the recipe."></textarea>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="date">Date *</label>
+        <input type="date" id="date" required>
+      </div>
+      <div class="field">
+        <label for="image">Image Path</label>
+        <input type="text" id="image" placeholder="/images/recipe-name.jpg">
+      </div>
+    </div>
+    <div class="field">
+      <label for="tags">Tags (comma-separated)</label>
+      <input type="text" id="tags" placeholder="recipes, dinner, pasta, quick">
+    </div>
+  </fieldset>
+
+  <!-- RECIPE META -->
+  <fieldset>
+    <legend>Recipe Details</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="prep-time">Prep Time (min)</label>
+        <input type="number" id="prep-time" min="0" placeholder="15">
+      </div>
+      <div class="field">
+        <label for="cook-time">Cook Time (min)</label>
+        <input type="number" id="cook-time" min="0" placeholder="30">
+      </div>
+      <div class="field">
+        <label for="total-time">Total Time (min)</label>
+        <input type="number" id="total-time" min="0" placeholder="45">
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="servings">Servings</label>
+        <input type="number" id="servings" min="1" placeholder="4">
+      </div>
+      <div class="field">
+        <label for="servings-unit">Servings Unit</label>
+        <input type="text" id="servings-unit" value="servings">
+      </div>
+      <div class="field">
+        <label for="difficulty">Difficulty</label>
+        <select id="difficulty">
+          <option value="">— optional —</option>
+          <option>Easy</option>
+          <option>Medium</option>
+          <option>Hard</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="spoons">Spoons (effort)</label>
+        <select id="spoons">
+          <option value="">— optional —</option>
+          <option value="1">🥄 × 1 — Minimal</option>
+          <option value="2">🥄 × 2 — Low</option>
+          <option value="3">🥄 × 3 — Moderate</option>
+          <option value="4">🥄 × 4 — High</option>
+          <option value="5">🥄 × 5 — A lot</option>
+        </select>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="category">Category</label>
+        <input type="text" id="category" placeholder="Main Course">
+      </div>
+      <div class="field">
+        <label for="cuisine">Cuisine</label>
+        <input type="text" id="cuisine" placeholder="Italian">
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- INGREDIENTS -->
+  <fieldset>
+    <legend>Ingredients</legend>
+    <div class="dynamic-list" id="ingredients-list"></div>
+    <button type="button" class="btn-add" id="add-ingredient">+ Add Ingredient</button>
+  </fieldset>
+
+  <!-- INSTRUCTIONS -->
+  <fieldset>
+    <legend>Instructions</legend>
+    <p class="hint">Write each step as a complete sentence. They'll be numbered automatically.</p>
+    <div class="dynamic-list" id="instructions-list"></div>
+    <button type="button" class="btn-add" id="add-instruction">+ Add Step</button>
+  </fieldset>
+
+  <!-- NUTRITION -->
+  <fieldset>
+    <legend>Nutrition (optional)</legend>
+    <label class="nutrition-toggle">
+      <input type="checkbox" id="include-nutrition">
+      Include nutrition per serving
+    </label>
+    <div id="nutrition-fields">
+      <div class="field-row">
+        <div class="field">
+          <label for="calories">Calories</label>
+          <input type="text" id="calories" placeholder="350 calories">
+        </div>
+        <div class="field">
+          <label for="protein">Protein</label>
+          <input type="text" id="protein" placeholder="12g">
+        </div>
+        <div class="field">
+          <label for="carbs">Carbs</label>
+          <input type="text" id="carbs" placeholder="45g">
+        </div>
+        <div class="field">
+          <label for="fat">Fat</label>
+          <input type="text" id="fat" placeholder="8g">
+        </div>
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- CONTENT -->
+  <fieldset>
+    <legend>Post Content</legend>
+    <p class="hint">Your intro, story, tips, notes — written in Markdown. This renders above the recipe card.</p>
+    <textarea id="content" rows="12" placeholder="Write your post here. Markdown is supported.&#10;&#10;## Notes&#10;&#10;- Tip 1&#10;- Tip 2"></textarea>
+  </fieldset>
+
+  <div class="actions">
+    <button type="button" class="btn-generate" id="generate-btn">Generate Post File</button>
+  </div>
+
+  <!-- OUTPUT -->
+  <div id="output-section">
+    <div class="output-header">
+      <div>
+        <h2>Generated File</h2>
+        <div class="output-filename" id="output-filename"></div>
+      </div>
+      <div class="output-actions">
+        <span class="copy-success" id="copy-success">Copied!</span>
+        <button type="button" class="btn-copy" id="copy-btn">Copy</button>
+        <button type="button" class="btn-download" id="download-btn">Download .md</button>
+      </div>
+    </div>
+    <pre id="output"></pre>
+  </div>
+
+</div>
+
+<script>
+  // ── Utilities ──────────────────────────────────────────────────────────────
+
+  function slugify(str) {
+    return str
+      .toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .trim()
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-');
+  }
+
+  function yamlStr(value) {
+    if (!value) return '""';
+    // Wrap in double quotes and escape internal double quotes
+    return '"' + String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"';
+  }
+
+  function yamlListItem(value) {
+    if (!value) return null;
+    return '    - ' + yamlStr(value);
+  }
+
+  function getInputs(listId) {
+    return Array.from(document.querySelectorAll(`#${listId} .list-input`))
+      .map(el => el.value.trim())
+      .filter(Boolean);
+  }
+
+  // ── Dynamic list helpers ───────────────────────────────────────────────────
+
+  function createListRow(listId, useTextarea = false) {
+    const list = document.getElementById(listId);
+    const row = document.createElement('div');
+    row.className = 'list-row';
+
+    const input = document.createElement(useTextarea ? 'textarea' : 'input');
+    if (!useTextarea) input.type = 'text';
+    input.className = 'list-input';
+    if (useTextarea) input.rows = 2;
+
+    const controls = document.createElement('div');
+    controls.className = 'row-controls';
+
+    const upBtn = document.createElement('button');
+    upBtn.type = 'button';
+    upBtn.className = 'btn-icon';
+    upBtn.innerHTML = '↑';
+    upBtn.title = 'Move up';
+    upBtn.addEventListener('click', () => {
+      const prev = row.previousElementSibling;
+      if (prev) list.insertBefore(row, prev);
+    });
+
+    const downBtn = document.createElement('button');
+    downBtn.type = 'button';
+    downBtn.className = 'btn-icon';
+    downBtn.innerHTML = '↓';
+    downBtn.title = 'Move down';
+    downBtn.addEventListener('click', () => {
+      const next = row.nextElementSibling;
+      if (next) list.insertBefore(next, row);
+    });
+
+    const delBtn = document.createElement('button');
+    delBtn.type = 'button';
+    delBtn.className = 'btn-icon delete';
+    delBtn.innerHTML = '×';
+    delBtn.title = 'Remove';
+    delBtn.addEventListener('click', () => row.remove());
+
+    controls.append(upBtn, downBtn, delBtn);
+    row.append(input, controls);
+    list.appendChild(row);
+    input.focus();
+  }
+
+  document.getElementById('add-ingredient').addEventListener('click', () =>
+    createListRow('ingredients-list', false));
+
+  document.getElementById('add-instruction').addEventListener('click', () =>
+    createListRow('instructions-list', true));
+
+  // Start with a few empty rows
+  createListRow('ingredients-list', false);
+  createListRow('ingredients-list', false);
+  createListRow('ingredients-list', false);
+  createListRow('instructions-list', true);
+  createListRow('instructions-list', true);
+
+  // ── Auto-fill date ─────────────────────────────────────────────────────────
+
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = String(today.getDate()).padStart(2, '0');
+  document.getElementById('date').value = `${yyyy}-${mm}-${dd}`;
+
+  // ── Auto-calc total time ───────────────────────────────────────────────────
+
+  function recalcTotal() {
+    const prep = parseInt(document.getElementById('prep-time').value) || 0;
+    const cook = parseInt(document.getElementById('cook-time').value) || 0;
+    if (prep > 0 || cook > 0) {
+      document.getElementById('total-time').value = prep + cook;
+    }
+  }
+  document.getElementById('prep-time').addEventListener('input', recalcTotal);
+  document.getElementById('cook-time').addEventListener('input', recalcTotal);
+
+  // ── Nutrition toggle ───────────────────────────────────────────────────────
+
+  document.getElementById('include-nutrition').addEventListener('change', function () {
+    document.getElementById('nutrition-fields').classList.toggle('visible', this.checked);
+  });
+
+  // ── Generate ───────────────────────────────────────────────────────────────
+
+  document.getElementById('generate-btn').addEventListener('click', generate);
+
+  function generate() {
+    const title       = document.getElementById('title').value.trim();
+    const description = document.getElementById('description').value.trim();
+    const date        = document.getElementById('date').value;
+    const image       = document.getElementById('image').value.trim();
+    const tagsRaw     = document.getElementById('tags').value.trim();
+    const prepTime    = document.getElementById('prep-time').value.trim();
+    const cookTime    = document.getElementById('cook-time').value.trim();
+    const totalTime   = document.getElementById('total-time').value.trim();
+    const servings    = document.getElementById('servings').value.trim();
+    const servUnit    = document.getElementById('servings-unit').value.trim();
+    const difficulty  = document.getElementById('difficulty').value;
+    const spoons      = document.getElementById('spoons').value;
+    const category    = document.getElementById('category').value.trim();
+    const cuisine     = document.getElementById('cuisine').value.trim();
+    const ingredients = getInputs('ingredients-list');
+    const instructions = getInputs('instructions-list');
+    const inclNutr    = document.getElementById('include-nutrition').checked;
+    const calories    = document.getElementById('calories').value.trim();
+    const protein     = document.getElementById('protein').value.trim();
+    const carbs       = document.getElementById('carbs').value.trim();
+    const fat         = document.getElementById('fat').value.trim();
+    const content     = document.getElementById('content').value;
+
+    if (!title) { alert('Title is required.'); return; }
+    if (!date)  { alert('Date is required.'); return; }
+    if (ingredients.length === 0) { alert('Add at least one ingredient.'); return; }
+    if (instructions.length === 0) { alert('Add at least one instruction step.'); return; }
+
+    // Format tags as YAML array
+    const tags = tagsRaw
+      ? '[' + tagsRaw.split(',').map(t => t.trim()).filter(Boolean).map(t => t).join(', ') + ']'
+      : '[recipes]';
+
+    // Build front matter
+    const lines = ['---'];
+    lines.push('layout: recipe');
+    lines.push(`title: ${yamlStr(title)}`);
+    if (description) lines.push(`description: ${yamlStr(description)}`);
+    lines.push(`date:   ${date} 08:00:00 +0000`);
+    if (image) lines.push(`image:  '${image}'`);
+    lines.push(`tags:   ${tags}`);
+    lines.push('recipe:');
+
+    if (prepTime)  lines.push(`  prep_time: ${prepTime}`);
+    if (cookTime)  lines.push(`  cook_time: ${cookTime}`);
+    if (totalTime) lines.push(`  total_time: ${totalTime}`);
+    if (servings)  lines.push(`  servings: ${servings}`);
+    if (servUnit)  lines.push(`  servings_unit: ${yamlStr(servUnit)}`);
+    if (category)  lines.push(`  category: ${yamlStr(category)}`);
+    if (cuisine)   lines.push(`  cuisine: ${yamlStr(cuisine)}`);
+    if (difficulty) lines.push(`  difficulty: ${yamlStr(difficulty)}`);
+    if (spoons)     lines.push(`  spoons: ${spoons}`);
+
+    lines.push('  ingredients:');
+    ingredients.forEach(i => lines.push(yamlListItem(i)));
+
+    lines.push('  instructions:');
+    instructions.forEach(s => lines.push(yamlListItem(s)));
+
+    if (inclNutr && (calories || protein || carbs || fat)) {
+      lines.push('  nutrition:');
+      if (calories) lines.push(`    calories: ${yamlStr(calories)}`);
+      if (protein)  lines.push(`    protein: ${yamlStr(protein)}`);
+      if (carbs)    lines.push(`    carbs: ${yamlStr(carbs)}`);
+      if (fat)      lines.push(`    fat: ${yamlStr(fat)}`);
+    }
+
+    lines.push('---');
+    lines.push('');
+    lines.push(content || 'Write your post content here. The recipe card renders above this automatically.');
+
+    const output = lines.join('\n');
+    const filename = `${date}-${slugify(title)}.md`;
+
+    document.getElementById('output').textContent = output;
+    document.getElementById('output-filename').textContent = filename;
+    document.getElementById('output-section').classList.add('visible');
+    document.getElementById('output-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Wire up download
+    document.getElementById('download-btn').onclick = () => {
+      const blob = new Blob([output], { type: 'text/plain' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    };
+  }
+
+  // ── Copy ───────────────────────────────────────────────────────────────────
+
+  document.getElementById('copy-btn').addEventListener('click', () => {
+    const text = document.getElementById('output').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const msg = document.getElementById('copy-success');
+      msg.classList.add('show');
+      setTimeout(() => msg.classList.remove('show'), 2000);
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -62,4 +62,8 @@
 
 
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+
+  {% if page.layout == 'recipe' %}
+    {% include recipe-schema.html %}
+  {% endif %}
 </head>

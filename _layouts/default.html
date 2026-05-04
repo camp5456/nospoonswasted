@@ -5,6 +5,8 @@
 
 <body>
 
+  <a class="skip-to-content" href="#main-content">Skip to main content</a>
+
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
@@ -12,7 +14,7 @@
   {% include header.html %}
 
   <!-- begin content -->
-  <main class="content" aria-label="Content">
+  <main class="content" id="main-content" aria-label="Content">
     {{ content }}
   </main>
   <!-- end content -->

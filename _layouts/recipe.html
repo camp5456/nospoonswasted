@@ -1,0 +1,192 @@
+---
+layout: default
+---
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="post-info">
+
+          {% if page.tags.size >= 1 %}
+            <div class="post-tags">
+              {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+
+          <div class="post-meta">
+            <a href="{{site.baseurl}}/about/" class="post-author-link">{{site.data.settings.author.author__name}}</a> –
+            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% if page.image %}
+    <div class="col col-12">
+      <div class="post-image animate">
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container animate">
+  <article class="post">
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    <section class="recipe-card" aria-label="Recipe details">
+
+      <div class="recipe-stats" role="list" aria-label="Recipe times and servings">
+        {% if page.recipe.prep_time %}
+          {% assign _ph = page.recipe.prep_time | divided_by: 60 %}
+          {% assign _pm = page.recipe.prep_time | modulo: 60 %}
+          <div class="recipe-stat" role="listitem">
+            <span class="recipe-stat__label">Prep Time</span>
+            <time class="recipe-stat__value" datetime="{% if _ph > 0 %}PT{{ _ph }}H{{ _pm }}M{% else %}PT{{ _pm }}M{% endif %}">{% if _ph > 0 %}{{ _ph }} hr {% if _pm > 0 %}{{ _pm }} min{% endif %}{% else %}{{ _pm }} min{% endif %}</time>
+          </div>
+        {% endif %}
+        {% if page.recipe.cook_time %}
+          {% assign _ch = page.recipe.cook_time | divided_by: 60 %}
+          {% assign _cm = page.recipe.cook_time | modulo: 60 %}
+          <div class="recipe-stat" role="listitem">
+            <span class="recipe-stat__label">Cook Time</span>
+            <time class="recipe-stat__value" datetime="{% if _ch > 0 %}PT{{ _ch }}H{{ _cm }}M{% else %}PT{{ _cm }}M{% endif %}">{% if _ch > 0 %}{{ _ch }} hr {% if _cm > 0 %}{{ _cm }} min{% endif %}{% else %}{{ _cm }} min{% endif %}</time>
+          </div>
+        {% endif %}
+        {% if page.recipe.total_time %}
+          {% assign _th = page.recipe.total_time | divided_by: 60 %}
+          {% assign _tm = page.recipe.total_time | modulo: 60 %}
+          <div class="recipe-stat" role="listitem">
+            <span class="recipe-stat__label">Total Time</span>
+            <time class="recipe-stat__value" datetime="{% if _th > 0 %}PT{{ _th }}H{{ _tm }}M{% else %}PT{{ _tm }}M{% endif %}">{% if _th > 0 %}{{ _th }} hr {% if _tm > 0 %}{{ _tm }} min{% endif %}{% else %}{{ _tm }} min{% endif %}</time>
+          </div>
+        {% endif %}
+        {% if page.recipe.servings %}
+          <div class="recipe-stat" role="listitem">
+            <span class="recipe-stat__label">Servings</span>
+            <span class="recipe-stat__value">{{ page.recipe.servings }} {{ page.recipe.servings_unit | default: 'servings' }}</span>
+          </div>
+        {% endif %}
+        {% if page.recipe.difficulty %}
+          <div class="recipe-stat" role="listitem">
+            <span class="recipe-stat__label">Difficulty</span>
+            <span class="recipe-stat__value">{{ page.recipe.difficulty }}</span>
+          </div>
+        {% endif %}
+        {% if page.recipe.spoons %}
+          {% assign _spoons = page.recipe.spoons | plus: 0 %}
+          <div class="recipe-stat" role="listitem">
+            <span class="recipe-stat__label">Spoons</span>
+            <span class="recipe-stat__value recipe-spoons" aria-label="{{ _spoons }} out of 5 spoons of effort">
+              {% for i in (1..5) %}<span class="spoon{% if i <= _spoons %} spoon--filled{% else %} spoon--empty{% endif %}" aria-hidden="true">🥄</span>{% endfor %}
+            </span>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="recipe-body">
+
+        <section class="recipe-ingredients" aria-labelledby="ingredients-heading">
+          <h2 id="ingredients-heading">Ingredients</h2>
+          <ul>
+            {% for ingredient in page.recipe.ingredients %}
+              <li>{{ ingredient }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section class="recipe-instructions" aria-labelledby="instructions-heading">
+          <h2 id="instructions-heading">Instructions</h2>
+          <ol>
+            {% for step in page.recipe.instructions %}
+              <li>{{ step }}</li>
+            {% endfor %}
+          </ol>
+        </section>
+
+      </div>
+
+      {% if page.recipe.nutrition %}
+        <section class="recipe-nutrition" aria-labelledby="nutrition-heading">
+          <h2 id="nutrition-heading">Nutrition <span class="recipe-nutrition__note">(per serving)</span></h2>
+          <dl class="nutrition-list">
+            {% if page.recipe.nutrition.calories %}
+              <div class="nutrition-item">
+                <dt>Calories</dt>
+                <dd>{{ page.recipe.nutrition.calories }}</dd>
+              </div>
+            {% endif %}
+            {% if page.recipe.nutrition.protein %}
+              <div class="nutrition-item">
+                <dt>Protein</dt>
+                <dd>{{ page.recipe.nutrition.protein }}</dd>
+              </div>
+            {% endif %}
+            {% if page.recipe.nutrition.carbs %}
+              <div class="nutrition-item">
+                <dt>Carbs</dt>
+                <dd>{{ page.recipe.nutrition.carbs }}</dd>
+              </div>
+            {% endif %}
+            {% if page.recipe.nutrition.fat %}
+              <div class="nutrition-item">
+                <dt>Fat</dt>
+                <dd>{{ page.recipe.nutrition.fat }}</dd>
+              </div>
+            {% endif %}
+          </dl>
+        </section>
+      {% endif %}
+
+    </section>
+
+    <div class="post__share">
+      <p class="share__heading">Sharing is caring</p>
+      <ul class="share__list list-reset">
+        <li class="share__item">
+          <a class="share__link share__twitter"
+            href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__pinterest" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}{{ page.image }}&amp;description={{ page.title | uri_escape }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Pinterest" rel="nofollow"><i class="fa-brands fa-pinterest"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </article>
+</div>
+
+{% include related-posts.html %}
+
+{% if site.data.settings.disqus-identifier %}
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        {% include disqus-comments.html %}
+      </div>
+    </div>
+  </div>
+{% endif %}

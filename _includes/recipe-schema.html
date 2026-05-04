@@ -1,0 +1,47 @@
+{% assign _prep_h = page.recipe.prep_time | divided_by: 60 %}
+{% assign _prep_m = page.recipe.prep_time | modulo: 60 %}
+{% assign _cook_h = page.recipe.cook_time | divided_by: 60 %}
+{% assign _cook_m = page.recipe.cook_time | modulo: 60 %}
+{% assign _total_h = page.recipe.total_time | divided_by: 60 %}
+{% assign _total_m = page.recipe.total_time | modulo: 60 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": {{ page.title | jsonify }},
+  "image": ["{{ page.image | absolute_url }}"],
+  "author": {
+    "@type": "Person",
+    "name": {{ site.data.settings.author.author__name | jsonify }}
+  },
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}"{% if page.description %},
+  "description": {{ page.description | jsonify }}{% endif %}{% if page.recipe.prep_time %},
+  "prepTime": "{% if _prep_h > 0 %}PT{{ _prep_h }}H{{ _prep_m }}M{% else %}PT{{ _prep_m }}M{% endif %}"{% endif %}{% if page.recipe.cook_time %},
+  "cookTime": "{% if _cook_h > 0 %}PT{{ _cook_h }}H{{ _cook_m }}M{% else %}PT{{ _cook_m }}M{% endif %}"{% endif %}{% if page.recipe.total_time %},
+  "totalTime": "{% if _total_h > 0 %}PT{{ _total_h }}H{{ _total_m }}M{% else %}PT{{ _total_m }}M{% endif %}"{% endif %}{% if page.recipe.servings %},
+  "recipeYield": "{{ page.recipe.servings }} {{ page.recipe.servings_unit | default: 'servings' }}"{% endif %}{% if page.recipe.category %},
+  "recipeCategory": {{ page.recipe.category | jsonify }}{% endif %}{% if page.recipe.cuisine %},
+  "recipeCuisine": {{ page.recipe.cuisine | jsonify }}{% endif %}{% if page.tags.size > 0 %},
+  "keywords": {{ page.tags | join: ', ' | jsonify }}{% endif %},
+  "recipeIngredient": [
+    {% for ingredient in page.recipe.ingredients %}{{ ingredient | jsonify }}{% unless forloop.last %},
+    {% endunless %}{% endfor %}
+
+  ],
+  "recipeInstructions": [
+    {% for step in page.recipe.instructions %}{
+      "@type": "HowToStep",
+      "text": {{ step | jsonify }}
+    }{% unless forloop.last %},
+    {% endunless %}{% endfor %}
+
+  ]{% if page.recipe.nutrition %},
+  "nutrition": {
+    "@type": "NutritionInformation"{% if page.recipe.nutrition.calories %},
+    "calories": {{ page.recipe.nutrition.calories | jsonify }}{% endif %}{% if page.recipe.nutrition.protein %},
+    "proteinContent": {{ page.recipe.nutrition.protein | jsonify }}{% endif %}{% if page.recipe.nutrition.carbs %},
+    "carbohydrateContent": {{ page.recipe.nutrition.carbs | jsonify }}{% endif %}{% if page.recipe.nutrition.fat %},
+    "fatContent": {{ page.recipe.nutrition.fat | jsonify }}{% endif %}
+  }{% endif %}
+}
+</script>

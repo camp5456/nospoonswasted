@@ -210,6 +210,16 @@
   padding-bottom: 48px;
   border-bottom: 1px solid var(--background-alt-color);
 
+  .share__heading {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-alt-color);
+    margin: 0 0 12px;
+  }
+
   .share__list {
     display: flex;
     justify-content: center;
