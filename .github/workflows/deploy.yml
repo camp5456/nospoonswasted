@@ -31,4 +31,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./_site/
-          server-dir: /public_html/
+          server-dir: /nospoonslifehacks.com/public_html/
