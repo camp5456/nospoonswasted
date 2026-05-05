@@ -92,7 +92,13 @@ layout: default
           <div class="recipe-stat" role="listitem">
             <span class="recipe-stat__label">Spoons</span>
             <span class="recipe-stat__value recipe-spoons" aria-label="{{ _spoons }} out of 5 spoons of effort">
-              {% for i in (1..5) %}<span class="spoon-pip{% if i <= _spoons %} spoon-pip--filled{% else %} spoon-pip--empty{% endif %}" aria-hidden="true"></span>{% endfor %}
+              {% for i in (1..5) %}
+                {% if i <= _spoons %}
+                  <svg class="spoon-icon spoon-icon--filled" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 31" aria-hidden="true"><ellipse cx="6" cy="5.5" rx="5.5" ry="5.5"/><rect x="4.75" y="10.5" width="2.5" height="19" rx="1.25"/></svg>
+                {% else %}
+                  <svg class="spoon-icon spoon-icon--empty" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 31" aria-hidden="true"><ellipse cx="6" cy="5.5" rx="5.5" ry="5.5"/><rect x="4.75" y="10.5" width="2.5" height="19" rx="1.25"/></svg>
+                {% endif %}
+              {% endfor %}
             </span>
           </div>
         {% endif %}

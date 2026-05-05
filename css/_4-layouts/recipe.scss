@@ -42,23 +42,25 @@
 
 .recipe-spoons {
   display: flex;
-  align-items: center;
-  gap: 4px;
+  align-items: flex-end;
+  gap: 5px;
+  color: var(--text-color);
 }
 
-.spoon-pip {
-  display: inline-block;
+.spoon-icon {
+  display: block;
   width: 14px;
-  height: 14px;
-  border-radius: 50%;
+  height: auto;
+  flex-shrink: 0;
 
   &--filled {
-    background-color: var(--color-primary);
+    fill: currentColor;
   }
 
   &--empty {
-    background-color: transparent;
-    border: 2px solid var(--color-primary);
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.2;
   }
 }
 
