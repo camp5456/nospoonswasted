@@ -92,7 +92,7 @@ layout: default
           <div class="recipe-stat" role="listitem">
             <span class="recipe-stat__label">Spoons</span>
             <span class="recipe-stat__value recipe-spoons" aria-label="{{ _spoons }} out of 5 spoons of effort">
-              {% for i in (1..5) %}<span class="spoon{% if i <= _spoons %} spoon--filled{% else %} spoon--empty{% endif %}" aria-hidden="true">🥄</span>{% endfor %}
+              {% for i in (1..5) %}<span class="spoon-pip{% if i <= _spoons %} spoon-pip--filled{% else %} spoon-pip--empty{% endif %}" aria-hidden="true"></span>{% endfor %}
             </span>
           </div>
         {% endif %}

@@ -42,12 +42,24 @@
 
 .recipe-spoons {
   display: flex;
-  gap: 1px;
-  line-height: 1;
+  align-items: center;
+  gap: 4px;
 }
 
-.spoon--empty {
-  opacity: 0.2;
+.spoon-pip {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+
+  &--filled {
+    background-color: var(--color-primary);
+  }
+
+  &--empty {
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+  }
 }
 
 .recipe-body {
