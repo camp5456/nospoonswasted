@@ -12,21 +12,12 @@
           </div>
 
           <div class="hero__right">
-            <h1 class="hero__title">Welcome</h1>
+            <h1 class="hero__title">No Spoons Wasted</h1>
             <p class="hero__description">{{ site.data.settings.hero.hero__description }}</p>
-            {% if site.data.settings.mailchimp == "enable" %}
             <div class="hero__subscribe">
-              <form class="subscribe-form validate"
-                action="{% if site.data.settings.mailchimp__identifier %}//{{site.data.settings.mailchimp__identifier}}{% else %}#{% endif %}" method="POST"
-                id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-                <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-                <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
-                  placeholder="{% if site.data.settings.mailchimp__input__text %}{{ site.data.settings.mailchimp__input__text }}{% else %}Email address{% endif %}">
-                <button class="button button--primary button--small subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{
-                  site.data.settings.mailchimp__button__text }}</button>
-              </form>
+              {% include newsletter.html %}
+              <p class="hero__subscribe-note">No worries. Unsubscribe anytime.</p>
             </div>
-            {% endif %}
           </div>
 
         </div>
