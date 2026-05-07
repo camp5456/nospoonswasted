@@ -39,7 +39,7 @@ social:
 # Hero Settings
 hero:
   hero__title: No Spoons Wasted
-  hero__description: Join the newsletter for recipes, life hacks, and products for your low-energy days. Made by Humans 🩷
+  hero__description: Sign-up for recipes, life hacks, and products for your low-energy days. Made by Humans 🩷
   hero__image: '/images/01.jpg'
 
 
@@ -104,13 +104,13 @@ blog__settings:
 gallery:
   gallery__images:
     - alt: 'Rest'
-      url: '/images/gallery-1.jpg'
+      url: '/images/gallery-1.png'
     - alt: 'Lifestyle'
-      url: '/images/gallery-2.jpg'
+      url: '/images/gallery-2.png'
     - alt: 'Hobby'
-      url: '/images/gallery-3.jpg'
+      url: '/images/gallery-3.png'
     - alt: 'Notes'
-      url: '/images/gallery-4.jpg'
+      url: '/images/gallery-4.png'
 
 
 #-------------------------------
