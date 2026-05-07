@@ -39,7 +39,7 @@ social:
 # Hero Settings
 hero:
   hero__title: No Spoons Wasted
-  hero__description: Sign-up for recipes, life hacks, and products for your low-energy days. Made by Humans 🩷
+  hero__description: Sign-up to get a weekly round-up of recommendations that make your low-energy days easier. Made by Humans 🩷
   hero__image: '/images/01.jpg'
 
 
