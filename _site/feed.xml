@@ -3,10 +3,10 @@
     <channel>
         <title>No Spoons Lifehacks</title>
         <description>Life hacks for low-energy days. Recipes, shortcuts &amp; gear for the chronically ill.</description>
-        <link>http://localhost:4000/</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 04 May 2026 21:50:15 -0500</pubDate>
-        <lastBuildDate>Mon, 04 May 2026 21:50:15 -0500</lastBuildDate>
+        <link>https://nospoonslifehacks.com/</link>
+        <atom:link href="https://nospoonslifehacks.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 08 May 2026 20:38:09 -0500</pubDate>
+        <lastBuildDate>Fri, 08 May 2026 20:38:09 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -14,8 +14,8 @@
                 <description>&lt;p&gt;This is a super easy 2-minute jelly for those low spoon days. You can use it as topping on cottage cheese, toast, in oatmeal.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 04 May 2026 03:00:00 -0500</pubDate>
-                <link>http://localhost:4000/blog/cherry-jelly</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/cherry-jelly</guid>
+                <link>https://nospoonslifehacks.com/blog/cherry-jelly/</link>
+                <guid isPermaLink="true">https://nospoonslifehacks.com/blog/cherry-jelly/</guid>
                 
                 <category>recipes</category>
                 
@@ -46,8 +46,8 @@
 &lt;p&gt;Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 23 Apr 2024 07:01:35 -0500</pubDate>
-                <link>http://localhost:4000/blog/the-way-to-get-started-is-to-quit-talking-and-begin-doing</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/the-way-to-get-started-is-to-quit-talking-and-begin-doing</guid>
+                <link>https://nospoonslifehacks.com/blog/the-way-to-get-started-is-to-quit-talking-and-begin-doing/</link>
+                <guid isPermaLink="true">https://nospoonslifehacks.com/blog/the-way-to-get-started-is-to-quit-talking-and-begin-doing/</guid>
                 
                 <category>fashion</category>
                 
