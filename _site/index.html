@@ -23,6 +23,8 @@
   <meta property="og:description" content="Life hacks for low-energy days. Recipes, shortcuts &amp; gear for the chronically ill.">
   <meta property="og:image" content="http://localhost:4000/images/01.jpg">
 
+  <link rel="preload" as="image" href="/images/01.jpg">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" as="style" onload="this.rel='stylesheet'">
@@ -135,7 +137,7 @@
 
           <div class="hero__left">
             <div class="hero__image">
-              <img class="lazy" data-src="/images/01.jpg" alt="Ms. Spoonie's Picture">
+              <img src="/images/01.jpg" alt="Ms. Spoonie's Picture" fetchpriority="high" width="800" height="1200">
             </div>
           </div>
 
@@ -281,7 +283,7 @@
 
   
   <a class="article__image" href="/blog/cherry-jelly/">
-    <img class="lazy" data-src="/images/cherry-jelly.webp" alt="2-Ingredient Cherry Jelly">
+    <img src="/images/cherry-jelly.webp" alt="2-Ingredient Cherry Jelly" loading="lazy">
   </a>
   
 
@@ -313,7 +315,7 @@
 
   
   <a class="article__image" href="/blog/the-way-to-get-started-is-to-quit-talking-and-begin-doing/">
-    <img class="lazy" data-src="/images/15.jpg" alt="The way to get started is to quit talking and begin doing">
+    <img src="/images/15.jpg" alt="The way to get started is to quit talking and begin doing" loading="lazy">
   </a>
   
 
@@ -399,7 +401,7 @@
               <div class="col col-8 col-d-12">
                 <div class="footer__author">
                   <div class="footer__author-avatar">
-                    <img class="lazy" data-src="/images/01-1.jpg" alt="Ms. Spoonie">
+                    <img src="/images/01-1.jpg" alt="Ms. Spoonie" loading="lazy">
                   </div>
                   <div class="footer__author-info">
                     <h2 class="footer__author-name">Ms. Spoonie</h2>

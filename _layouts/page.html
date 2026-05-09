@@ -17,7 +17,7 @@ layout: default
     {%if page.image %}
     <div class="col col-12">
       <div class="page-image animate">
-        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}" fetchpriority="high">
       </div>
     </div>
     {% endif %}
