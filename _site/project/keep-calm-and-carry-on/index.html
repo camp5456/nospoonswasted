@@ -9,7 +9,7 @@
   <title>Keep calm and carry on</title>
   <meta name='description' content='Life hacks for low-energy days. Recipes, shortcuts & gear for the chronically ill.'>
 
-  <link rel="canonical" href="https://nospoonslifehacks.com/project/keep-calm-and-carry-on/">
+  <link rel="canonical" href="http://localhost:4000/project/keep-calm-and-carry-on/">
   <link rel="alternate" type="application/rss+xml" title="No Spoons Lifehacks" href="/feed.xml">
 
   <!-- Twitter Card -->
@@ -17,13 +17,13 @@
   <meta name="twitter:title" content="Keep calm and carry on – No Spoons Lifehacks">
   <meta name="twitter:description" content="In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.
 ">
-  <meta name="twitter:image:src" content="https://nospoonslifehacks.com/images/project-7.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/project-7.jpg">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:title" content="Keep calm and carry on – No Spoons Lifehacks">
   <meta property="og:description" content="In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.
 ">
-  <meta property="og:image" content="https://nospoonslifehacks.com/images/project-7.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/project-7.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -277,7 +277,7 @@
               </div>
 
               <div class="col col-4 col-d-12">
-                <div class="footer__nav">
+                <nav class="footer__nav" aria-label="Footer navigation">
                   <h3 class="footer__nav-title">Navigation</h3>
                   <ul class="footer__nav-list list-reset">
                     
@@ -306,7 +306,7 @@
                     </li>
                     
                   </ul>
-                </div>
+                </nav>
               </div>
 
             </div>
@@ -322,7 +322,13 @@
       <div class="col col-12">
         <div class="footer__info">
           <div class="footer__info-box">
-            <div class="copyright">2026 &copy; <a href="/">No Spoons Lifehacks</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/accessibility/">Accessibility</a> | .</div>
+            <div class="copyright">2026 &copy; <a href="/">No Spoons Lifehacks</a></div>
+            <nav aria-label="Legal navigation">
+              <ul class="footer__legal-list list-reset">
+                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="/accessibility/">Accessibility</a></li>
+              </ul>
+            </nav>
             <div class="top" title="Top"><i class="fa-solid fa-chevron-up"></i></div>
           </div>
         </div>

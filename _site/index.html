@@ -9,19 +9,19 @@
   <title>No Spoons Lifehacks</title>
   <meta name='description' content='Life hacks for low-energy days. Recipes, shortcuts & gear for the chronically ill.'>
 
-  <link rel="canonical" href="https://nospoonslifehacks.com/">
+  <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="No Spoons Lifehacks" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="No Spoons Lifehacks">
   <meta name="twitter:description" content="Life hacks for low-energy days. Recipes, shortcuts &amp; gear for the chronically ill.">
-  <meta name="twitter:image:src" content="https://nospoonslifehacks.com/images/01.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/01.jpg">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:title" content="No Spoons Lifehacks">
   <meta property="og:description" content="Life hacks for low-energy days. Recipes, shortcuts &amp; gear for the chronically ill.">
-  <meta property="og:image" content="https://nospoonslifehacks.com/images/01.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/01.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -446,7 +446,7 @@
               </div>
 
               <div class="col col-4 col-d-12">
-                <div class="footer__nav">
+                <nav class="footer__nav" aria-label="Footer navigation">
                   <h3 class="footer__nav-title">Navigation</h3>
                   <ul class="footer__nav-list list-reset">
                     
@@ -475,7 +475,7 @@
                     </li>
                     
                   </ul>
-                </div>
+                </nav>
               </div>
 
             </div>
@@ -491,7 +491,13 @@
       <div class="col col-12">
         <div class="footer__info">
           <div class="footer__info-box">
-            <div class="copyright">2026 &copy; <a href="/">No Spoons Lifehacks</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/accessibility/">Accessibility</a> | .</div>
+            <div class="copyright">2026 &copy; <a href="/">No Spoons Lifehacks</a></div>
+            <nav aria-label="Legal navigation">
+              <ul class="footer__legal-list list-reset">
+                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="/accessibility/">Accessibility</a></li>
+              </ul>
+            </nav>
             <div class="top" title="Top"><i class="fa-solid fa-chevron-up"></i></div>
           </div>
         </div>
