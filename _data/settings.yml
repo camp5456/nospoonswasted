@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: No Spoons Lifehacks
-logo: /images/logo.png
+logo: /images/logo.webp
 description: Life hacks for low-energy days. Recipes, shortcuts & gear for the chronically ill.
 color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
