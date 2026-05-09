@@ -3,11 +3,6 @@ layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
 ---
----
-layout: page
-title: Privacy Policy
-permalink: /privacy/
----
 
 *Last updated: May 2026*
 
@@ -17,7 +12,7 @@ Your privacy matters here. This policy explains what information we collect, how
 
 ## Who we are
 
-No Spoons Lifehacks is a blog and newsletter for the chronic illness community, run by Twila at nospoonslifehacks.com. You can reach us at admin@nospoonslifehacks.com with any questions about this policy.
+No Spoons Lifehacks is a blog and newsletter for the chronic illness community, at nospoonslifehacks.com. You can reach us at admin@nospoonslifehacks.com with any questions about this policy.
 
 ---
 

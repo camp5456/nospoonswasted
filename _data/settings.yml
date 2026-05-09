@@ -127,6 +127,8 @@ footer_menu__settings:
       url: '/contact/'
     - title: 'Privacy Policy'
       url: '/privacy-policy/'
+    - title: 'Accessibility'
+      url: '/accessibility/'
 
 
 #-------------------------------
