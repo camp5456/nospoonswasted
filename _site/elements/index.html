@@ -26,9 +26,9 @@
   <meta property="og:image" content="http://localhost:4000/images/17.jpg">
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" as="style">
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" as="style" onload="this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"></noscript>
 
   <script>
     
@@ -36,21 +36,6 @@
       document.documentElement.classList.add('light-mode');
     
   </script>
-  <!-- Matomo -->
-    <script>
-      var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//twilas11.sg-host.com/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '3']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-  <!-- End Matomo Code -->
 
 
   <link rel="stylesheet" href="/css/main.css">
@@ -480,8 +465,22 @@ Advises about risks or negative outcomes of certain actions.
 </footer>
 <!-- end footer -->
 
-  <script src="/js/scripts.js"></script>
-  <script src="/js/common.js"></script>
+  <script src="/js/scripts.js" defer></script>
+  <script src="/js/common.js" defer></script>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//twilas11.sg-host.com/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '3']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo -->
 </body>
 
 </html>
