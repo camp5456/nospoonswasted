@@ -3,7 +3,7 @@ layout: recipe
 title: "2-Ingredient Cherry Jelly"
 description: "An easy 2-minute, 2-ingredient jelly."
 date:   2026-05-04 08:00:00 +0000
-image:  '/images/cherry-jelly.png'
+image:  '/images/cherry-jelly.webp'
 tags:   [recipes]
 recipe:
   prep_time: 5

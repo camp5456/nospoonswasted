@@ -104,13 +104,13 @@ blog__settings:
 gallery:
   gallery__images:
     - alt: 'Rest'
-      url: '/images/gallery-1.png'
+      url: '/images/gallery-1.webp'
     - alt: 'Lifestyle'
-      url: '/images/gallery-2.png'
+      url: '/images/gallery-2.webp'
     - alt: 'Hobby'
-      url: '/images/gallery-3.png'
+      url: '/images/gallery-3.webp'
     - alt: 'Notes'
-      url: '/images/gallery-4.png'
+      url: '/images/gallery-4.webp'
 
 
 #-------------------------------
