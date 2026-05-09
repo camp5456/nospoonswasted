@@ -12,7 +12,7 @@ Your privacy matters here. This policy explains what information we collect, how
 
 ## Who we are
 
-No Spoons Lifehacks is a blog and newsletter for the chronic illness community, at nospoonslifehacks.com. You can reach us at admin@nospoonslifehacks.com with any questions about this policy.
+No Spoons Lifehacks is a blog and newsletter for the chronic illness community, at nospoonslifehacks.com. You can reach us via our [contact form](/contact/) with any questions about this policy.
 
 ---
 
@@ -68,11 +68,11 @@ You have the right to:
 
 - **Access** the personal information we hold about you
 - **Correct** any inaccurate information
-- **Delete** your information — email us at admin@nospoonslifehacks.com and we will remove you from all our systems
+- **Delete** your information — use our [contact form](/contact/) and we will remove you from all our systems
 - **Unsubscribe** from our newsletter at any time using the link in any email
 - **Opt out of Matomo analytics** by enabling Do Not Track in your browser settings — Matomo respects this setting
 
-To exercise any of these rights, email us at admin@nospoonslifehacks.com. We will respond within 30 days.
+To exercise any of these rights, use our [contact form](/contact/). We will respond within 30 days.
 
 ---
 
@@ -86,7 +86,7 @@ Contact form submissions are kept only as long as needed to respond to your inqu
 
 ## Children's privacy
 
-This site is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us at admin@nospoonslifehacks.com and we will delete it.
+This site is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please use our [contact form](/contact/) and we will delete it.
 
 ---
 
@@ -100,5 +100,4 @@ We may update this policy occasionally. When we do, we will update the date at t
 
 Questions about this privacy policy or how we handle your data? We're happy to talk.
 
-Email: admin@nospoonslifehacks.com  
-Website: nospoonslifehacks.com
+Use our [contact form](/contact/) to get in touch.
