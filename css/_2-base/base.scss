@@ -218,19 +218,6 @@ a {
   }
 }
 
-/* Accessible links in body content */
-p a,
-li a,
-.post__content a,
-.page__content a,
-.article__excerpt a {
-  text-decoration: underline;
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
 /* Exception: Keep certain UI links without underlines */
 .footer__nav a,
 .button,
