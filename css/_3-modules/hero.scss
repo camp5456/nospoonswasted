@@ -84,9 +84,9 @@
 
 .hero__title {
   margin-bottom: 48px;
-  font-size: 72px;
+  font-size: 41px;
   font-weight: 800;
-  line-height: 1;
+  line-height: .5;
   color: var(--heading-font-color);
 
   @media only screen and (max-width: $wide) {
