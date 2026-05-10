@@ -12,7 +12,7 @@ Your privacy matters here. This policy explains what information we collect, how
 
 ## Who we are
 
-No Spoons Lifehacks is a blog and newsletter for the chronic illness community, at nospoonslifehacks.com. You can reach us via our [contact form](/contact/) with any questions about this policy.
+No Spoons Wasted is a blog and newsletter for the chronic illness community, at nospoonswasted.com. You can reach us via our [contact form](/contact/) with any questions about this policy.
 
 ---
 
