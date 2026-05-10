@@ -24,7 +24,7 @@ This site exists for one reason: to help fellow spoonies live the best life poss
 
 Affiliate links are how we keep the lights on without plastering the site with ads. We hate ads. You hate ads. We're not doing ads.
 
-Every product we recommend is something we have personally tried. If it didn't help us, we don't tell you about it because, well, that would make us really bad at our jobs.
+Every product we recommend is something we have personally tried. If it's bad, we don't tell you about it because, well, that would make us really bad at our jobs.
 
 ---
 
