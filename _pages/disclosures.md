@@ -30,7 +30,7 @@ Every product we recommend is something we have personally tried. If it didn't h
 
 ## The content part
 
-The blogs and the newsletter is made by a human. So no super smooth AI text over here. You're getting the messy human stuff - warts and all. There will be typos. Don't worry, we'll all survive.
+The blogs and the newsletter are made by a human. So no super smooth AI text over here. You're getting the messy human stuff - warts and all. There will be typos. Don't worry, we'll all survive.
 
 ---
 
