@@ -2,31 +2,43 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01-2.jpg'
+image: 
 ---
 
-Leverage agile frameworks to provide a robust Hugo Sousa synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+**No Spoons Wasted** is a blog for people who live with low-energy for any reason. Recipes that don't require standing for forty-five minutes. Life hacks for those days when it's hard to just take a shower. Products that help bodies that don't always cooperate.
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+## Why we do this
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/100.jpg" loading="lazy">
-    <img src="/images/105.jpg" loading="lazy">
-    <img src="/images/103.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
+Our missions is simple: to help fellow spoonies live their best life possible on whatever energy they have that day. That's it. We know how hard it is, and we're on your side.
 
-Completely synergize resource taxing relationships via premier niche markets. Cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+## Affiliate partnerships
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+**No Spoons Wasted** participates in the Amazon Associates Program and other affiliate programs. Affiliate links are how we make the site self-sustaining so we don't have to plaster the site with ads. We hate ads. You hate ads. We're not doing ads. 
 
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
+You can read more about it on our [disclosures statement](/disclosures/).
 
-![Sea]({{site.baseurl}}/images/106.jpg)
-*Photo by [Alyssa Strohmann](https://unsplash.com/photos/2r2RUsEU1Aw) on [Unsplash](https://unsplash.com/)*
+## What you'll find here
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+**Recipes** that are genuinely low-effort. Minimal standing. Easy to make.
 
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
+**Life hacks** for all the adulting. We know it feels like everyone else is handling it better. We're not.  
+
+**Product recommendations** that actually help on the bad days.
+
+## The No Spoons Wasted newsletter
+
+Every week we send a roundup of products that have helped us. 
+
+Our goal is to save you spoons.
+
+Join the list if that sounds like something you need.
+
+## One more thing
+
+This site is made by a human for other humans. AI doesn't know what it feels like to be chronically ill and we do. So, with that in mind, there will be typos and other mistakes. 
+
+It will be glorious and perfectly imperfect.
+
+<hr>
+
+Questions, partnerships, or just want to say hi? [Contact us](/contact/).

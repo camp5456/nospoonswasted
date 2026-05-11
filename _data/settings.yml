@@ -96,7 +96,8 @@ testimonial__items:
 # Blog Section
 blog__settings:
   blog__title: Recent Posts
-  blog__description:
+  blog__description: Practical lifehacks, recipes, and strategies for the low-energy community (spoonies). 
+
 
 
 #-------------------------------
@@ -125,10 +126,6 @@ footer_menu__settings:
       url: '/about/'
     - title: 'Contact'
       url: '/contact/'
-    - title: 'Privacy Policy'
-      url: '/privacy-policy/'
-    - title: 'Accessibility'
-      url: '/accessibility/'
 
 
 #-------------------------------
