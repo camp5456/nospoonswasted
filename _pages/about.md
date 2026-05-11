@@ -9,7 +9,7 @@ image:
 
 ## Why we do this
 
-Our missions is simple: to help fellow spoonies live their best life possible on whatever energy they have that day. That's it. We know how hard it is, and we're on your side.
+Our mission is simple: to help fellow spoonies live their best life possible on whatever energy they have that day. That's it. We know how hard it is, and we're on your side.
 
 ## Affiliate partnerships
 
