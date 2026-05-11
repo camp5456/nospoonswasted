@@ -23,7 +23,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: No Spoons Wasted
-  author__bio: Coming soon.
+  author__bio: No Spoons Wasted is a blog for people who live with low energy. We're here with recipes, practical life hacks, and honest product recommendations for the days when just existing takes everything you've got. 
   author__avatar: '/images/01-1.jpg'
 
 social:
