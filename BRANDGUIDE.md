@@ -2,7 +2,7 @@
 
 ## About the brand
 
-A practical lifehacks and recipe blog for the chronic illness community (spoonies). The tone is warm, a little dry, and genuinely helpful — like a knowledgeable friend who gets it. Not clinical. Not toxic positivity. Think: the person who shows up with soup and a useful tip.
+Practical lifehacks, recipes, and strategies for the low-energy community (spoonies). The tone is warm, a little dry, and genuinely helpful — like a knowledgeable friend who gets it. Not clinical. Not toxic positivity. Think: the person who shows up with soup and a useful tip.
 
 ---
 
@@ -133,7 +133,7 @@ All pairs are WCAG 2.1 AA accessible.
   - **Square** — full teal background, spoon fills frame edge to edge. Use for website header, favicon, Open Graph images
   - **Circle crop** — teal circle on white/transparent background. Use for Instagram profile pic, Twitter/X, any circular avatar crop
 - The spoon character is the standalone icon — no wordmark embedded in the logo
-- Wordmark ("no spoons" or "no.spoons_lifehacks") is a separate text-only treatment used alongside the icon in headers and marketing materials
+- Wordmark ("no spoons wasted") is a separate text-only treatment used alongside the icon in headers and marketing materials
 - Primary social profile image: circle crop version
 
 ---

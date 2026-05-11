@@ -12,9 +12,11 @@
 .hero__inner {
   display: flex;
   align-items: center;
+  gap: 120px;
 
   @media only screen and (max-width: $desktop) {
     flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -23,11 +25,11 @@
 
   @media only screen and (max-width: $desktop) {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 8px;
   }
 
   @media only screen and (max-width: $mobile) {
-    margin-top: 32px;
+    margin-top: 4px;
   }
 }
 
@@ -69,34 +71,38 @@
 }
 
 .hero__right {
-  max-width: 575px;
-  margin-left: auto;
+  max-width: 480px;
 
   @media only screen and (max-width: $wide) {
     max-width: 440px;
   }
 
   @media only screen and (max-width: $desktop) {
-    order: -1;
     max-width: 100%;
+    margin-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding-bottom: 32px;
   }
 }
 
 .hero__title {
-  margin-bottom: 48px;
-  font-size: 41px;
+  margin-bottom: 20px;
+  font-size: clamp(28px, 4vw, 42px);
   font-weight: 800;
-  line-height: .5;
+  line-height: 1.15;
   color: var(--heading-font-color);
 
   @media only screen and (max-width: $wide) {
     margin-bottom: 32px;
-    font-size: 60px;
+    font-size: clamp(28px, 3.5vw, 40px);
   }
 
   @media only screen and (max-width: $mobile) {
     margin-bottom: 24px;
-    font-size: 36px;
+    font-size: clamp(24px, 6vw, 30px);
   }
 }
 
@@ -117,7 +123,7 @@
 
 .hero__subscribe {
   max-width: 510px;
-  margin-top: 48px;
+  margin-top: 24px;
 
   .subscribe-form {
     position: relative;

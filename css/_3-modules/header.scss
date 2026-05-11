@@ -33,7 +33,7 @@
 }
 
 .logo__link {
-  padding: 8px 0;
+  padding: 0;
   font-family: $heading-font-family;
   font-size: 40px;
   line-height: 1;
@@ -43,7 +43,7 @@
 }
 
 .logo__image {
-  max-height: 70px;
+  max-height: 100px;
   width: auto;
   display: block;
   margin-left: 35px;
@@ -100,8 +100,8 @@
             display: block;
             margin-bottom: 0;
             font-family: $base-font-family;
-            font-size: 20px;
-            font-weight: 800;
+            font-size: 18px;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
             text-decoration: none;
@@ -119,7 +119,7 @@
 
             &:hover {
               color: var(--color-primary);
-              background-size: 100% 30%;
+              background-size: 100% 12%;
 
               &::before {
                 display: none;
@@ -143,8 +143,8 @@
           padding: 20px 0;
           margin-bottom: 0;
           font-family: $base-font-family;
-          font-size: 20px;
-          font-weight: 800;
+          font-size: 18px;
+          font-weight: 600;
           text-transform: uppercase;
           letter-spacing: 0.05em;
           text-decoration: none;
@@ -154,7 +154,7 @@
 
           &:hover {
             color: var(--color-primary);
-            background-size: 100% 30%;
+            background-size: 100% 12%;
           }
 
           .arrow-down {
@@ -251,8 +251,7 @@
       font-family: $base-font-family;
       font-size: 18px;
       line-height: 1;
-      font-weight: 800;
-      text-transform: uppercase;
+      font-weight: 600;
       letter-spacing: 0.05em;
       text-decoration: none;
       color: var(--color-link);
@@ -277,7 +276,7 @@
 
       &:hover {
         color: var(--color-primary);
-        background-size: 100% 30%;
+        background-size: 100% 12%;
 
         &::before {
           display: none;
@@ -321,7 +320,7 @@
 
         &:hover {
           color: var(--color-primary);
-          background-size: 100% 30%;
+          background-size: 100% 12%;
         }
 
         &::before {
@@ -368,7 +367,7 @@
 
       &:hover {
         color: var(--color-primary);
-        background-size: 100% 30%;
+        background-size: 100% 12%;
 
         &::after {
           opacity: .3;

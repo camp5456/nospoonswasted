@@ -6,7 +6,7 @@ permalink: /accessibility/
 
 *Last updated: May 2026*
 
-No Spoons Lifehacks is built for and by someone who understands firsthand that access matters. We are committed to making this site usable for everyone, regardless of ability or the assistive technology they rely on.
+No Spoons Wasted is built for and by someone who understands firsthand that access matters. We are committed to making this site usable for everyone, regardless of ability or the assistive technology they rely on.
 
 ---
 

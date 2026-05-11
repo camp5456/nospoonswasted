@@ -12,7 +12,7 @@ You found this page. Good for you!
 
 ## The legal part
 
-No Spoons Lifehacks participates in the Amazon Associates Program and other affiliate programs. This means that when you click a link to a product on this site or in the No Spoons Wasted newsletter and make a purchase, we may earn a small commission at no extra cost to you. It's very small. No one's getting rich on this stuff.
+No Spoons Wasted participates in the Amazon Associates Program and other affiliate programs. This means that when you click a link to a product on this site or in the No Spoons Wasted newsletter and make a purchase, we may earn a small commission at no extra cost to you. It's very small. No one's getting rich on this stuff.
 
 We are required by the Federal Trade Commission (FTC) to tell you this, so, consider yourself told.
 
