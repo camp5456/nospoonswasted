@@ -4,6 +4,7 @@ title: "2 minute cherry jelly recipe that's as healthy as it is easy to make."
 description: "An easy 2-minute, 2-ingredient jelly."
 date:   2026-05-04 08:00:00 +0000
 image:  '/images/cherry-jelly.webp'
+image_alt: "small jars of ruby red cherry jelly on a kitchen counter"
 tags:   [recipes]
 recipe:
   prep_time: 5

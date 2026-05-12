@@ -104,13 +104,13 @@ blog__settings:
 # Gallery Footer Settings
 gallery:
   gallery__images:
-    - alt: 'Rest'
+    - alt: 'woman resting face-down on a gray couch'
       url: '/images/gallery-1.webp'
-    - alt: 'Lifestyle'
+    - alt: 'white plastic spoons on a teal wood background'
       url: '/images/gallery-2.webp'
-    - alt: 'Hobby'
+    - alt: 'a lit candle in a lace holder beside a chunky knit blanket'
       url: '/images/gallery-3.webp'
-    - alt: 'Notes'
+    - alt: 'a creamy soup with rice and vegetables in a white bowl'
       url: '/images/gallery-4.webp'
 
 
