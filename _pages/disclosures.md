@@ -2,6 +2,7 @@
 layout: page
 title: Disclosures
 permalink: /disclosures/
+description: We use affiliate links to keep our blog ad free - learn more on our disclosures page.
 ---
 
 *Last updated: May 2026*

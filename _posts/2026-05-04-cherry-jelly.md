@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "2-Ingredient Cherry Jelly"
+title: "2 minute cherry jelly recipe that's as healthy as it is easy to make."
 description: "An easy 2-minute, 2-ingredient jelly."
 date:   2026-05-04 08:00:00 +0000
 image:  '/images/cherry-jelly.webp'
@@ -9,6 +9,7 @@ recipe:
   prep_time: 5
   cook_time: 5
   total_time: 10
+  servings: 4
   servings_unit: "servings"
   difficulty: "Easy"
   spoons: 1

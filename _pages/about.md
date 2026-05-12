@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 image: 
+description: Our mission ia to help fellow spoonies live their best life possible with whatever energy they have available.
 ---
 
 **No Spoons Wasted** is a blog for people who live with low-energy for any reason. Recipes that don't require standing for forty-five minutes. Life hacks for those days when it's hard to just take a shower. Products that help bodies that don't always cooperate.

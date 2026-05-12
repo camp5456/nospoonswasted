@@ -11,8 +11,9 @@
   "name": {{ page.title | jsonify }},
   "image": ["{{ page.image | absolute_url }}"],
   "author": {
-    "@type": "Person",
-    "name": {{ site.data.settings.author.author__name | jsonify }}
+    "@type": "Organization",
+    "name": {{ site.data.settings.author.author__name | jsonify }},
+    "url": {{ site.url | jsonify }}
   },
   "datePublished": "{{ page.date | date: '%Y-%m-%d' }}"{% if page.description %},
   "description": {{ page.description | jsonify }}{% endif %}{% if page.recipe.prep_time %},

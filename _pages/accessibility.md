@@ -2,6 +2,7 @@
 layout: page
 title: Accessibility
 permalink: /accessibility/
+description: We are passionate about accessiility and meet WCAG 2.1 AA standard because everyone deserves access to information that will help them.
 ---
 
 *Last updated: May 2026*

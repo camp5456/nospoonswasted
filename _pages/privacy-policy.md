@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
+description: Your privacy is important to us - read about how we protect it.
 ---
 
 *Last updated: May 2026*
