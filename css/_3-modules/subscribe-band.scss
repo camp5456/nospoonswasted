@@ -1,6 +1,7 @@
 /* Subscribe Band */
 .subscribe-band {
   padding: 0 0 64px;
+  background-color: var(--color-text);
 
   @media only screen and (max-width: $desktop) {
     padding: 0 0 48px;
