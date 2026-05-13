@@ -172,7 +172,8 @@
     <h2 class="subscribe-modal__heading">Easy upgrades for <br>complicated lives.</h2>
     <p class="subscribe-modal__meta">Free, forever · Unsubscribe anytime ♡</p>
     <form class="subscribe-modal__form" data-subscribe-form>
-      <input class="subscribe-modal__input" type="email" name="email" placeholder="your@email" required autocomplete="email">
+      <label class="screen-reader-text" for="subscribe-modal-email">Email address</label>
+      <input class="subscribe-modal__input" id="subscribe-modal-email" type="email" name="email" placeholder="your@email" required autocomplete="email">
       <button class="subscribe-modal__btn" type="submit">Subscribe →</button>
     </form>
     <p class="subscribe-modal__success" aria-live="polite" hidden>You're in — see you soon ♡</p>
