@@ -1,0 +1,128 @@
+/* Subscribe Band */
+.subscribe-band {
+  padding: 0 0 64px;
+
+  @media only screen and (max-width: $desktop) {
+    padding: 0 0 48px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 0 0 40px;
+  }
+}
+
+.subscribe-band__inner {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  background: #f0efeb;
+  border-radius: 16px;
+  padding: 40px 48px;
+
+  @media only screen and (max-width: $desktop) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 28px 24px;
+  }
+}
+
+.subscribe-band__left {
+  flex: 1 1 auto;
+}
+
+.subscribe-band__heading {
+  font-family: $heading-font-family;
+  font-size: clamp(20px, 2.5vw, 30px);
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--color-text);
+  margin: 0 0 8px;
+}
+
+.subscribe-band__meta {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.subscribe-band__right {
+  flex: 0 0 auto;
+
+  @media only screen and (max-width: $desktop) {
+    width: 100%;
+  }
+}
+
+.subscribe-band__form {
+  display: flex;
+  gap: 8px;
+
+  @media only screen and (max-width: $mobile) {
+    flex-direction: column;
+  }
+}
+
+.subscribe-band__input {
+  width: 280px;
+  height: 52px;
+  padding: 0 20px;
+  font-family: $base-font-family;
+  font-size: 15px;
+  color: var(--color-text);
+  background: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color .2s;
+
+  &:focus {
+    border-color: var(--color-link);
+  }
+
+  &::placeholder {
+    color: #aaa;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    width: 100%;
+  }
+}
+
+.subscribe-band__btn {
+  height: 52px;
+  padding: 0 28px;
+  font-family: $base-font-family;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--color-btn);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .2s;
+
+  &:hover {
+    background: #333;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    width: 100%;
+  }
+}
+
+.subscribe-band__success {
+  margin: 12px 0 0;
+  font-size: 14px;
+  color: var(--color-link);
+  font-weight: 600;
+
+  &[hidden] { display: none; }
+}

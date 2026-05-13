@@ -1,188 +1,251 @@
 /* Hero */
 .hero {
+  padding: 48px 0 64px;
+
   @media only screen and (max-width: $desktop) {
-    padding: 40px 0 0;
+    padding: 32px 0 48px;
   }
 
   @media only screen and (max-width: $mobile) {
-    padding: 20px 0 0;
+    padding: 24px 0 40px;
   }
 }
 
 .hero__inner {
   display: flex;
   align-items: center;
-  gap: 120px;
+  gap: 64px;
 
   @media only screen and (max-width: $desktop) {
     flex-direction: column;
-    gap: 0;
+    align-items: flex-start;
+    gap: 48px;
   }
 }
 
+/* Left column */
 .hero__left {
-  width: 50%;
-
-  @media only screen and (max-width: $desktop) {
-    width: 100%;
-    margin-top: 8px;
-  }
-
-  @media only screen and (max-width: $mobile) {
-    margin-top: 4px;
-  }
-}
-
-.hero__image {
-  position: relative;
-  transform: translate(0);
-  width: 100%;
-  height: 634px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-  background-color: var(--background-alt-color);
-  user-select: none;
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  flex: 0 0 auto;
+  max-width: 520px;
 
   @media only screen and (max-width: $wide) {
-    height: 484px;
-  }
-
-  @media only screen and (max-width: $desktop) {
-    height: 440px;
-  }
-
-  @media only screen and (max-width: $tablet) {
-    height: 420px;
-  }
-
-  @media only screen and (max-width: $mobile) {
-    height: 280px;
-  }
-}
-
-.hero__right {
-  max-width: 480px;
-
-  @media only screen and (max-width: $wide) {
-    max-width: 440px;
+    max-width: 460px;
   }
 
   @media only screen and (max-width: $desktop) {
     max-width: 100%;
-    margin-top: 40px;
-    padding-bottom: 48px;
   }
+}
 
-  @media only screen and (max-width: $mobile) {
-    padding-bottom: 32px;
+.hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 24px;
+  font-family: $base-font-family;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+
+  &::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 1.5px;
+    background: rgba(255, 255, 255, 0.4);
+    flex-shrink: 0;
   }
 }
 
 .hero__title {
-  margin-bottom: 20px;
-  font-size: clamp(28px, 4vw, 42px);
-  font-weight: 800;
-  line-height: 1.15;
-  color: var(--heading-font-color);
-
-  @media only screen and (max-width: $wide) {
-    margin-bottom: 32px;
-    font-size: clamp(28px, 3.5vw, 40px);
-  }
+  margin: 0 0 28px;
+  font-family: $heading-font-family;
+  font-size: clamp(48px, 6vw, 76px);
+  font-weight: 400;
+  line-height: 1.05;
+  color: #fff;
 
   @media only screen and (max-width: $mobile) {
-    margin-bottom: 24px;
-    font-size: clamp(24px, 6vw, 30px);
+    font-size: clamp(36px, 10vw, 52px);
+    margin-bottom: 20px;
   }
+}
+
+.hero__title--accent {
+  color: var(--color-accent);
+}
+
+.hero__title--italic {
+  font-style: italic;
+  color: var(--color-accent-hero);
 }
 
 .hero__description {
-  margin-bottom: 0;
-  font-size: 18px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.75);
 
   @media only screen and (max-width: $desktop) {
-    font-size: inherit;
-  }
-}
-
-.hero__subscribe-note {
-  font-size: 12px;
-  color: var(--text-alt-color);
-  margin: 8px 0 0;
-}
-
-.hero__subscribe {
-  max-width: 510px;
-  margin-top: 24px;
-
-  .subscribe-form {
-    position: relative;
-    background-color: var(--background-color);
-  }
-
-  .subscribe-email {
-    width: 100%;
-    height: 70px;
-    padding: 20px;
     font-size: 16px;
-    line-height: 21px;
-    border: 2px solid transparent;
-    border-radius: 12px;
-    outline: 0;
-    color: var(--heading-font-color);
-    background-color: var(--background-alt-color);
-
-    &:focus {
-      border-color: var(--brand-color);
-      background-color: transparent;
-    }
-
-    &::placeholder {
-      color: var(--heading-font-color);
-    }
   }
+}
 
-  .subscribe-button {
-    position: absolute;
-    top: 6px;
-    right: 6px;
+/* Right column — featured post card */
+.hero__right {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+
+  @media only screen and (max-width: $desktop) {
+    width: 100%;
   }
+}
+
+.hero__card-badge {
+  position: absolute;
+  top: -19px;
+  left: -20px;
+  z-index: 2;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #c4b5d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  pointer-events: none;
+
+  @media only screen and (max-width: $mobile) {
+    width: 72px;
+    height: 72px;
+    top: -16px;
+    left: -16px;
+  }
+}
+
+.hero__card-badge-new {
+  font-family: $heading-font-family;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d1f42;
+  line-height: 1;
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 15px;
+  }
+}
+
+.hero__card-badge-sub {
+  font-family: $base-font-family;
+  font-size: 11px;
+  font-style: italic;
+  color: #2d1f42;
+  line-height: 1;
+}
+
+.hero__card {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 580px;
 
   @media only screen and (max-width: $wide) {
-    max-width: 100%;
-    margin-top: 32px;
+    height: 520px;
   }
 
   @media only screen and (max-width: $desktop) {
-    margin-top: 20px;
+    height: 480px;
   }
 
   @media only screen and (max-width: $mobile) {
-
-    .subscribe-form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .subscribe-email {
-      height: 58px;
-      margin-bottom: 12px;
-    }
-
-    .subscribe-button {
-      position: relative;
-      top: 0;
-      right: 0;
-    }
+    height: 400px;
   }
+}
+
+.hero__card-image {
+  flex: 1 1 auto;
+  overflow: hidden;
+  background-color: #a8c5b8;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.hero__card-body {
+  flex: 0 0 auto;
+  padding: 20px 24px 22px;
+  background: #6D2949;
+}
+
+.hero__card-eyebrow {
+  margin: 0 0 10px;
+  font-family: $base-font-family;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.hero__card-title {
+  margin: 0 0 14px;
+  font-family: $heading-font-family;
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: 400;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.hero__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.hero__card-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.hero__card-link {
+  font-family: $base-font-family;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color .2s ease;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+}
+
+.hero__card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.hero__card-tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
 }

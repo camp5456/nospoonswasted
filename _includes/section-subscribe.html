@@ -1,0 +1,22 @@
+<!-- begin subscribe band -->
+<section class="subscribe-band">
+  <div class="container">
+    <div class="subscribe-band__inner">
+
+      <div class="subscribe-band__left">
+        <h2 class="subscribe-band__heading">Easy upgrades for complicated lives.</h2>
+        <p class="subscribe-band__meta">Free, forever · {{ site.data.settings.subscriber_count | default: '0' }} spoonies reading along · Unsubscribe anytime ♡</p>
+      </div>
+
+      <div class="subscribe-band__right">
+        <form class="subscribe-band__form" action="#" method="post" data-subscribe-form>
+          <input class="subscribe-band__input" type="email" name="email" placeholder="your@email" required autocomplete="email">
+          <button class="subscribe-band__btn" type="submit">Subscribe →</button>
+        </form>
+        <p class="subscribe-band__success" aria-live="polite" hidden>You're in — see you soon ♡</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- end subscribe band -->

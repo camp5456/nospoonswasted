@@ -9,7 +9,7 @@
   <title>Accessibility</title>
   <meta name='description' content='We are passionate about accessiility and meet WCAG 2.1 AA standard because everyone deserves access to information that will help them.'>
 
-  <link rel="canonical" href="https://nospoonswasted.com/accessibility/">
+  <link rel="canonical" href="http://localhost:4000/accessibility/">
   <link rel="alternate" type="application/rss+xml" title="No Spoons Wasted" href="/feed.xml">
 
   <!-- Twitter Card -->
@@ -27,24 +27,14 @@
 
   <link rel="preconnect" href="https://groot.mailerlite.com" crossorigin>
 
-  <!-- Fonts (Google, async) -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" as="style" onload="this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+  <!-- Fonts (self-hosted) -->
+  <link rel="preload" href="/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/noto-serif-display.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- Font Awesome (async) -->
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></noscript>
-
-
-  <script>
-    
-      document.documentElement.setAttribute("light", "");
-      document.documentElement.classList.add('light-mode');
-    
-  </script>
-
 
   <link rel="stylesheet" href="/css/main.css">
 
@@ -55,8 +45,6 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  
-
   <!-- begin header -->
 <header class="header" id="top">
   <div class="container-big">
@@ -66,9 +54,13 @@
         <div class="logo">
           <a class="logo__link" href="/">
           
-            <img class="logo__image" src="/images/logo.webp" alt="No Spoons Wasted" width="405" height="150">
+            <img class="logo__image" src="/images/logo.webp" alt="No Spoons Wasted" width="400" height="400">
           
           </a>
+          <div class="logo__text">
+            <p class="logo__title">No Spoons Wasted</p>
+            <p class="logo__tagline">Lifehacks for Low Energy Humans</p>
+          </div>
         </div>
 
         <nav class="main-nav">
@@ -88,7 +80,7 @@
               
                 
                 <li class="nav__item">
-                  <a href="/blog/" class="nav__link">Blog</a>
+                  <a href="/blog/" class="nav__link">The Blog</a>
                 </li>
                 
               
@@ -108,31 +100,34 @@
           </div>
         </nav>
 
-        <div class="nav-button">
-          <!-- <i class="nav__icon icon__menu ion ion-md-menu"></i> -->
-          <i class="nav__icon icon__menu fa-solid fa-bars"></i>
+        <div class="subscribe">
+          <button class="subscribe__btn" data-subscribe-modal-open>Subscribe ↗</button>
+        </div>
 
-          
-      <!--<div class="toggle-theme theme-light">
-            <div class="toggle-sun" title="Light mode">
-              <svg width="15" height="15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
-                  <path stroke-linecap="round"
-                    d="m9.15 9.15l2.228 2.228M3 24h3.15m3 14.85l2.228-2.228M38.85 38.85l-2.228-2.228M45 24h-3.15m-3-14.85l-2.228 2.228M24 3v3.15" />
-                  <path fill="currentColor" d="M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12Z" />
-                  <path stroke-linecap="round" d="M24 45v-3.15" />
-                </g>
-              </svg>
-            </div>
-          </div> -->
-          
+        <div class="nav-button">
+          <i class="nav__icon icon__menu fa-solid fa-bars"></i>
         </div>
 
       </div>
     </div>
   </div>
 </header>
-<!-- end header -->
+
+<!-- begin subscribe modal -->
+<div class="subscribe-modal" data-subscribe-modal hidden>
+  <div class="subscribe-modal__backdrop" data-subscribe-modal-close></div>
+  <div class="subscribe-modal__box">
+    <button class="subscribe-modal__close" data-subscribe-modal-close aria-label="Close">✕</button>
+    <h2 class="subscribe-modal__heading">Easy upgrades for complicated lives.</h2>
+    <p class="subscribe-modal__meta">Free, forever · Unsubscribe anytime ♡</p>
+    <form class="subscribe-modal__form" data-subscribe-form>
+      <input class="subscribe-modal__input" type="email" name="email" placeholder="your@email" required autocomplete="email">
+      <button class="subscribe-modal__btn" type="submit">Subscribe →</button>
+    </form>
+    <p class="subscribe-modal__success" aria-live="polite" hidden>You're in — see you Sunday ♡</p>
+  </div>
+</div>
+<!-- end subscribe modal -->
 
   <!-- begin content -->
   <main class="content" id="main-content" aria-label="Content">
@@ -290,7 +285,7 @@
                 <div class="footer__author">
                   <div class="footer__author-info">
                     <h2 class="footer__author-name">No Spoons Wasted</h2>
-                    <p class="footer__author-bio">No Spoons Wasted is a blog for people who live with low energy. We're here with recipes, practical life hacks, and honest product recommendations for the days when just existing takes everything you've got.</p>
+                    <p class="footer__author-bio">No Spoons Wasted is a blog for people who live with low energy. We provide easy recipes, simple strategies, and helpful products for the days when you just can't.</p>
                     
                     <div class="social">
                       <ul class="social__list list-reset">
@@ -326,7 +321,7 @@
                     </li>
                     
                     <li class="footer__nav-item">
-                      <a href="/blog/" class="footer__nav-link">Blog</a>
+                      <a href="/blog/" class="footer__nav-link">The Blog</a>
                     </li>
                     
                     <li class="footer__nav-item">

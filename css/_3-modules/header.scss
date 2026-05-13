@@ -4,8 +4,6 @@
   top: 0;
   z-index: 1000;
   background-color: var(--background-color);
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   margin-bottom: 32px;
 
   .header__inner {
@@ -43,31 +41,100 @@
 }
 
 .logo__image {
-  max-height: 100px;
+  max-height: 80px;
   width: auto;
   display: block;
-  margin-left: 35px;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.logo__title {
+  font-family: $heading-font-family;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0;
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 24px;
+  }
+}
+
+.logo__tagline {
+  font-family: $base-font-family;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 5px 0 0;
+
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+
+/* Subscribe */
+.subscribe {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  @media only screen and (max-width: $desktop) {
+    display: none;
+  }
+}
+
+.subscribe__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  font-family: $base-font-family;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  transition: border-color .2s ease, color .2s ease;
+
+  &:hover {
+    border-color: #fff;
+    color: var(--color-accent);
+  }
 }
 
 /* Nav */
 .main-nav {
+  position: absolute;
+  left: 62%;
+  transform: translateX(-50%);
 
   @media only screen and (max-width: $desktop) {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
-    bottom: 0;
-    z-index: -1;
+    transform: translateY(-8px);
+    z-index: 999;
     opacity: 0;
     visibility: hidden;
     background-color: var(--background-color);
+    padding: 8px 0 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 
     &.is-open {
-      z-index: 100;
       opacity: 1;
       visibility: visible;
-      transition: all .25s ease;
+      transform: translateY(0);
+      transition: opacity .25s ease, transform .25s ease, visibility .25s ease;
     }
 
     .nav__list {
@@ -101,12 +168,11 @@
             margin-bottom: 0;
             font-family: $base-font-family;
             font-size: 18px;
-            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
             text-decoration: none;
-            color: var(--color-link);
-            background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+            color: #fff;
+            background: linear-gradient(#fff, #fff) no-repeat bottom / 100% 0%;
             transition: all .2s ease-in-out;
 
             &::after {
@@ -118,7 +184,7 @@
             }
 
             &:hover {
-              color: var(--color-primary);
+              color: var(--color-accent);
               background-size: 100% 12%;
 
               &::before {
@@ -139,21 +205,20 @@
         }
 
         .nav__link {
-          display: block;
-          padding: 20px 0;
+          display: inline-block;
+          padding: 10px 0;
           margin-bottom: 0;
           font-family: $base-font-family;
           font-size: 18px;
-          font-weight: 600;
           text-transform: uppercase;
           letter-spacing: 0.05em;
           text-decoration: none;
-          color: var(--color-link);
-          background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+          color: #fff;
+          background: linear-gradient(#fff, #fff) no-repeat bottom / 100% 0%;
           transition: all .2s ease-in-out;
 
           &:hover {
-            color: var(--color-primary);
+            color: var(--color-accent);
             background-size: 100% 12%;
           }
 
@@ -174,13 +239,11 @@
     display: none;
     justify-content: center;
     align-items: center;
-    width: 36px;
-    height: 36px;
-    font-size: 21px;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
     line-height: 1;
-    border-radius: 50%;
-    color: var(--heading-font-color);
-    background: var(--background-alt-color);
+    color: #fff;
     cursor: pointer;
 
     &:hover {
@@ -200,35 +263,21 @@
 
   @media only screen and (max-width: $desktop) {
     display: block;
-
-    align-items: center;
     width: 100%;
-    max-width: 240px;
-    height: 80vh;
-    padding-top: 180px;
+    padding-top: 0;
     margin: 0 auto;
     text-align: center;
-    overflow-y: auto;
 
     .nav__icon-close {
       display: flex;
       position: absolute;
-      top: 40px;
-      right: 40px;
+      top: 16px;
+      right: 16px;
     }
 
     .nav__title {
-      display: inline-block;
-      margin-bottom: 12px;
-      font-family: $heading-font-family;
-      font-size: 36px;
-      font-weight: 800;
-      color: var(--heading-font-color);
+      display: none;
     }
-  }
-
-  @media only screen and (max-width: $tablet) {
-    padding-top: 100px;
   }
 }
 
@@ -238,7 +287,7 @@
 
   .nav__item {
     display: inline-block;
-    margin-right: 48px;
+    margin-right: 32px;
     margin-bottom: 0;
 
     &:last-child {
@@ -249,13 +298,13 @@
       position: relative;
       padding: 8px 0 12px 0;
       font-family: $base-font-family;
-      font-size: 18px;
-      line-height: 1;
+      font-size: 15px;
       font-weight: 600;
-      letter-spacing: 0.05em;
+      line-height: 1;
+      letter-spacing: normal;
       text-decoration: none;
-      color: var(--color-link);
-      background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+      color: #fff;
+      background: linear-gradient(#fff, #fff) no-repeat bottom / 100% 0%;
       transition: all .2s ease-in-out;
 
       &::before {
@@ -271,11 +320,11 @@
         visibility: hidden;
         transition: all .2s;
         border-radius: 50%;
-        background-color: var(--link-color);
+        background-color: #fff;
       }
 
       &:hover {
-        color: var(--color-primary);
+        color: var(--color-accent);
         background-size: 100% 12%;
 
         &::before {
@@ -313,13 +362,13 @@
         text-transform: uppercase;
         letter-spacing: 0.05em;
         text-decoration: none;
-        color: var(--color-link);
-        background: linear-gradient(var(--color-link), var(--color-link)) no-repeat bottom / 100% 0%;
+        color: #fff;
+        background: linear-gradient(#fff, #fff) no-repeat bottom / 100% 0%;
         transition: all .2s ease-in-out;
         cursor: pointer;
 
         &:hover {
-          color: var(--color-primary);
+          color: var(--color-accent);
           background-size: 100% 12%;
         }
 
@@ -420,7 +469,7 @@
   display: flex;
   align-items: center;
   font-size: 21px;
-  color: var(--link-color);
+  color: #fff;
   border-radius: 50%;
 
   .icon__menu {
@@ -436,7 +485,7 @@
     transition: color .25s ease;
 
     &:hover {
-      color: var(--link-color);
+      color: var(--color-accent);
     }
   }
 

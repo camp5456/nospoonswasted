@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>No Spoons Wasted</title>
-        <description>Life hacks for low-energy days. Recipes, shortcuts &amp; gear for the chronically ill.</description>
-        <link>https://nospoonswasted.com/</link>
-        <atom:link href="https://nospoonswasted.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 May 2026 16:20:41 -0500</pubDate>
-        <lastBuildDate>Tue, 12 May 2026 16:20:41 -0500</lastBuildDate>
+        <description>Smart lifehacks for people running on empty. Easy recipes, simple strategies, and helpful products for the low-energy community.</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 13 May 2026 15:22:28 -0500</pubDate>
+        <lastBuildDate>Wed, 13 May 2026 15:22:28 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
                 <title>2 minute cherry jelly recipe that&apos;s as healthy as it is easy to make.</title>
                 <description>&lt;p&gt;This is a super easy 2-minute jelly for those low spoon days. You can use it as topping on cottage cheese, toast, in oatmeal.&lt;/p&gt;
 </description>
-                <pubDate>Mon, 04 May 2026 03:00:00 -0500</pubDate>
-                <link>https://nospoonswasted.com/blog/cherry-jelly/</link>
-                <guid isPermaLink="true">https://nospoonswasted.com/blog/cherry-jelly/</guid>
+                <pubDate>Wed, 13 May 2026 03:00:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/cherry-jelly/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/cherry-jelly/</guid>
                 
                 <category>recipes</category>
                 

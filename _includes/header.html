@@ -7,11 +7,15 @@
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
           {% if site.data.settings.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}" width="405" height="150">
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}" width="400" height="400">
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}
           </a>
+          <div class="logo__text">
+            <p class="logo__title">No Spoons Wasted</p>
+            <p class="logo__tagline">Lifehacks for Low Energy Humans</p>
+          </div>
         </div>
 
         <nav class="main-nav">
@@ -42,74 +46,31 @@
           </div>
         </nav>
 
-        <div class="nav-button">
-          <!-- <i class="nav__icon icon__menu ion ion-md-menu"></i> -->
-          <i class="nav__icon icon__menu fa-solid fa-bars"></i>
+        <div class="subscribe">
+          <button class="subscribe__btn" data-subscribe-modal-open>Subscribe ↗</button>
+        </div>
 
-          {% if site.data.settings.color_scheme == "auto" %}
-          <div class="toggle-theme toggle-theme-js">
-            <div class="toggle-moon" title="Enable dark mode">
-              <svg width="14" height="14" viewBox="0 0 1472 1536" xmlns="http://www.w3.org/2000/svg">
-                <path fill="currentColor" d="M1464 1090q-94 203-283 323.5T768 1536q-157-1-299-62t-244.5-163.5T61 1066T0 768q0-205 97.5-378t267-276.5T738 2q43-2 62 38q17 42-16 72q-176 164-176 400q0 111 43 211.5t115 173t172.5 116T1151 1056q119 0 228-51q41-18 72 13t13 72"/>
-              </svg>
-            </div>
-            <div class="toggle-sun" title="Enable light mode">
-              <svg width="15" height="15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
-                  <path stroke-linecap="round"
-                    d="m9.15 9.15l2.228 2.228M3 24h3.15m3 14.85l2.228-2.228M38.85 38.85l-2.228-2.228M45 24h-3.15m-3-14.85l-2.228 2.228M24 3v3.15" />
-                  <path fill="currentColor" d="M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12Z" />
-                  <path stroke-linecap="round" d="M24 45v-3.15" />
-                </g>
-              </svg>
-            </div>
-          </div>
-          {% elsif site.data.settings.color_scheme == "light" %}
-      <!--<div class="toggle-theme theme-light">
-            <div class="toggle-sun" title="Light mode">
-              <svg width="15" height="15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
-                  <path stroke-linecap="round"
-                    d="m9.15 9.15l2.228 2.228M3 24h3.15m3 14.85l2.228-2.228M38.85 38.85l-2.228-2.228M45 24h-3.15m-3-14.85l-2.228 2.228M24 3v3.15" />
-                  <path fill="currentColor" d="M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12Z" />
-                  <path stroke-linecap="round" d="M24 45v-3.15" />
-                </g>
-              </svg>
-            </div>
-          </div> -->
-          {% elsif site.data.settings.color_scheme == "dark" %}
-          <div class="toggle-theme theme-dark">
-            <div class="toggle-moon" title="Dark mode">
-              <svg width="14" height="14" viewBox="0 0 1472 1536" xmlns="http://www.w3.org/2000/svg">
-                <path fill="currentColor"
-                  d="M1464 1090q-94 203-283 323.5T768 1536q-157-1-299-62t-244.5-163.5T61 1066T0 768q0-205 97.5-378t267-276.5T738 2q43-2 62 38q17 42-16 72q-176 164-176 400q0 111 43 211.5t115 173t172.5 116T1151 1056q119 0 228-51q41-18 72 13t13 72" />
-              </svg>
-            </div>
-          </div>
-          {% else %}
-          <div class="toggle-theme toggle-theme-js">
-            <div class="toggle-moon" title="Enable dark mode">
-              <svg width="14" height="14" viewBox="0 0 1472 1536" xmlns="http://www.w3.org/2000/svg">
-                <path fill="currentColor"
-                  d="M1464 1090q-94 203-283 323.5T768 1536q-157-1-299-62t-244.5-163.5T61 1066T0 768q0-205 97.5-378t267-276.5T738 2q43-2 62 38q17 42-16 72q-176 164-176 400q0 111 43 211.5t115 173t172.5 116T1151 1056q119 0 228-51q41-18 72 13t13 72" />
-              </svg>
-            </div>
-            <div class="toggle-sun" title="Enable light mode">
-              <svg width="15" height="15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
-                  <path stroke-linecap="round"
-                    d="m9.15 9.15l2.228 2.228M3 24h3.15m3 14.85l2.228-2.228M38.85 38.85l-2.228-2.228M45 24h-3.15m-3-14.85l-2.228 2.228M24 3v3.15" />
-                  <path fill="currentColor" d="M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12Z" />
-                  <path stroke-linecap="round" d="M24 45v-3.15" />
-                </g>
-              </svg>
-            </div>
-          </div>
-          {% endif %}
+        <div class="nav-button">
+          <i class="nav__icon icon__menu fa-solid fa-bars"></i>
         </div>
 
       </div>
     </div>
   </div>
 </header>
-<!-- end header -->
+
+<!-- begin subscribe modal -->
+<div class="subscribe-modal" data-subscribe-modal hidden>
+  <div class="subscribe-modal__backdrop" data-subscribe-modal-close></div>
+  <div class="subscribe-modal__box">
+    <button class="subscribe-modal__close" data-subscribe-modal-close aria-label="Close">✕</button>
+    <h2 class="subscribe-modal__heading">Easy upgrades for complicated lives.</h2>
+    <p class="subscribe-modal__meta">Free, forever · Unsubscribe anytime ♡</p>
+    <form class="subscribe-modal__form" data-subscribe-form>
+      <input class="subscribe-modal__input" type="email" name="email" placeholder="your@email" required autocomplete="email">
+      <button class="subscribe-modal__btn" type="submit">Subscribe →</button>
+    </form>
+    <p class="subscribe-modal__success" aria-live="polite" hidden>You're in — see you Sunday ♡</p>
+  </div>
+</div>
+<!-- end subscribe modal -->

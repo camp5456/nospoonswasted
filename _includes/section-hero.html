@@ -6,18 +6,43 @@
         <div class="hero__inner">
 
           <div class="hero__left">
-            <div class="hero__image">
-              <img src="{{ site.data.settings.hero.hero__image }}" alt="a cozy bed rest scene with a mug and open journal" fetchpriority="high" width="800" height="1200">
-            </div>
+            <p class="hero__eyebrow">Hello, Fellow Spoonies</p>
+            <h1 class="hero__title">
+              We make <span class="hero__title--accent">every</span><br>
+              spoon <em class="hero__title--italic">count.</em>
+            </h1>
+            <p class="hero__description">{{ site.data.settings.hero.hero__description }}</p>
           </div>
 
           <div class="hero__right">
-            <h1 class="hero__title">{{ site.data.settings.hero.hero__title }}</h1>
-            <p class="hero__description">{{ site.data.settings.hero.hero__description }}</p>
-            <div class="hero__subscribe">
-              {% include newsletter.html %}
-              <p class="hero__subscribe-note">No pressure. Unsubscribe anytime.</p>
-            </div>
+            {% assign featured = site.posts.first %}
+            {% if featured %}
+              <div class="hero__card-badge">
+                <span class="hero__card-badge-new">Newest</span>
+                <em class="hero__card-badge-sub">Post</em>
+              </div>
+              <div class="hero__card">
+                <div class="hero__card-image">
+                  {% if featured.image %}
+                  <img src="{{ featured.image }}" alt="{{ featured.image_alt | default: featured.title }}" loading="lazy">
+                  {% endif %}
+                </div>
+                <div class="hero__card-body">
+                  <p class="hero__card-eyebrow">
+                    ♦ {{ featured.date | date: "%d %b %Y" }}
+                      {% assign words = featured.content | number_of_words %}
+                      {% assign mins = words | divided_by: 200 | plus: 1 %}
+                       · {{ mins }} min read
+                       · {% if featured.tags.size > 0 %}{{ featured.tags.first | capitalize }}{% endif %}
+                  </p>
+                    <a href="{{ featured.url | relative_url }}">
+                      <h2 class="hero__card-title">
+                        {{ featured.title }}
+                      </h2>
+                    </a>
+                </div>
+              </div>
+            {% endif %}
           </div>
 
         </div>

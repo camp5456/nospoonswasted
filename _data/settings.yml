@@ -2,8 +2,8 @@
 # Site Settings
 title: No Spoons Wasted
 logo: /images/logo.webp
-description: Life hacks for low-energy days. Recipes, shortcuts & gear for the chronically ill.
-color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+description: Smart lifehacks for people running on empty. Easy recipes, simple strategies, and helpful products for the low-energy community.
+subscriber_count: "4,210"
 
 #-------------------------------
 # Navigation Settings
@@ -11,7 +11,7 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Blog'
+    - title: 'The Blog'
       url: '/blog/'
     - title: 'About'
       url: '/about/'
@@ -23,7 +23,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: No Spoons Wasted
-  author__bio: No Spoons Wasted is a blog for people who live with low energy. We're here with recipes, practical life hacks, and honest product recommendations for the days when just existing takes everything you've got. 
+  author__bio: No Spoons Wasted is a blog for people who live with low energy. We provide easy recipes, simple strategies, and helpful products for the days when you just can't. 
   author__avatar: '/images/01-1.jpg'
 
 social:
@@ -39,20 +39,9 @@ social:
 # Hero Settings
 hero:
   hero__title: No spoons wasted.
-  hero__description: Smart life hacks for people running on empty. <br> Made by Humans for Humans 🩷
+  hero__description: Smart lifehacks for people running on empty. <br> Made by Humans for Humans 🩷
   hero__image: '/images/01.webp'
 
-
-#-------------------------------
-# Newsletter
-
-
-
-#-------------------------------
-# Projects Settings
-projects__settings:
-  projects__title: Latest works
-  projects__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
 
 
 #-------------------------------
@@ -96,7 +85,7 @@ testimonial__items:
 # Blog Section
 blog__settings:
   blog__title: Recent Posts
-  blog__description: Practical lifehacks, recipes, and strategies for the low-energy community (spoonies). 
+  blog__description: Easy recipes, simple strategies, and helpful products for the low-energy community. 
 
 
 
@@ -120,7 +109,7 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Blog'
+    - title: 'The Blog'
       url: '/blog/'
     - title: 'About'
       url: '/about/'
@@ -134,15 +123,3 @@ contact:
   form_id: mnjwdpql
   description: What's on your mind? Let's talk.
 
-# NOTE
-# Hilton theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
-
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: # Add your GA Tracking Id

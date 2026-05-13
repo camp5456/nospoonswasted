@@ -164,6 +164,46 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =======================
+  // Subscribe Form
+  ======================= */
+  const WORKER_URL = 'https://green-silence-a1a7.snowy-sea-570e.workers.dev/';
+
+  document.querySelectorAll('[data-subscribe-form]').forEach(function (form) {
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const input = form.querySelector('input[type="email"]');
+      const success = form.nextElementSibling;
+      const btn = form.querySelector('button[type="submit"]');
+      const email = input.value.trim();
+
+      btn.disabled = true;
+      btn.textContent = 'Subscribing…';
+
+      try {
+        const res = await fetch(WORKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email }),
+        });
+
+        if (res.ok) {
+          form.hidden = true;
+          if (success) success.removeAttribute('hidden');
+        } else {
+          btn.disabled = false;
+          btn.textContent = 'Subscribe →';
+          alert('Something went wrong. Please try again.');
+        }
+      } catch {
+        btn.disabled = false;
+        btn.textContent = 'Subscribe →';
+        alert('Something went wrong. Please try again.');
+      }
+    });
+  });
+
+
+  /* =======================
   // Scroll Top Button
   ======================= */
   btnScrollToTop.addEventListener("click", function () {
