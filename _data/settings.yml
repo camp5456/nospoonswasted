@@ -91,7 +91,7 @@ blog__categories:
   - title: "Spoon Theory"
     tag: "spoon-theory"
     featured: true
-    color: "#6b5fa0"
+    color: "#6d2949"
   - title: "Recipes"
     tag: "recipes"
     color: "#a8627a"

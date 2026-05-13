@@ -69,14 +69,14 @@
 
 .blog-filters__title--accent {
   font-style: italic;
-  color: #6b5fa0;
+  color: #6d2949;
 }
 
 .blog-filters__cta {
   font-size: 14px;
   color: #ffffff;
   text-decoration: none;
-  background: ##6d2949;
+  background: #6d2949;
   padding: 8px 16px;
   border-radius: 50px;
   white-space: nowrap;
@@ -106,26 +106,27 @@
   text-decoration: none;
   border: 1.5px solid var(--pill-color, #ccc);
   border-radius: 50px;
-  transition: box-shadow .2s;
+  transition: background .2s;
 
   &:hover {
-    box-shadow: inset 0 0 0 1.5px var(--pill-color, #ccc);
+    background: color-mix(in srgb, var(--pill-color, #ccc) 12%, transparent);
+    color: var(--color-text);
   }
 }
 
 .blog-filter--featured {
-  background: #6b5fa0;
-  border-color: #6b5fa0;
+  background: #6d2949;
+  border-color: #6d2949;
   color: #fff;
   font-weight: 600;
 
   .blog-filter__dot {
-    background: rgba(255, 255, 255, 0.6);
+    display: none;
   }
 
   &:hover {
-    box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.6);
-    background: #6b5fa0;
+    background: #6d2949;
+    opacity: 0.8;
     color: #fff;
   }
 }
