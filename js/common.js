@@ -164,6 +164,35 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =======================
+  // Subscribe Modal
+  ======================= */
+  const modal = document.querySelector('[data-subscribe-modal]');
+  const modalOpen = document.querySelector('[data-subscribe-modal-open]');
+
+  if (modal && modalOpen) {
+    modalOpen.addEventListener('click', function () {
+      modal.removeAttribute('hidden');
+      document.body.style.overflow = 'hidden';
+    });
+
+    modal.querySelectorAll('[data-subscribe-modal-close]').forEach(function (el) {
+      el.addEventListener('click', function () {
+        closeModal();
+      });
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !modal.hasAttribute('hidden')) closeModal();
+    });
+
+    function closeModal() {
+      modal.setAttribute('hidden', '');
+      document.body.style.overflow = '';
+    }
+  }
+
+
+  /* =======================
   // Subscribe Form
   ======================= */
   const WORKER_URL = 'https://green-silence-a1a7.snowy-sea-570e.workers.dev/';
