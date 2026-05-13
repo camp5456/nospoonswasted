@@ -9,15 +9,32 @@ description: Practical lifehacks, recipes, and strategies for the low-energy com
     <div class="col col-8 push-2 col-t-12 push-t-0">
       <div class="page-head">
         <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.blog__settings.blog__title }}{% endif %}</h1>
-        {% if page.description %}
-          <p class="page-description">{{ page.description }}</p>
-        {% else site.data.settings.blog__settings.blog__description %}
-          <p class="page-description">{{ site.data.settings.blog__settings.blog__description }}</p>
-        {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+{% if site.data.settings.blog__categories %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="blog-filters">
+        <div class="blog-filters__pills">
+          {% for cat in site.data.settings.blog__categories %}
+            <a class="blog-filter{% if cat.featured %} blog-filter--featured{% endif %}"
+               href="{{ '/tags/' | relative_url }}?tag={{ cat.tag }}"
+               style="--pill-color: {{ cat.color }}">
+              <span class="blog-filter__dot"></span>
+              {% if cat.featured %}★ {% endif %}{{ cat.title }}
+              <span class="blog-filter__count">{{ site.tags[cat.tag].size | default: 0 }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
 
 <div class="container animate">
   <div class="row">
