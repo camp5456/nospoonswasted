@@ -12,7 +12,8 @@ layout: default
           {% if page.tags.size >= 1 %}
             <div class="post-tags">
               {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
+                {% assign cat = site.data.settings.blog__categories | where: "tag", tag | first %}
+                <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag" {% if cat %}style="--pill-color: {{ cat.color }}"{% endif %}>{{ tag | replace: "-", " " }}</a>
               {% endfor %}
             </div>
           {% endif %}

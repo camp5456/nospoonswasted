@@ -5,8 +5,8 @@
         <description>Smart lifehacks for people running on empty. Easy recipes, simple strategies, and helpful products for the low-energy community.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2026 18:24:27 -0500</pubDate>
-        <lastBuildDate>Wed, 13 May 2026 18:24:27 -0500</lastBuildDate>
+        <pubDate>Wed, 13 May 2026 18:40:34 -0500</pubDate>
+        <lastBuildDate>Wed, 13 May 2026 18:40:34 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -53,7 +53,7 @@
                 <link>http://localhost:4000/blog/5-low-energy-routines/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/5-low-energy-routines/</guid>
                 
-                <category>routines</category>
+                <category>health</category>
                 
                 
             </item>
@@ -87,7 +87,7 @@
                 <link>http://localhost:4000/blog/low-energy-home-setup/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/low-energy-home-setup/</guid>
                 
-                <category>home</category>
+                <category>adulting</category>
                 
                 
             </item>
@@ -104,7 +104,7 @@
                 <link>http://localhost:4000/blog/best-tools-for-spoonies/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/best-tools-for-spoonies/</guid>
                 
-                <category>tools</category>
+                <category>resources</category>
                 
                 
             </item>
