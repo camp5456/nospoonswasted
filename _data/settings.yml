@@ -85,7 +85,28 @@ testimonial__items:
 # Blog Section
 blog__settings:
   blog__title: Recent Posts
-  blog__description: Easy recipes, simple strategies, and helpful products for the low-energy community. 
+  blog__description: Easy recipes, simple strategies, and helpful products for the low-energy community.
+
+blog__categories:
+  - title: "Spoon Theory"
+    tag: "spoon-theory"
+    featured: true
+    color: "#6b5fa0"
+  - title: "Recipes"
+    tag: "recipes"
+    color: "#a8627a"
+  - title: "Routines"
+    tag: "routines"
+    color: "#3a9e96"
+  - title: "Mind"
+    tag: "mind"
+    color: "#5a6fa0"
+  - title: "Home"
+    tag: "home"
+    color: "#b87050"
+  - title: "Tools"
+    tag: "tools"
+    color: "#6b6b6b"
 
 
 

@@ -5,14 +5,28 @@
       <div class="col col-12">
         <div class="contaniner__inner">
   
-        <div class="section__info">
-          <div class="section__head">
-            <h2 class="section__title">{{ site.data.settings.blog__settings.blog__title }}</h2>
+        {% if site.data.settings.blog__categories %}
+        <div class="blog-filters">
+
+          <div class="blog-filters__header">
+            <h2 class="blog-filters__title">Browse by <em class="blog-filters__title--accent">category</em></h2>
+            <a class="blog-filters__cta" href="#">New here? Start with Spoon Theory →</a>
           </div>
-          {% if site.data.settings.blog__settings.blog__description %}
-            <p class="section__description">{{ site.data.settings.blog__settings.blog__description }}</p>
-          {% endif %}
+
+          <div class="blog-filters__pills">
+            {% for cat in site.data.settings.blog__categories %}
+              <a class="blog-filter{% if cat.featured %} blog-filter--featured{% endif %}"
+                 href="{{ '/tags/' | relative_url }}?tag={{ cat.tag }}"
+                 style="--pill-color: {{ cat.color }}">
+                <span class="blog-filter__dot"></span>
+                {% if cat.featured %}★ {% endif %}{{ cat.title }}
+                <span class="blog-filter__count">{{ site.tags[cat.tag].size | default: 0 }}</span>
+              </a>
+            {% endfor %}
+          </div>
+
         </div>
+        {% endif %}
   
           <div class="row">
             {% if site.posts.size > 0 %}
