@@ -42,7 +42,7 @@
 
 /* Blog Filters */
 .blog-filters {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 
   @media only screen and (max-width: $mobile) {
     margin-bottom: 32px;
@@ -147,6 +147,20 @@
   .blog-filter--featured & {
     color: #fff;
   }
+}
+
+.blog-posts__heading {
+  font-family: $heading-font-family;
+  font-size: clamp(36px, 5vw, 60px);
+  font-weight: 400;
+  color: var(--color-text);
+  margin: 0 0 40px;
+  line-height: 1.1;
+}
+
+.blog-posts__heading--accent {
+  font-style: italic;
+  color: #6d2949;
 }
 
 .blog-filters__note {

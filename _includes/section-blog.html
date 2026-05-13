@@ -9,7 +9,7 @@
         <div class="blog-filters">
 
           <div class="blog-filters__header">
-            <h2 class="blog-filters__title">Browse by <em class="blog-filters__title--accent">category</em></h2>
+            <h2 class="blog-filters__title">Browse the <em class="blog-filters__title--accent">blog</em></h2>
           </div>
 
           <div class="blog-filters__pills">
@@ -27,6 +27,7 @@
         </div>
         {% endif %}
   
+
           <div class="row">
             {% if site.posts.size > 0 %}
               {% for post in site.posts offset:0 limit:3 %}
