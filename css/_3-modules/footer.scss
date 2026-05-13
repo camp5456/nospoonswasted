@@ -1,8 +1,11 @@
 /* Footer */
 .footer {
+  background-color: #1a1a1a;
+  color: #fff;
+
   .footer__inner {
     padding: 100px 0;
-    border-top: 1px solid var(--background-alt-color);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 
     .row .col {
       flex-grow: 1;
@@ -64,7 +67,7 @@
   transform: translate(0);
   border-radius: 8px;
   overflow: hidden;
-  background-color: var(--background-alt-color);
+  background-color: rgba(255, 255, 255, 0.1);
 
   img {
     position: absolute;
@@ -164,6 +167,11 @@
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 0.05em;
+    color: var(--color-accent-hero);
+
+    &:hover {
+      color: #fff;
+    }
   }
 
   @media only screen and (max-width: $desktop) {
@@ -190,7 +198,7 @@
 /* Footer Info */
 .footer__info {
   padding: 40px 0;
-  border-top: 1px solid var(--background-alt-color);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 
   .footer__info-box {
     display: flex;
@@ -206,15 +214,13 @@
 .copyright {
   margin-right: 20px;
   font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
 
   a {
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    color: var(--heading-font-color);
+    color: rgba(255, 255, 255, 0.7);
 
     &:hover {
-      text-decoration-color: var(--heading-font-color);
-      color: var(--heading-font-color);
+      color: #fff;
     }
   }
 }
@@ -225,13 +231,10 @@
   font-size: 14px;
 
   a {
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    color: var(--heading-font-color);
+    color: rgba(255, 255, 255, 0.7);
 
     &:hover {
-      text-decoration-color: var(--heading-font-color);
-      color: var(--heading-font-color);
+      color: #fff;
     }
   }
 }
@@ -243,13 +246,13 @@
   line-height: 38px;
   text-align: center;
   border-radius: 8px;
-  color: var(--heading-font-color);
-  background-color: var(--background-alt-color);
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
   cursor: pointer;
   transition: all .25s ease;
 
   &:hover {
-    color: var(--dark);
-    background-color: var(--brand-color);
+    color: #fff;
+    background-color: var(--color-btn);
   }
 }

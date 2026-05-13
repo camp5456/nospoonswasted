@@ -1,12 +1,6 @@
 /* Article */
 .article {
   margin-bottom: 64px;
-  will-change: transform;
-  transition: transform .2s ease-in-out;
-
-  &:hover {
-    transform: translateY(-4px);
-  }
 
   @media only screen and (max-width: $mobile) {
     margin-bottom: 32px;
@@ -71,16 +65,15 @@
 
 .article__title {
   margin-bottom: 20px;
-  font-size: 32px;
-  line-height: 1.1;
+  font-size: 28px;
+  line-height: 1.5;
 
   a {
-    padding-bottom: 4px;
-    background: linear-gradient(var(--brand-color),var(--brand-color)) no-repeat bottom /100% 0%;
-    transition: background .2s ease-in-out;
+    color: var(--color-link);
+    transition: color .2s ease;
 
     &:hover {
-      background-size: 100% 26%;
+      color: #6d2949;
     }
   }
 
