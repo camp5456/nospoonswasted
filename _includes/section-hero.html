@@ -24,7 +24,7 @@
               <div class="hero__card">
                 <div class="hero__card-image">
                   {% if featured.image %}
-                  <img src="{{ featured.image }}" alt="{{ featured.image_alt | default: featured.title }}" loading="lazy">
+                  <img src="{{ featured.image }}" alt="{{ featured.image_alt | default: featured.title }}" fetchpriority="high">
                   {% endif %}
                 </div>
                 <div class="hero__card-body">
