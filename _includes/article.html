@@ -1,4 +1,5 @@
 <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
 
   {% if post.image %}
   <a class="article__image" href="{{post.url | prepend: site.baseurl}}">
@@ -28,4 +29,6 @@
   <p class="article__excerpt">
     {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}
   </p>
+
+  </div>
 </div>
