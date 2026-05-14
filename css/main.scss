@@ -100,8 +100,6 @@
 {% include_relative _3-modules/sections.scss %}
 /* >>>>>>>>>>>>>> 3.9-Projects <<<<<<<<<<<<<<< */
 {% include_relative _3-modules/projects.scss %}
-/* >>>>>>>>>>>>>> 3.10-Testimonials <<<<<<<<<<<<<<< */
-{% include_relative _3-modules/testimonials.scss %}
 /* >>>>>>>>>>>>>> 3.11-Footer <<<<<<<<<<<<<<< */
 {% include_relative _3-modules/footer.scss %}
 
@@ -111,8 +109,6 @@
 ======================= */
 /* >>>>>>>>>>>>>> 4.1-Post <<<<<<<<<<<<<<< */
 {% include_relative _4-layouts/post.scss %}
-/* >>>>>>>>>>>>>> 4.2-Project <<<<<<<<<<<<<<< */
-{% include_relative _4-layouts/project.scss %}
 /* >>>>>>>>>>>>>> 4.3-Tags Page <<<<<<<<<<<<<<< */
 {% include_relative _4-layouts/tags-page.scss %}
 /* >>>>>>>>>>>>>> 4.4-Recipe <<<<<<<<<<<<<<< */
