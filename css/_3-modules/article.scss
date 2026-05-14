@@ -3,7 +3,19 @@
   margin-bottom: 64px;
 
   @media only screen and (max-width: $mobile) {
-    margin-bottom: 32px;
+    margin-bottom: 0;
+
+    &:not(:last-child)::after {
+      content: '';
+      display: block;
+      height: 1px;
+      background: color-mix(in srgb, var(--color-accent) 45%, transparent);
+      margin-top: 56px;
+    }
+
+    & + .article {
+      padding-top: 56px;
+    }
   }
 }
 
