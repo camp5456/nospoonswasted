@@ -6,6 +6,7 @@ date: 2026-04-20 08:00:00 +0000
 image: '/images/gallery-3.webp'
 image_alt: "a lit candle in a lace holder beside a chunky knit blanket"
 tags: [health]
+author: Twila
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -6,6 +6,7 @@ date:   2026-05-13 08:00:00 +0000
 image:  '/images/cherry-jelly.webp'
 image_alt: "small jars of ruby red cherry jelly on a kitchen counter"
 tags:   [recipes]
+author: Twila
 recipe:
   prep_time: 5
   cook_time: 5

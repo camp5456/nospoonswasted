@@ -6,6 +6,7 @@ date: 2026-05-01 08:00:00 +0000
 image: '/images/gallery-1.webp'
 image_alt: "woman resting face-down on a gray couch"
 tags: [spoon-theory]
+author: Twila
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

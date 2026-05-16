@@ -1,27 +1,47 @@
+{% if page.author %}
+
+{% assign author_name   = page.author %}
+{% assign author_bio    = page.author_bio    | default: site.data.settings.author.author__bio %}
+{% assign author_avatar = page.author_avatar | default: site.data.settings.author.author__avatar %}
+{% assign author_url    = page.author_url %}
+{% assign is_site_author = false %}
+{% if author_name == site.data.settings.author.author__name %}
+  {% assign is_site_author = true %}
+{% endif %}
+
 <!-- begin author bio -->
 <section class="post-author">
   <div class="container">
     <p class="post-author__eyebrow">About the Author</p>
     <div class="post-author__inner">
+
+      {% if author_avatar %}
       <div class="post-author__photo-wrap">
-        {% if site.data.settings.author.author__avatar %}
-        <img class="post-author__photo" src="{{ site.baseurl }}{{ site.data.settings.author.author__avatar }}" alt="{{ site.data.settings.author.author__name }}" width="200" height="200" loading="lazy">
-        {% endif %}
-        <p class="post-author__photo-caption">// {{ site.data.settings.author.author__name | upcase }} &middot; SPOONIE</p>
+        <img class="post-author__photo" src="{{ site.baseurl }}{{ author_avatar }}" alt="{{ author_name }}" width="200" height="200" loading="lazy">
+        <p class="post-author__photo-caption">// {{ author_name | upcase }} &middot; SPOONIE</p>
       </div>
+      {% endif %}
+
       <div class="post-author__content">
-        <h2 class="post-author__heading">Hi, I'm <em>{{ site.data.settings.author.author__name }}.</em></h2>
-        <p class="post-author__bio">{{ site.data.settings.author.author__bio }}</p>
+        <h2 class="post-author__heading">Hi, I'm <em>{{ author_name }}.</em></h2>
+        {% if author_bio %}<p class="post-author__bio">{{ author_bio }}</p>{% endif %}
         <div class="post-author__links">
-          {% for social in site.data.settings.social %}
-          <a href="{{ social.link }}" target="_blank" rel="noopener" class="post-author__social-link" aria-label="{{ social.name }}">
-            <i class="{{ social.icon }}"></i> {{ social.name }}
-          </a>
-          {% endfor %}
-          <a href="{{ site.baseurl }}/about/" class="post-author__more">More about No Spoons Wasted &rarr;</a>
+          {% if is_site_author %}
+            {% for social in site.data.settings.social %}
+            <a href="{{ social.link }}" target="_blank" rel="noopener" class="post-author__social-link" aria-label="{{ social.name }}">
+              <i class="{{ social.icon }}"></i> {{ social.name }}
+            </a>
+            {% endfor %}
+            <a href="{{ site.baseurl }}/about/" class="post-author__more">More about No Spoons Wasted &rarr;</a>
+          {% elsif author_url %}
+            <a href="{{ author_url }}" target="_blank" rel="noopener" class="post-author__more">More about {{ author_name }} &rarr;</a>
+          {% endif %}
         </div>
       </div>
+
     </div>
   </div>
 </section>
 <!-- end author bio -->
+
+{% endif %}
