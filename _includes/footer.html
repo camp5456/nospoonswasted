@@ -23,6 +23,11 @@
 
               <div class="col col-8 col-d-12">
                 <div class="footer__author">
+                  {% if site.data.settings.author.author__avatar %}
+                  <div class="footer__author-avatar">
+                    <img src="{{site.baseurl}}{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}" loading="lazy">
+                  </div>
+                  {% endif %}
                   <div class="footer__author-info">
                     <h2 class="footer__author-name">{{site.data.settings.author.author__name}}</h2>
                     <p class="footer__author-bio">{{site.data.settings.author.author__bio}}</p>

@@ -24,7 +24,7 @@ menu__settings:
 author:
   author__name: Twila
   author__bio: Created No Spoons Wasted as a resource for fellow spoonies navigating life with low energy. The blog provides recipes, strategies, and products for the days when you just can't.
-  author__avatar: '/images/bio.png'
+  author__avatar: '/images/bio.webp'
 
 social:
 - {icon: "fa-brands fa-pinterest", link: "https://www.pinterest.com/nospoonswasted/", name: "Pinterest"}
