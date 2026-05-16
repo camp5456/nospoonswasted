@@ -87,9 +87,17 @@
 
 .footer__author-name {
   margin-bottom: 20px;
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 1;
+  font-family: $heading-font-family;
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
+  letter-spacing: -1.2px;
+
+  em {
+    font-style: italic;
+    color: var(--color-primary-mid);
+  }
 }
 
 .footer__author-bio {

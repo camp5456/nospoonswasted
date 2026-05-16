@@ -103,6 +103,8 @@
 {% include_relative _3-modules/projects.scss %}
 /* >>>>>>>>>>>>>> 3.11-Footer <<<<<<<<<<<<<<< */
 {% include_relative _3-modules/footer.scss %}
+/* >>>>>>>>>>>>>> 3.12-Post Extras (author bio, newsletter) <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/post-extras.scss %}
 
 
 /* =======================

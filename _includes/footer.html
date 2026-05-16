@@ -29,7 +29,7 @@
                   </div>
                   {% endif %}
                   <div class="footer__author-info">
-                    <h2 class="footer__author-name">{{site.data.settings.author.author__name}}</h2>
+                    <h2 class="footer__author-name">Hi, I'm <em>{{site.data.settings.author.author__name}}.</em></h2>
                     <p class="footer__author-bio">{{site.data.settings.author.author__bio}}</p>
                     {% if site.data.settings.social %}
                     <div class="social">
@@ -89,3 +89,14 @@
 
 </footer>
 <!-- end footer -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ site.data.settings.title | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "logo": "{{ site.data.settings.logo | absolute_url }}",
+  "description": {{ site.data.settings.description | jsonify }},
+  "sameAs": [{% for social in site.data.settings.social %}"{{ social.link }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+}
+</script>

@@ -18,7 +18,7 @@
 }
 
 .post-info {
-  max-width: 780px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -128,8 +128,8 @@
 .post,
 .page,
 .project-content {
-  max-width: 780px;
-  margin: 0 auto 60px;
+  max-width: 1000px;
+  margin: 0 auto 30px;
   color: var(--text-color);
 
   a {
@@ -205,8 +205,6 @@
 
 /* Share */
 .post__share {
-  padding-bottom: 48px;
-  border-bottom: 1px solid var(--background-alt-color);
 
   .share__heading {
     text-align: center;

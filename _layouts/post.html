@@ -37,7 +37,7 @@ layout: default
     {%if page.image %}
     <div class="col col-12">
       <div class="post-image animate">
-        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}" fetchpriority="high">
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.image_alt | default: page.title}}" fetchpriority="high">
       </div>
     </div>
     {%endif %}
@@ -78,6 +78,10 @@ layout: default
   </article>
 </div>
 <!-- end post -->
+
+{% include author-bio.html %}
+
+{% include post-newsletter.html %}
 
 {% include related-posts.html %}
 
