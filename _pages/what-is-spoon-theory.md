@@ -16,8 +16,6 @@ faq:
     a: "Spoon Theory gives the chronically ill community a framework for talking to others about their daily living experience. It helps them assign units of energy to tasks so they can prioritize the most important tasks. And it gives them a way to track how much energy they have spent so they can pace themselves throughout the day."
   - q: "What Happens When You're Out of Spoons?"
     a: "Being out of spoons means you're out of energy for the day. Spoonies can borrow spoons from tomorrow by pushing through, but that creates a deficit the next day and so on."
-  - q: "What Happens When You're Out of Spoons?"
-    a: "Being out of spoons means you're out of energy for the day. Spoonies can borrow spoons from tomorrow by pushing through, but that creates a deficit the next day and so on."
   - q: "Who are considered Spoonies?"
     a: "Anyone with a condition that limits the amount of energy they have on a daily basis."
   - q: "What conditions are most likely to be Spoonies?"
@@ -35,6 +33,7 @@ Spoon Theory was created by Christine Miserandino, a blogger living with Lupus, 
 
 Christine grabbed all the spoons she could find to represent her limited daily energy. She went on to describe how each activity cost spoons, forcing her to decide where to spend them. Does she take a shower or make a meal? People with unlimited spoons don't have to decide between basic daily activities, but for a spoonie, once your spoons are spent, you don't get any more.
 
+> - [Read Christine Miserandino's original Spoon Theory essay](https://web.archive.org/web/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/)
 > - [Watch a video of Christine reading her original blog on Spoon Theory](https://www.youtube.com/watch?v=jn5IBsm49Rk)
 > - [Watch an animated video illustrating what Spoon Theory is](https://www.youtube.com/watch?v=GDio-hS-M54&t=2s)
 {: .callout-resources}
@@ -57,17 +56,17 @@ This framework has given millions of people a language to talk about their exper
 
 ## Common Spoonie Questions
 
-**What Happens When You're Out of Spoons?**
+### What Happens When You're Out of Spoons?
 
 Being out of spoons means you're out of energy for the day. This can mean that faces don't get washed, dishes don't get done, meals become frozen dinners, plans get cancelled, even watching TV can be too much.
 
 Spoonies can borrow spoons from tomorrow by pushing through, but that creates a deficit the next day and so on. Sleep for the spoonie community is often not as restorative as it needs to be. There really are no extra spoons to draw on. Borrowing too often can lead to chronic depletion. It is essential for spoonies to live within their spoon count as consistently as possible.
 
-**Who are considered Spoonies?**
+### Who Are Considered Spoonies?
 
-Anyone with a condition that limits the amount of energy they have on a daily basis. It's generally frowned upon for non-spoonies to use the framework to express things like frustration (I don't have the spoons for your attitude), full schedules (none of us have the spoons to start on the project right now), or routine tiredness (I'm heading to bed, I'm all out of spoons). 
+Anyone with a condition that limits the amount of energy they have on a daily basis. It's generally frowned upon for non-spoonies to use the framework to express things like frustration (I don't have the spoons for your attitude), full schedules (none of us have the spoons to start on the project right now), or routine tiredness (I'm heading to bed, I'm all out of spoons).
 
-**What conditions are most likely to be Spoonies?**
+### What Conditions Are Most Likely to Affect Spoonies?
 
 Common chronic health conditions that can impact energy include CFS/ME, fibromyalgia, autoimmune disease, anemia, thyroid disease, diabetes, depression, anxiety, among many others. 
 
