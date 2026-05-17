@@ -11,6 +11,8 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'Start Here'
+      url: '/start-here/'
     - title: 'The Blog'
       url: '/blog/'
     - title: 'About'
@@ -130,6 +132,8 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'Start Here'
+      url: '/start-here/'
     - title: 'The Blog'
       url: '/blog/'
     - title: 'About'

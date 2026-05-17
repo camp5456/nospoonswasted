@@ -1,0 +1,22 @@
+{% assign coming_soon = true %}
+{% if include.url and include.url != "" %}{% assign coming_soon = false %}{% endif %}
+
+<div class="pillar-card{% if coming_soon %} pillar-card--soon{% endif %}">
+  {% if include.image %}
+  <div class="pillar-card__image">
+    <img src="{{ include.image }}" alt="{{ include.alt | default: include.title }}" loading="lazy">
+  </div>
+  {% endif %}
+  <div class="pillar-card__body{% unless include.image %} pillar-card__body--no-image{% endunless %}">
+    {% if coming_soon %}<span class="pillar-card__badge">Coming Soon</span>{% endif %}
+    <h3 class="pillar-card__title">
+      {% unless coming_soon %}<a href="{{ include.url }}">{% endunless %}
+        {{ include.title }}
+      {% unless coming_soon %}</a>{% endunless %}
+    </h3>
+    {% if include.description %}<p class="pillar-card__desc">{{ include.description }}</p>{% endif %}
+    {% unless coming_soon %}
+    <a href="{{ include.url }}" class="pillar-card__link">Read guide &rarr;</a>
+    {% endunless %}
+  </div>
+</div>
