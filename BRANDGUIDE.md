@@ -2,7 +2,7 @@
 
 ## About the brand
 
-Practical lifehacks, recipes, and strategies for the low-energy community (spoonies). The tone is warm, a little dry, and genuinely helpful — like a knowledgeable friend who gets it. Not clinical. Not toxic positivity. Think: the person who shows up with soup and a useful tip.
+Practical lifehacks, recipes, and strategies for the spoonie community. The tone is warm, a little dry, and genuinely helpful — like a knowledgeable friend who gets it. Not clinical. Not toxic positivity. Think: the person who shows up with soup and a useful tip.
 
 ---
 
@@ -153,7 +153,7 @@ All pairs are WCAG 2.1 AA accessible.
 ## Content pillars
 
 1. Recipes — low-effort, high-reward, real ingredients
-2. Life hacks — shortcuts for daily tasks on low-energy days
+2. Lifehacks — shortcuts for daily tasks 
 3. Product recommendations — honest, with Amazon affiliate links
 4. Community / relatable moments — validation without wallowing
 

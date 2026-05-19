@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to set up your home for low-energy living"
+title: "How to set up your home for spoonie living"
 description: "Small changes to your space can save big spoons. Here's how to set up your home to work for you."
 date: 2026-03-28 08:00:00 +0000
 image: '/images/gallery-3.webp'
