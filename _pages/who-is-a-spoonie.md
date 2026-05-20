@@ -4,8 +4,8 @@ title: "What Is a Spoonie?"
 description: "A spoonie is a person living with chronic illness that limits their daily energy. The term is a self-identifier and used as shorthand for a shared experience. The word grew out of spoon theory and the community built around it."
 date: 2026-05-19
 author: Twila
-image: /images/what-is-a-spoonie.webp
-image_alt: "TODO: descriptive alt text for the spoonie page header image"
+image: /images/who-is-a-spoonie.webp
+image_alt: "a spoon with a happy face cut out of it in a diner"
 tags: []
 faq:
   - q: "What is a spoonie?"
@@ -87,3 +87,6 @@ And if you got here without reading the metaphor itself, start there:
 
 > - [What Is Spoon Theory?](/what-is-spoon-theory)
 {: .callout-resources}
+
+> Photo by <a href="https://unsplash.com/@ahmetsali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ahmet Sali</a> on <a href="https://unsplash.com/photos/person-holding-silver-spoon-with-light-BIjIJ_ywTDk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+{: .photo-credit}
