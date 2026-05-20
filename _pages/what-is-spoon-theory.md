@@ -4,7 +4,7 @@ title: "What Is Spoon Theory?"
 description: "Spoon theory is a framework that uses spoons as units of energy for managing daily life as a chronically ill person. Chronically ill people start their day with limited spoons. Each daily activity costs spoons and when all the spoons are gone, a person has no more energy for basic living."
 date: 2026-05-16
 author: Twila
-image: /images/what-is-spoon-theory.webp
+image: /images/who-is-a-spoonie.webp
 image_alt: "a wooden spoon on a blue surface"
 tags: []
 faq:
@@ -29,11 +29,11 @@ Spoon Theory is a framework that uses spoons as units of energy for managing dai
 
 ## Where Did Spoon Theory Come From?
 
-Spoon Theory was created by Christine Miserandino, a blogger living with Lupus, while visiting with a friend in a diner. Curious about Christine's experiences, her friend asked her what it felt like to live with her illness. She wasn't asking what Lupus was or what Christine's symptoms were. She was asking what her lived experience with a chronic illness was like.
+Spoon Theory was created by [Christine Miserandino](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/), a blogger living with Lupus, while visiting with a friend in a diner. Curious about Christine's experiences, her friend asked her what it felt like to live with her illness. She wasn't asking what Lupus was or what Christine's symptoms were. She was asking what her lived experience with a chronic illness was like.
 
 Christine grabbed all the spoons she could find to represent her limited daily energy. She went on to describe how each activity cost spoons, forcing her to decide where to spend them. Does she take a shower or make a meal? People with unlimited spoons don't have to decide between basic daily activities, but for a spoonie, once your spoons are spent, you don't get any more.
 
-> - [Read Christine Miserandino's original Spoon Theory essay](https://web.archive.org/web/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/)
+> - [Read Christine Miserandino's original Spoon Theory essay](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/)
 > - [Watch a video of Christine reading her original blog on Spoon Theory](https://www.youtube.com/watch?v=jn5IBsm49Rk)
 > - [Watch an animated video illustrating what Spoon Theory is](https://www.youtube.com/watch?v=GDio-hS-M54&t=2s)
 {: .callout-resources}
@@ -54,21 +54,20 @@ This framework has given millions of people a language to talk about their exper
 > - [Read more about what it means to have no spoons left](/what-it-means-to-have-no-spoons-left)
 {: .callout-resources}
 
-## Common Spoonie Questions
-
-### What Happens When You're Out of Spoons?
+## What Happens When You're Out of Spoons?
 
 Being out of spoons means you're out of energy for the day. This can mean that faces don't get washed, dishes don't get done, meals become frozen dinners, plans get cancelled, even watching TV can be too much.
 
 Spoonies can borrow spoons from tomorrow by pushing through, but that creates a deficit the next day and so on. Sleep for the spoonie community is often not as restorative as it needs to be. There really are no extra spoons to draw on. Borrowing too often can lead to chronic depletion. It is essential for spoonies to live within their spoon count as consistently as possible.
 
-### Who Are Considered Spoonies?
+## Spoon Theory Is the Framework. Spoonies Are the People.
 
-Anyone with a condition that limits the amount of energy they have on a daily basis. It's generally frowned upon for non-spoonies to use the framework to express things like frustration (I don't have the spoons for your attitude), full schedules (none of us have the spoons to start on the project right now), or routine tiredness (I'm heading to bed, I'm all out of spoons).
+Christine Miserandino's essay created the metaphor that have benefited so many. Spoon Theory create a framework for more meaningful discussions around the chronic fatigue that accompanies so many health conditions. 
 
-### What Conditions Are Most Likely to Affect Spoonies?
+Those that identify with spoon theory have built a community around the concept. We call ourselves spoonies. We affectionaly refer to living the spoonie life because although it is a uniquely challenging life style, it is still ours. It helps to have a sense of humor about these things.
 
-Common chronic health conditions that can impact energy include CFS/ME, fibromyalgia, autoimmune disease, anemia, thyroid disease, diabetes, depression, anxiety, among many others. 
+ If you want to know more about our community head to What Is a Spoonie? 
+
 
 > Photo by <a href="https://unsplash.com/@beredelvallephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bere Del Valle</a> on <a href="https://unsplash.com/photos/a-spoon-with-a-wooden-handle-on-a-blue-surface-N65qGwArfp8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 {: .photo-credit}
