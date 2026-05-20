@@ -18,8 +18,11 @@ Before you dive into the blog, these five guides will give you the foundation fo
 %}
 
 {% include pillar-card.html
-  title="What Is a Spoonie?"
+  title="Who Is a Spoonie?"
   description="Who uses this term, where it came from, and why it matters to the chronic illness community."
+  url="/who-is-a-spoonie/"
+  image="/images/who-is-a-spoonie.webp"
+  alt="a wooden spoon on a blue surface"
 %}
 
 {% include pillar-card.html
