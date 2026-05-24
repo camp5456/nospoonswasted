@@ -7,7 +7,7 @@ description: We are passionate about accessiility and meet WCAG 2.1 AA standard 
 
 *Last updated: May 2026*
 
-No Spoons Wasted is built for and by someone who understands firsthand that access matters. We are committed to making this site usable for everyone, regardless of ability or the assistive technology they rely on.
+**No Spoons Wasted** is built by someone who understands firsthand that access matters. We are committed to making this site usable for everyone, regardless of ability or the assistive technology they rely on.
 
 ---
 
@@ -61,12 +61,6 @@ We take all accessibility feedback seriously. Your experience using this site ma
 
 ---
 
-## Formal complaints
-
-If you are not satisfied with our response, you may contact the Web Accessibility Initiative (WAI) at the W3C for further guidance: w3.org/WAI
-
----
-
 ## Technical information
 
 This site is built with Jekyll and hosted on SiteGround. It is designed to be compatible with the following assistive technologies:
@@ -82,4 +76,4 @@ This site is built with Jekyll and hosted on SiteGround. It is designed to be co
 
 Questions about accessibility on this site? We welcome the conversation.
 
-Use our [contact form](/contact/) or email us directly.
+Use our [contact form](/contact/) to email us directly.
