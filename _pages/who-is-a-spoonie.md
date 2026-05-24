@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Is a Spoonie?"
+title: "Who Is a Spoonie?"
 description: "A spoonie is a person living with chronic illness that limits their daily energy. The term is a self-identifier and used as shorthand for a shared experience. The word grew out of spoon theory and the community built around it."
 date: 2026-05-19
 author: Twila
