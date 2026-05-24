@@ -96,12 +96,14 @@ document.addEventListener("DOMContentLoaded", function() {
   // Subscribe Modal
   ======================= */
   const modal = document.querySelector('[data-subscribe-modal]');
-  const modalOpen = document.querySelector('[data-subscribe-modal-open]');
+  const modalOpeners = document.querySelectorAll('[data-subscribe-modal-open]');
 
-  if (modal && modalOpen) {
-    modalOpen.addEventListener('click', function () {
-      modal.removeAttribute('hidden');
-      document.body.style.overflow = 'hidden';
+  if (modal && modalOpeners.length) {
+    modalOpeners.forEach(function (opener) {
+      opener.addEventListener('click', function () {
+        modal.removeAttribute('hidden');
+        document.body.style.overflow = 'hidden';
+      });
     });
 
     modal.querySelectorAll('[data-subscribe-modal-close]').forEach(function (el) {

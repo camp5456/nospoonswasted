@@ -25,11 +25,11 @@ You can read more about our affiliate partnerships on our [disclosures statement
 
 ## What you'll find here
 
-**Recipes** that are genuinely low-effort. Minimal standing. Easy to make.
+- **Recipes** that are genuinely low-effort. Minimal standing. Easy to make.
 
-**Lifehacks** for all the adulting.   
+- **Lifehacks** for all the adulting.   
 
-**Product recommendations** that actually help on the bad days.
+- **Product recommendations** that actually help on the bad days.
 
 ## The No Spoons Wasted newsletter
 
@@ -37,11 +37,13 @@ Every week we send a roundup of things that have helped us.
 
 Our goal is to save you spoons.
 
-Join the list if that sounds like something you need.
+<button class="link-btn" data-subscribe-modal-open>Join the list</button> if that sounds like something you need.
 
 ## A note on AI generated content
 
-This site is made by humans for humans. AI doesn't know what it feels like to be chronically ill or struggle with low-energy. We do. The voice you hear on this site is our voice. That doesn't mean we are against the use of AI, we genuinely think it can help save spoons. But the advice, the recommendations, the content - that's all us.
+This site is made by humans for humans. AI doesn't know what it feels like to be chronically ill or struggle with low-energy. We do. The voice you hear on this site is our voice. 
+
+That doesn't mean we are against the use of AI, we genuinely think it can help save spoons. But the advice, the recommendations, the content - that's all us.
 
 <hr>
 
