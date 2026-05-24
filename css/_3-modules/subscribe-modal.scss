@@ -81,11 +81,12 @@
   border: 1.5px solid #ddd;
   border-radius: 8px;
   outline: none;
-  transition: border-color .2s;
+  transition: border-color .2s, box-shadow .2s;
   box-sizing: border-box;
 
   &:focus {
     border-color: var(--color-link);
+    box-shadow: 0 0 0 3px rgba(24, 128, 126, 0.25);
   }
 
   &::placeholder {

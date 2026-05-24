@@ -247,6 +247,9 @@
     line-height: 1;
     color: #fff;
     cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
 
     &:hover {
       .fa-xmark {
@@ -368,6 +371,8 @@
         background: linear-gradient(#fff, #fff) no-repeat bottom / 100% 0%;
         transition: all .2s ease-in-out;
         cursor: pointer;
+        border: none;
+        padding: 0;
 
         &:hover {
           color: var(--color-accent);
@@ -457,22 +462,15 @@
   }
 }
 
-.dark-mode {
-  .dropdown-menu {
-    background-color: var(--background-alt-color);
-
-    @media only screen and (max-width: $desktop) {
-      background-color: inherit;
-    }
-  }
-}
-
 .nav-button {
   display: flex;
   align-items: center;
   font-size: 21px;
   color: #fff;
   border-radius: 50%;
+  background: none;
+  border: none;
+  padding: 0;
 
   .icon__menu {
     display: none;
@@ -503,58 +501,3 @@
   }
 }
 
-/* Toggle Theme */
-.toggle-theme {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  user-select: none;
-  cursor: pointer;
-  background: var(--background-alt-color);
-
-  &.theme-light {
-    transform: none;
-    cursor: auto;
-
-    .toggle-sun {
-      display: block;
-    }
-  }
-
-  &.theme-dark {
-    transform: none;
-    cursor: auto;
-
-    .toggle-moon {
-      display: block;
-    }
-  }
-}
-
-.toggle-sun,
-.toggle-moon {
-  position: absolute;
-  font-size: 20px;
-
-  &:hover {
-    color: var(--link-color);
-  }
-}
-
-.toggle-sun {
-  display: none;
-}
-
-.dark-mode {
-  .toggle-sun {
-    display: block;
-  }
-
-  .toggle-moon {
-    display: none;
-  }
-}

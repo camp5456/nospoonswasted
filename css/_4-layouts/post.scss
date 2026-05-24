@@ -134,10 +134,11 @@
 
   a {
     font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 
     &:hover {
       color: var(--link-color);
-      border-bottom-color: var(--link-color-hover);
     }
   }
 

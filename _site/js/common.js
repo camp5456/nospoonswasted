@@ -1,18 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
   'use strict';
 
-  var html = document.querySelector('html'),
-    menuOpenIcon = document.querySelector(".icon__menu"),
+  var menuBtn = document.querySelector(".nav-button"),
     menuCloseIcon = document.querySelector(".nav__icon-close"),
     menuList = document.querySelector(".main-nav"),
-    toggleTheme = document.querySelector(".toggle-theme-js"),
     btnScrollToTop = document.querySelector(".top");
 
 
   /* =======================================================
-  // Menu + Theme Switcher
+  // Menu
   ======================================================= */
-  menuOpenIcon.addEventListener("click", () => {
+  menuBtn.addEventListener("click", () => {
     menuOpen();
   });
 
@@ -22,55 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function menuOpen() {
     menuList.classList.add("is-open");
+    menuBtn.setAttribute("aria-expanded", "true");
   }
 
   function menuClose() {
     menuList.classList.remove("is-open");
+    menuBtn.setAttribute("aria-expanded", "false");
   }
 
-  if (toggleTheme) {
-    toggleTheme.addEventListener("click", () => {
-      darkMode();
-    });
-  };
-
-
-  // Theme Switcher
-  function darkMode() {
-    if (html.classList.contains('dark-mode')) {
-      html.classList.remove('dark-mode');
-      localStorage.removeItem("theme");
-      document.documentElement.removeAttribute("dark");
-    } else {
-      html.classList.add('dark-mode');
-      localStorage.setItem("theme", "dark");
-      document.documentElement.setAttribute("dark", "");
-    }
-  }
-
-
-  /* ================================================================
-  // Stop Animations During Window Resizing and Switching Theme Modes
-  ================================================================ */
-  let disableTransition;
-
-  if (toggleTheme) {
-    toggleTheme.addEventListener("click", () => {
-      stopAnimation();
-    });
-
-    window.addEventListener("resize", () => {
-      stopAnimation();
-    });
-
-    function stopAnimation() {
-      document.body.classList.add("disable-animation");
-      clearTimeout(disableTransition);
-      disableTransition = setTimeout(() => {
-        document.body.classList.remove("disable-animation");
-      }, 100);
-    }
-  }
 
 
   /* =======================
@@ -133,34 +90,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   }
-
-
-  /* =======================
-  // Copy Code Button
-  ======================= */
-  document.querySelectorAll('.post__content pre.highlight, .page__content pre.highlight, .project-content pre.highlight')
-  .forEach(function (pre) {
-    const button = document.createElement('button');
-    const copyText = 'Copy';
-    button.type = 'button';
-    button.ariaLabel = 'Copy code to clipboard';
-    button.innerText = copyText;
-    button.addEventListener('click', function () {
-      let code = pre.querySelector('code').innerText;
-      try {
-        code = code.trimEnd();
-      } catch (e) {
-        code = code.trim();
-      }
-      navigator.clipboard.writeText(code);
-      button.innerText = 'Copied!';
-      setTimeout(function () {
-        button.blur();
-        button.innerText = copyText;
-      }, 2e3);
-    });
-    pre.appendChild(button);
-  });
 
 
   /* =======================
