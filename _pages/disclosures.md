@@ -7,25 +7,17 @@ description: We use affiliate links to keep our blog ad free - learn more on our
 
 *Last updated: May 2026*
 
-You found this page. Good for you!
-
----
-
-## The legal part
-
-No Spoons Wasted participates in the Amazon Associates Program and other affiliate programs. This means that when you click a link to a product on this site or in the No Spoons Wasted newsletter and make a purchase, we may earn a small commission at no extra cost to you. It's very small. No one's getting rich on this stuff.
-
-We are required by the Federal Trade Commission (FTC) to tell you this, so, consider yourself told.
+**No Spoons Wasted** participates in the Amazon Associates Program and other affiliate programs. This means that when you click a link to a product on the blog or newsletter and make a purchase, we may earn a small commission at no extra cost to you. 
 
 ---
 
 ## The real part
 
-This site exists for one reason: to help fellow spoonies live the best life possible on whatever energy they have that day. That's it. That's the whole mission.
+This site exists for one reason: to help fellow spoonies live the best life possible on whatever energy they have that day. Affiliate links are how we keep the lights on without plastering the site with ads. 
 
-Affiliate links are how we keep the lights on without plastering the site with ads. We hate ads. You hate ads. We're not doing ads.
+We are fierce advocates of your privacy and we cannot protect your privacy with ad infrastructure. We hate ads. You hate ads. We're not doing ads. That's why we chose to make the site self-sustaining with affiliate links.
 
-Every product we recommend is something we have personally tried. If it's bad, we don't tell you about it because, well, that would make us really bad at our jobs.
+We only recommend products we genuinely believe are useful for our community. We feel this business model is beneficial for everyone. It helps us support our community with quality content with no added cost to them and without the use of predatory marketing or business practices. 
 
 ---
 
@@ -46,14 +38,20 @@ The blogs and the newsletter are made by a human. So no super smooth AI text ove
 
 ## Questions
 
-If you have questions about our affiliate relationships or want to know whether a specific product recommendation was sponsored, [contact us](/contact/).
+If you have questions about our affiliate relationships [contact us](/contact/).
 
 ---
 
 ## Partnership Requests
 
-We are crazy about trying new things. If you want to send us things to try, we absolutely will. 
+We accept free products for honest reviews. If you want to send us products or services to try, we absolutely will. 
 
-What's in it for you? Well if it helps us, even just a little, we will tell every spoonie we know. If it REALLY helps, we will shout it from the rooftops. Seriously. We will be your number one fan. We will come to your wedding and give you a really nice present. Why? Well, we want to help other spoonies. If you help us do that, you'll have a friend for life.
+**we do not accept payments in exchange for a good review**
 
-[Contact us](/contact/) to start a partnership.
+If we do not think the product will help, we will not publish any content about it. This blog has no interest in publishing negative or critical reviews. 
+
+If we think the product will help other spoonies, we will reach out about an affiliate partnership were appropriate. Once a partnership is established, we will publish our honest review. 
+
+Parnerships of this nature helps us generate revenue that keeps our site self-sufficient.
+
+If you are interested in this form of partnership, [Contact us](/contact/) to start a conversation.

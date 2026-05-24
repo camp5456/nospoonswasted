@@ -38,7 +38,7 @@ body {
 }
 
 *::selection {
-  background-color: transparent;
+  background-color: var(--color-accent);
 }
 
 :focus-visible {
