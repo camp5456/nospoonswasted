@@ -4,7 +4,7 @@ title: "What Is Spoon Theory?"
 description: "Spoon theory is a framework that uses spoons as units of energy for managing daily life as a chronically ill person. Chronically ill people start their day with limited spoons. Each daily activity costs spoons and when all the spoons are gone, a person has no more energy for basic living."
 date: 2026-05-16
 author: Twila
-image: /images/who-is-a-spoonie.webp
+image: /images/what-is-spoon-theory.webp
 image_alt: "a wooden spoon on a blue surface"
 tags: []
 faq:
