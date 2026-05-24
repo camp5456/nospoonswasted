@@ -46,12 +46,14 @@ If you have questions about our affiliate relationships [contact us](/contact/).
 
 We accept free products for honest reviews. If you want to send us products or services to try, we absolutely will. 
 
-**we do not accept payments in exchange for a good review**
+**We do not accept payments in exchange for a good review.**
 
 If we do not think the product will help, we will not publish any content about it. This blog has no interest in publishing negative or critical reviews. 
 
-If we think the product will help other spoonies, we will reach out about an affiliate partnership were appropriate. Once a partnership is established, we will publish our honest review. 
+If we think the product will help other spoonies, we will reach out about an affiliate partnership where appropriate. Once a partnership is established, we will publish our honest review. 
 
 Parnerships of this nature helps us generate revenue that keeps our site self-sufficient.
 
 If you are interested in this form of partnership, [Contact us](/contact/) to start a conversation.
+
+
