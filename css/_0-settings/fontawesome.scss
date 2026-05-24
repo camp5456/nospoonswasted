@@ -2,16 +2,8 @@
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
- * Subset: only icons used on this site
+ * Subset: brand icons only (solid icons replaced with inline SVGs)
  */
-
-@font-face {
-  font-family: 'Font Awesome 6 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-display: optional;
-  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-solid-900.woff2') format('woff2');
-}
 
 @font-face {
   font-family: 'Font Awesome 6 Brands';
@@ -21,7 +13,6 @@
   src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-brands-400.woff2') format('woff2');
 }
 
-.fa-solid, .fas,
 .fa-brands, .fab {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -32,24 +23,11 @@
   text-rendering: auto;
 }
 
-.fa-solid::before, .fas::before {
-  font-family: 'Font Awesome 6 Free';
-  font-weight: 900;
-  content: var(--fa);
-}
-
 .fa-brands::before, .fab::before {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
   content: var(--fa);
 }
-
-/* Solid icons */
-.fa-arrow-right  { --fa: "\f061"; }
-.fa-bars         { --fa: "\f0c9"; }
-.fa-chevron-down { --fa: "\f078"; }
-.fa-chevron-up   { --fa: "\f077"; }
-.fa-xmark        { --fa: "\f00d"; }
 
 /* Brand icons */
 .fa-instagram       { --fa: "\f16d"; }
