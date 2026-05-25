@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Start Here"
+title: "New Here?"
 description: "New to No Spoons Wasted? Start with these foundational guides to understanding life with chronic illness — written by a spoonie, for spoonies."
-permalink: /start-here/
+permalink: /new-here/
 ---
 
 New here? Welcome. **No Spoons Wasted** is a blog and newsletter for fellow spoonies and those who struggle with low-energy living whether due to illness or some other reason. We use Spoon Theory as a framework to express what it's like to live daily life for the spoonie community.
