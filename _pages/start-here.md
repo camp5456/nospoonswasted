@@ -5,7 +5,7 @@ description: "New to No Spoons Wasted? Start with these foundational guides to u
 permalink: /start-here/
 ---
 
-New here? Welcome. No Spoons Wasted is a resource for people navigating daily life with chronic illness. We use Spoon Theory as a framework to express what it's like to live daily life for the spoonie community.
+New here? Welcome. **No Spoons Wasted** is a blog and newsletter for fellow spoonies and those who struggle with low-energy living whether due to illness or some other reason. We use Spoon Theory as a framework to express what it's like to live daily life for the spoonie community.
 
 Before you dive into the blog, these five guides will give you the foundation for Spoon Theory and what it means to live the Spoonie Life.
 
@@ -26,8 +26,11 @@ Before you dive into the blog, these five guides will give you the foundation fo
 %}
 
 {% include pillar-card.html
-  title="What Does Low Spoon Mean?"
-  description="A plain-language breakdown of what it actually feels like when your energy runs out."
+  title="What Does 'Low Spoon' Mean?"
+  description="Low spoon is a term spoonies use to describe a day when daily energy is running low or already gone."
+  url="/what-does-low-spoon-mean/"
+  image="/images/what-does-low-spoon-mean.webp"
+  alt="Purple background with cellphone displaying empyt battery logo."
 %}
 
 {% include pillar-card.html
