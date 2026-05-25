@@ -38,7 +38,7 @@ Christine grabbed all the spoons she could find to represent her limited daily e
 > - [Watch an animated video illustrating what Spoon Theory is](https://www.youtube.com/watch?v=GDio-hS-M54&t=2s)
 {: .callout-resources}
 
-## Why do we need Spoon Theory Anyway?
+## Why Do We Need Spoon Theory Anyway?
 
 When your experience is drastically different from someone else's, it can be hard to find the words to describe what it's like. Being tired to a healthy person means something different than being tired to a chronically ill person. Spoon Theory has three important benefits for the chronically ill community.
 
@@ -66,7 +66,11 @@ Christine Miserandino's essay created the metaphor that have benefited so many. 
 
 Those that identify with spoon theory have built a community around the concept. We call ourselves spoonies. We affectionaly refer to living the spoonie life because although it is a uniquely challenging life style, it is still ours. It helps to have a sense of humor about these things.
 
- If you want to know more about our community head to What Is a Spoonie? 
+If you want to know more about our community head to: 
+
+ > - [Who Is a Spoonie](/who-is-a-spoonie/)
+ > - [What Does 'Low Spoon' Mean?](/what-does-low-spoon-mean/)
+{: .callout-resources}
 
 
 > Photo by <a href="https://unsplash.com/@beredelvallephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bere Del Valle</a> on <a href="https://unsplash.com/photos/a-spoon-with-a-wooden-handle-on-a-blue-surface-N65qGwArfp8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
