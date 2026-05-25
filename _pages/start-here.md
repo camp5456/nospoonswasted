@@ -19,7 +19,7 @@ Before you dive into the blog, these five guides will give you the foundation fo
 
 {% include pillar-card.html
   title="Who Is a Spoonie?"
-  description="Who uses this term, where it came from, and why it matters to the chronic illness community."
+  description="Who uses this term, where it came from, and why it matters to the chronic illness community"
   url="/who-is-a-spoonie/"
   image="/images/who-is-a-spoonie.webp"
   alt="a wooden spoon on a blue surface"
@@ -30,12 +30,15 @@ Before you dive into the blog, these five guides will give you the foundation fo
   description="Low spoon is a term spoonies use to describe a day when daily energy is running low or already gone."
   url="/what-does-low-spoon-mean/"
   image="/images/what-does-low-spoon-mean.webp"
-  alt="Purple background with cellphone displaying empyt battery logo."
+  alt="Purple background with cellphone displaying empyt battery logo"
 %}
 
 {% include pillar-card.html
   title="How to Plan Meals With Chronic Fatigue"
-  description="Practical strategies for feeding yourself on the days you have nothing left."
+  description="Practical strategies for cooking on the days you have nothing left."
+  url="/cooking-with-chronic-fatigue/"
+  image="/images/cooking-with-chronic-fatigue.webp"
+  alt="Pale pink cooking pot on a cream background"
 %}
 
 {% include pillar-card.html

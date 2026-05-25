@@ -1,0 +1,79 @@
+---
+layout: page
+title: "Cooking with Chronic Fatigue"
+description: "Cooking with chronic fatigue is hard for spoonies because of the physical exertion it requires. The standing, bending, lifting, heat, comprehension of recipes and the remembering of steps. Here's what I unlearned, the tools I lean on, and the permission slip I had to write myself to stop trying to cook the way I used to."
+date: 2026-05-24
+author: Twila
+image: /images/cooking-with-chronic-fatigue.webp
+image_alt: "Pale pink cooking pot on a cream background"
+faq:
+  - q: "Why is cooking so hard with chronic fatigue?"
+    a: "Cooking is one of the most physically demanding things a chronically ill person does in a day. The standing at the stove, the bending down for pots and pans, the lifting, the heat, the comprehension of a new recipe, the remembering of steps to an old one. Every piece of it asks the body for capacity we don't have to spare, which is why most days the meal that actually happens is the simplest one."
+  - q: "What kitchen tools help most with chronic fatigue?"
+    a: "Crockpots and rice cookers do most of the cooking with no standing required. Pre-cut frozen vegetables, pre-cooked proteins, and good sauces and seasonings cut prep time down to almost nothing. A few three to five ingredient recipes you know by heart cover the nights your brain isn't online."
+  - q: "Is it okay to use frozen meals and shortcuts if you're chronically ill?"
+    a: "Yes. The goal is getting fed, not winning a cooking contest. Frozen meals, rotisserie chicken, pre-cut produce, and jarred sauces are all real food. The energy you don't spend chopping onions is energy you have left for the rest of your day."
+  - q: "What should I do when I'm too tired to cook at all?"
+    a: "Don't cook. Eat the easiest thing in the house. Cereal counts. Toast counts. A frozen meal counts. Asking your family to fend for themselves counts."
+  - q: "How do you cook when you have chronic fatigue and people to feed?"
+    a: "Build a small rotation of three to five ingredient meals you can make on autopilot. Lean on the crockpot, the rice cooker, and the freezer. Keep three backup frozen meals at all times for the nights cooking isn't happening. And give yourself permission to ask the people you cook for to feed themselves on the worst days."
+---
+
+Lying in bed exhausted one night, I was flipping through Instagram. Down some fancy meal hole, which turned into a meal prep hole, which turned into a party planning hole. I could feel my mood drop. Our dinner that night had been frozen meals. None of the vibrant colors, the way diced vegetables just appear after a cut scene like it took no effort, the steam rising up like a movie. That was when I felt it. I used to love to cook. Pour a glass of wine, put on music, and just cook. That was in my pre-spoonie days, when cooking was a joy. Now it's the task I kick down the road almost every day.
+
+If you've been there, this page is for you. Here's what I've figured out.
+
+## Why Cooking Is the Hardest Thing
+
+Cooking asks a lot from spoonies.
+
+It happens at the end of day when we are already low on spoons. It asks us to stand for long periods of time. Even 15 minutes can be too long. Then there's the reading and comprehending a recipe when our brains are already fatigued. Bending down to get pots and pans causes fluctuations in blood pressure. The heat from the stove asks our bodies to regulate our temperature when we don't have the energy to spare. Even if you are making a recipe you've made a thousand times, it can still cost spoons to remember the steps. Don't forget the chopping and the prepping and the timing and the stirring. In the end, we sit down to a meal too tired to actually enjoy what we made.
+
+And please don't get me started on what it feels like to spend all your spoons making dinner just to hear "I don't like it" or "I'm not hungry,". Or worse, the meal gets burned, ruined, or it just tastes bad and you eat it anyway because the alternative is starting over. On days like those it can feel like you failed despite your best efforts. You didn't.
+
+## What I Had to Unlearn
+
+It took me longer than it should have to accept a few things:
+
+**Good food doesn't have to be hard.** There are low-effort meals with minimal ingredients that taste great, your family will love, and cost far less spoons. In fact, sharing those is one of the reasons this blog was founded. Good food can be achieved with minimal effort. 
+
+**You don't have to make everything from scratch to cook at home.** There are things that will save you spoons. A pre-cooked rotisserie chicken, pre-cut or frozen produce, pre-cooked proteins, good sauces and seasonings can make home cooking more manageable.
+
+**You can ask for help from your picky eaters.** This one was the hardest for me. If the people you cook for are old enough to complain about what's for dinner, they're old enough to make their own sandwich on the nights you can't. 
+
+## The Kitchen I Built Around My Body
+
+My kitchen looks different than it did before I became a spoonie. 
+
+**Crockpots are essential.** A crockpot does the cooking for you while you lie down. Put everything in before you crash, plug it in, walk away, come back to dinner. The standing happens in five minutes at the beginning instead of forty-five minutes at the end. This single appliance has saved more dinners in my house than anything else.
+
+**Rice cookers are versatile.** Rice cookers do more than rice. Oatmeal, quinoa, soft-boiled eggs, even some pasta. Push a button, walk away. Same principle as the crockpot.
+
+**Sauces, marinades, and seasonings do the heavy lifting.** A jar of curry paste, a bottle of teriyaki, a packet of taco seasoning, and a few good sauces can make the same base ingredients taste like five different dinners. They keep dinner interesting, varied, and allow you to try new things with minimal effort.
+
+**Backup frozen meals are non-negotiable.** I keep a freezer stocked with frozen meals at all times. Not because I want to eat them all the time. Because on the nights I can't cook, having a real option helps. I don't want to order pizza _every_ night.   
+
+**A few simple recipes I know by heart.** A handful of three to five ingredient meals I can make without thinking. No reading required, no measuring required. Muscle memory dinners for the days my brain isn't online.
+
+**Simple cooking methods, every time.** A pot, the microwave, the crockpot. A few ingredients. This is all I really need to make food.
+
+## Permission Not to Cook
+
+But here's the biggest support I can give you if you are new to being a spoonie. I give you permission to not cook. I give us all permission to not cook.
+
+Some nights, dinner is going to be cereal. Or popcorn. Or peanut butter on a spoon while you sit on the kitchen floor because standing felt impossible. 
+
+I also want to give you permission to ask for help. Whoever you cook for is going to be fine if they fend for themselves a few nights a week. You aren't letting anyone down. Meals can be a team effort. 
+
+This is what worked for me. I'm excited to share the recipes I've leaned on, the gadgets that make life easier, and the support for the days you feel like you just aren't measuring up.
+
+<!--
+## Where to Go From Here
+
+If you want easy starting points:
+
+> - [2 and 3 ingredient recipes for low-spoon nights](/blog/category/recipes/)
+> - [What to keep in a spoonie pantry](/blog/spoonie-pantry/)
+> - [The kitchen tools I actually use](/blog/kitchen-tools/)
+{: .callout-resources}
+-->
