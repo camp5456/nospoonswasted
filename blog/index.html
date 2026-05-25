@@ -22,7 +22,7 @@ description: Practical lifehacks, recipes, and strategies for the  community (sp
         <div class="blog-filters__pills">
           {% for cat in site.data.settings.blog__categories %}
             <a class="blog-filter{% if cat.featured %} blog-filter--featured{% endif %}"
-               href="{{ '/tags/' | relative_url }}?tag={{ cat.tag }}"
+               href="{{ '/tags/' | relative_url }}{{ cat.tag }}/"
                style="--pill-color: {{ cat.color }}">
               <span class="blog-filter__dot"></span>
               {% if cat.featured %}★ {% endif %}{{ cat.title }}

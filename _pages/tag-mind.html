@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Mind"
+permalink: /tags/mind/
+---
+
+<section class="tags">
+  <div class="tags__inner" id="mind">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="tag__info">
+            <h2 class="tag__name">Mind</h2>
+            <div class="tag__counter">{{ site.tags['mind'].size }} {% if site.tags['mind'].size < 2 %}Post{% else %}Posts{% endif %}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container animate">
+      <div class="row">
+        {% for post in site.tags['mind'] %}
+          {% if post.title != null %}
+            {% include article.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

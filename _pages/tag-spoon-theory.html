@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Spoon Theory"
+permalink: /tags/spoon-theory/
+---
+
+<section class="tags">
+  <div class="tags__inner" id="spoon-theory">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="tag__info">
+            <h2 class="tag__name">Spoon Theory</h2>
+            <div class="tag__counter">{{ site.tags['spoon-theory'].size }} {% if site.tags['spoon-theory'].size < 2 %}Post{% else %}Posts{% endif %}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container animate">
+      <div class="row">
+        {% for post in site.tags['spoon-theory'] %}
+          {% if post.title != null %}
+            {% include article.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

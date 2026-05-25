@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Recipes"
+permalink: /tags/recipes/
+---
+
+<section class="tags">
+  <div class="tags__inner" id="recipes">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="tag__info">
+            <h2 class="tag__name">Recipes</h2>
+            <div class="tag__counter">{{ site.tags['recipes'].size }} {% if site.tags['recipes'].size < 2 %}Post{% else %}Posts{% endif %}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container animate">
+      <div class="row">
+        {% for post in site.tags['recipes'] %}
+          {% if post.title != null %}
+            {% include article.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

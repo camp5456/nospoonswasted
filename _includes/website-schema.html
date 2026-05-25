@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.data.settings.title | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "description": {{ site.data.settings.description | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.data.settings.title | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.data.settings.logo | absolute_url }}"
+    },
+    "sameAs": [{% for social in site.data.settings.social %}"{{ social.link }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+  }
+}
+</script>

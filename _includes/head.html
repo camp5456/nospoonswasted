@@ -16,6 +16,8 @@
   <meta name="twitter:image:src" content="{{ page.image | absolute_url }}">
 
   <!-- Facebook OpenGraph -->
+  <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'recipe' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
   <meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.title }}{% else %}{{ page.title }} – {{ site.data.settings.title }}{% endif %}">
   <meta property="og:description" content="{% if page.url == "/" %}{{ site.data.settings.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
   <meta property="og:image" content="{{ page.image | absolute_url }}">
@@ -28,6 +30,10 @@
 
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
 
+  {% if page.url == "/" %}
+    {% include website-schema.html %}
+  {% endif %}
+  {% include breadcrumb-schema.html %}
   {% if page.layout == 'recipe' %}
     {% include recipe-schema.html %}
   {% endif %}

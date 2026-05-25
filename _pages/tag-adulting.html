@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Adulting"
+permalink: /tags/adulting/
+---
+
+<section class="tags">
+  <div class="tags__inner" id="adulting">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="tag__info">
+            <h2 class="tag__name">Adulting</h2>
+            <div class="tag__counter">{{ site.tags['adulting'].size }} {% if site.tags['adulting'].size < 2 %}Post{% else %}Posts{% endif %}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container animate">
+      <div class="row">
+        {% for post in site.tags['adulting'] %}
+          {% if post.title != null %}
+            {% include article.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
