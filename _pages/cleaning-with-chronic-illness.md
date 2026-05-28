@@ -27,21 +27,21 @@ For a decade I tried to keep up with everything while having no energy to do it.
 
 > But the truth is I didn't have the spoons to keep the house spotless. I pretended I did, but I didn't. And work full time. And be a mom. 
 
-So how did I do it all those years? I took spoons from my mental health stack, and spoons from my physical health stack, and spoons from my entertainment stack. Essentially all I did was my responsibilities. 
+So how did I do it all those years? I took spoons from my mental health stack, and spoons from my physical health stack, and spoons from my self-care stack. 
 
 And I hurt all the time. And I had crashes. And I cried a lot. And I had bubbling resentment because no one else was as committed to keeping things as tidy as I was. 
 
 And eventually, I hit a wall.
 
-## Hitting Cleaning Burnout
+## Hitting Burnout
 
-> Burnout is real. It will bring you to your knees as fast as any chronic illness. I believe burnout is a nervous system disorder but I'm not a doctor.
+Burnout is real. It will bring you to your knees as fast as any chronic illness. I believe burnout is a nervous system disorder but I'm not a doctor.
 
-Enter the season of letting things pile up. Dishes stacked in the sink for a week. Laundry that sat in piles waiting to be folded. Floors that looked like a bomb had gone off. 
+Enter the season of letting things go. Dishes stacked in the sink for a week. Laundry that sat in piles waiting to be folded. Floors that looked like a bomb had gone off. 
 
 Of course I cleaned right before people came over, robbing me of the spoons to enjoy their company. I only cleaned the rooms they would see, using my spoons to keep up appearances rather than nurture myself.
 
-It took me a long time to figure out being a successful spoonie is about finding your balance and rhythm. The unique drum beat in your life. 
+> It took me a long time to figure out being a successful spoonie is about finding your balance and rhythm. The unique drum beat in your life. 
 
 Now I have a gentle, rhythmic relationship with cleaning. It's a combination of lifehacks I'll share on the blog, products that help me save spoons, and changed expectations so that my mindset doesn't sabotage me.
 
@@ -59,13 +59,13 @@ The first thing I had to do to break out of this toxic relationship with cleanin
 
 **Prioritize the spaces that make YOUR life better.** I had to start cleaning the rooms that improved my life, not the ones that visitors see. I prioritized our bedroom where we rest. The kitchen where I cook. 
 
-**Functional, not pretty.** I set up my rooms to be functional rather than Instagram-worthy. Part of that was decluttering. More stuff means more maintenance. Embracing minimalism in my closet was the biggest game-changer for me. There's a whole post coming on that.
+**Functional, not pretty.** I set up my rooms to be functional rather than Instagram-worthy. Part of that was decluttering. More stuff means more maintenance. 
 
-**An ounce of prevention is worth a pound of cure.** I do a little every day rather than a big clean every few weeks. Catching things before they build up takes far fewer spoons than digging out of a mess later.
+**An ounce of prevention is worth a pound of cure.** I do a little every day rather than a big clean every few weeks. Catching things before they build up takes fewer spoons than digging out of a mess later.
 
 **Let tools and products do the work.** I had to unlearn the idea that "real" cleaning has to be done by hand. A spoonie household is allowed to invest in things that make it easier. More on the specific tools in the next section.
 
-**Soul search. What actually matters to YOU?** I had to figure out what made me feel mentally balanced. I love a made bed. So I simplified it. No ten pillows to take off. We took off the top sheet because neither of us likes it. All I have to do is straighten the comforter, but at the end of the day it welcomes me into rest and I love that. Find out what matters to you and let the rest go.
+**Soul search. What actually matters to YOU?** I had to figure out what made me feel mentally balanced. I love a made bed.  At the end of the day it welcomes me into rest and I love that. Find out what matters to you and let the rest go.
 
 ## The Systems I Built Around My Body
 
@@ -73,7 +73,7 @@ These are the actual changes that made cleaning sustainable for me. Some are pro
 
 **Break the task down across days.** I don't wash laundry, dry it, fold it, and put it away in the same day. I wash and dry. The next day I sort and put away the easy stuff. The day after that, I hang what needs to be hung. I do not fold underwear, socks, undershirts, pajamas, or bras anymore. They go into baskets on a shelf. If something can wrinkle, it gets hung. I haven't touched an iron in a decade and I don't plan to. If a piece of clothing can't make it through a regular wash and dry cycle, it's too high-maintenance for me. 
 
-**Double duty: cleaning is my exercise.** I can't clean AND exercise. So cleaning IS my exercise. I count my steps while I do it. It gives the work a different shape in my head. Less "chore I have to do" and more "this counts toward my health."
+**Double duty: cleaning is my exercise.** I can't clean AND exercise. So cleaning IS my exercise. I count my steps while I do it. It gives the work a different shape in my head. Less "chore" and more "this counts toward my health."
 
 **Go slow.** Slow, relaxing music. Staying slow and intentional with the work instead of trying to "knock it out frantically so I can go rest" has helped me stay balanced. Frantic cleaning costs more spoons than the same amount of slow cleaning. It also tends to trigger the very crash you were trying to avoid.
 
