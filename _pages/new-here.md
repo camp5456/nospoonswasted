@@ -5,7 +5,7 @@ description: "New to No Spoons Wasted? Start with these foundational guides to u
 permalink: /new-here/
 ---
 
-New here? Welcome. **No Spoons Wasted** is a blog and newsletter for fellow spoonies and those who struggle with low-energy living whether due to illness or some other reason. We use Spoon Theory as a framework to express what it's like to live daily life for the spoonie community.
+**No Spoons Wasted** is a blog and newsletter for fellow spoonies and those who struggle with low-energy living for reason. We use Spoon Theory as a framework to express what it's like to live daily life for the spoonie community.
 
 Before you dive into the blog, these five guides will give you the foundation for Spoon Theory and what it means to live the Spoonie Life.
 

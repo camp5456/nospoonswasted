@@ -162,39 +162,33 @@
     text-decoration: none;
   }
 
-  .note, .tip, .important, .warning, .caution {
-    position: relative;
-    padding: 32px 32px 32px 64px;
+  .spoonie-tip {
     font-family: $base-font-family;
-    color: var(--heading-font-color);
+    font-style: normal;
+    font-size: 15px;
+    background: rgba(92, 188, 187, 0.08);
+    border-left: 3px solid var(--color-accent-hero);
+    border-radius: 0 $global-radius $global-radius 0;
+    padding: 20px 24px;
+    margin: 32px 0;
+    color: var(--color-text);
 
-    &::after {
-      content: "\1F4A1";
-      position: absolute;
-      top: 32px;
-      left: 32px;
+    &::before {
+      content: "Spoonie Tip";
       display: block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--color-text);
+      margin-bottom: 12px;
+      padding-left: 18px;
+      line-height: 2.4;
+      background-image: url('/images/icon-spoon.svg');
+      background-size: 10px auto;
+      background-repeat: no-repeat;
+      background-position: left center;
     }
-  }
-
-  .note {
-    background: var(--callout-note);
-  }
-
-  .tip {
-    background: var(--callout-tip);
-  }
-
-  .important {
-    background: var(--callout-important);
-  }
-
-  .warning {
-    background: var(--callout-warning);
-  }
-
-  .caution {
-    background: var(--callout-caution);
   }
 }
 

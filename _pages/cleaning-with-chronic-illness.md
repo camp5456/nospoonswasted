@@ -19,13 +19,13 @@ faq:
     a: "Unscented, low-VOC products that don't trigger flares. Strong fragrances and harsh chemicals are common triggers for the chronically ill, especially those with MCAS, long COVID, asthma, or fibromyalgia. Even some natural products like vinegar can be too strong for sensitive systems. The right cleaners for you are the ones that don't cost you a day. Read labels, test small, and don't feel guilty about choosing convenience over crunchy when your body needs it."
 ---
 
-My relationship with cleaning has changed dramatically over the many years of being a spoonie. I've been a spoonie for over twenty years, and it wasn't actually my illness that made that relationship change.
+My relationship with cleaning has changed dramatically over the many years of being a spoonie. 
 
 ## Cleaning the Old Way
 
-For at least a decade I tried to keep up with everything while having no energy to do it. I thought that was what I was supposed to do. Cleaning had always been emphasized in our home growing up. I knew, beyond a doubt, that keeping a clean house made me feel in control. Like my illness wasn't winning. If I could still clean, it wouldn't have taken everything from me. I could still act "normal". But as most spoonies know, that wasn't the end of the story. 
+For a decade I tried to keep up with everything while having no energy to do it. Keeping a clean house made me feel in control. Like my illness wasn't winning. If I could still clean, it wouldn't have taken everything from me. I could still act "normal".
 
-> I didn't have the spoons to keep the house spotless. I pretended I did, but I didn't. And work full time. And be a mom. 
+> But the truth is I didn't have the spoons to keep the house spotless. I pretended I did, but I didn't. And work full time. And be a mom. 
 
 So how did I do it all those years? I took spoons from my mental health stack, and spoons from my physical health stack, and spoons from my entertainment stack. Essentially all I did was my responsibilities. 
 
@@ -35,25 +35,23 @@ And eventually, I hit a wall.
 
 ## Hitting Cleaning Burnout
 
-> Burnout is real. It will bring you to your knees as fast as any chronic illness. I believe burnout is a nervous system disorder. I'm not a doctor, but that's my working theory.
+> Burnout is real. It will bring you to your knees as fast as any chronic illness. I believe burnout is a nervous system disorder but I'm not a doctor.
 
-Then there was a season of letting things pile up. Dishes stacked in the sink for a week, growing more disgusting every day. Laundry that sat in piles waiting to be folded. Floors that looked like a bomb had gone off. Of course I cleaned right before people came over, robbing me of spoons to enjoy the time with loved ones. And I only cleaned the rooms they would see. So the bedroom stayed a wreck. That's when I realized I was using my spoons to keep up appearances for other people, while keeping myself from what I truly desired, which was a harmonious house.
+Enter the season of letting things pile up. Dishes stacked in the sink for a week. Laundry that sat in piles waiting to be folded. Floors that looked like a bomb had gone off. 
 
-So like you'll hear me say often, being a successful spoonie is about finding your balance and rhythm. The unique drum beat in your life. That changes as you change, and it means connecting in with yourself more than we tend to do.
+Of course I cleaned right before people came over, robbing me of the spoons to enjoy their company. I only cleaned the rooms they would see, using my spoons to keep up appearances rather than nurture myself.
 
-## Cleaning the New Way
+It took me a long time to figure out being a successful spoonie is about finding your balance and rhythm. The unique drum beat in your life. 
 
 Now I have a gentle, rhythmic relationship with cleaning. It's a combination of lifehacks I'll share on the blog, products that help me save spoons, and changed expectations so that my mindset doesn't sabotage me.
 
 ## **Why Cleaning Takes So Many Spoons**
 
-It's the physical exertion. The bending, the standing, the scrubbing, the lifting. And cleaning usually happens at the end of a long day, unless you give up your weekend, in which case you aren't resting.
+It's the physical exertion. The bending, the standing, scrubbing, lifting. It's the mental exertion. _Where do I start_? _Do I have the energy for this_? _Will I pay for it later_?
 
-It's the mental exertion. Where do I start? If I have limited spoons, what's the most important thing? Do I have the energy for this? Will I pay for it later?
+And the smells. Yes, harsh chemicals and fragrances are an obvious one. But I can't even handle the smell of vinegar like a lot of natural-cleaning spoonies use. 
 
-And the smells. Yes, harsh chemicals and fragrances are an obvious one. But I can't even handle the smell of vinegar like a lot of natural-cleaning spoonies use. It's too strong for me. It turns my stomach and sets off a cycle of nausea I can't afford to lose a day to.
-
-And then, in the end, the impermanence of the effort weighs on me. Even if I do it, it will need to be done again, day after day. And if I don't, there are consequences. The chaos of a dramatically messy house eats away at my peace. I'm not wired to be ok with that, and that has nothing to do with keeping up appearances and everything to do with calming my nervous system through peace and harmony.
+And then, in the end, it's the impermanence of the effort. If I dig deep and find the spoons today, I'll still have to find them again tomorrow. And the tomorrow after that. Because the dishes always need to be cleaned, and the laundry always needs to be done.
 
 ## What I Had to Unlearn
 
