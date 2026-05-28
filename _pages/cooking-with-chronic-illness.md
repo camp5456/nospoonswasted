@@ -1,21 +1,21 @@
 ---
 layout: page
-title: "Cooking with Chronic Fatigue"
-description: "Cooking with chronic fatigue is hard for spoonies because of the physical exertion it requires. The standing, bending, lifting, heat, comprehension of recipes and the remembering of steps. Here's what I unlearned, the tools I lean on, and the permission slip I had to write myself to stop trying to cook the way I used to."
+title: "Cooking with Chronic Illness"
+description: "Cooking with chronic illness is hard for spoonies because of the physical exertion it requires. The standing, bending, lifting, heat, comprehension of recipes and the remembering of steps. Here's what I unlearned, the tools I lean on, and the permission slip I had to write myself to stop trying to cook the way I used to."
 date: 2026-05-24
 author: Twila
-image: /images/cooking-with-chronic-fatigue.webp
+image: /images/cooking-with-chronic-illness.webp
 image_alt: "Pale pink cooking pot on a cream background"
 faq:
-  - q: "Why is cooking so hard with chronic fatigue?"
+  - q: "Why is cooking so hard with chronic illness?"
     a: "Cooking is one of the most physically demanding things a chronically ill person does in a day. The standing at the stove, the bending down for pots and pans, the lifting, the heat, the comprehension of a new recipe, the remembering of steps to an old one. Every piece of it asks the body for capacity we don't have to spare, which is why most days the meal that actually happens is the simplest one."
-  - q: "What kitchen tools help most with chronic fatigue?"
+  - q: "What kitchen tools help most with chronic illness?"
     a: "Crockpots and rice cookers do most of the cooking with no standing required. Pre-cut frozen vegetables, pre-cooked proteins, and good sauces and seasonings cut prep time down to almost nothing. A few three to five ingredient recipes you know by heart cover the nights your brain isn't online."
   - q: "Is it okay to use frozen meals and shortcuts if you're chronically ill?"
     a: "Yes. The goal is getting fed, not winning a cooking contest. Frozen meals, rotisserie chicken, pre-cut produce, and jarred sauces are all real food. The energy you don't spend chopping onions is energy you have left for the rest of your day."
   - q: "What should I do when I'm too tired to cook at all?"
     a: "Don't cook. Eat the easiest thing in the house. Cereal counts. Toast counts. A frozen meal counts. Asking your family to fend for themselves counts."
-  - q: "How do you cook when you have chronic fatigue and people to feed?"
+  - q: "How do you cook when you have chronic illness and people to feed?"
     a: "Build a small rotation of three to five ingredient meals you can make on autopilot. Lean on the crockpot, the rice cooker, and the freezer. Keep three backup frozen meals at all times for the nights cooking isn't happening. And give yourself permission to ask the people you cook for to feed themselves on the worst days."
 ---
 
@@ -27,7 +27,7 @@ If you've been there, this page is for you. Here's what I've figured out.
 
 Cooking asks a lot from spoonies.
 
-It happens at the end of day when we are already low on spoons. It asks us to stand for long periods of time. Even 15 minutes can be too long. Then there's the reading and comprehending a recipe when our brains are already fatigued. Bending down to get pots and pans causes fluctuations in blood pressure. The heat from the stove asks our bodies to regulate our temperature when we don't have the energy to spare. Even if you are making a recipe you've made a thousand times, it can still cost spoons to remember the steps. Don't forget the chopping and the prepping and the timing and the stirring. In the end, we sit down to a meal too tired to actually enjoy what we made.
+It happens at the end of day when we are already low on spoons. It asks us to stand for long periods of time. Even 15 minutes can be too long. Then there's the reading and comprehending a recipe when our brains are already illness. Bending down to get pots and pans causes fluctuations in blood pressure. The heat from the stove asks our bodies to regulate our temperature when we don't have the energy to spare. Even if you are making a recipe you've made a thousand times, it can still cost spoons to remember the steps. Don't forget the chopping and the prepping and the timing and the stirring. In the end, we sit down to a meal too tired to actually enjoy what we made.
 
 And please don't get me started on what it feels like to spend all your spoons making dinner just to hear "I don't like it" or "I'm not hungry,". Or worse, the meal gets burned, ruined, or it just tastes bad and you eat it anyway because the alternative is starting over. On days like those it can feel like you failed despite your best efforts. You didn't.
 
@@ -66,6 +66,10 @@ Some nights, dinner is going to be cereal. Or popcorn. Or peanut butter on a spo
 I also want to give you permission to ask for help. Whoever you cook for is going to be fine if they fend for themselves a few nights a week. You aren't letting anyone down. Meals can be a team effort. 
 
 This is what worked for me. I'm excited to share the recipes I've leaned on, the gadgets that make life easier, and the support for the days you feel like you just aren't measuring up.
+
+> Photo by <a href="https://unsplash.com/@cookerking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cooker King</a> on <a href="https://unsplash.com/photos/white-and-pink-plastic-container-v5g1qGqems8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+{: .photo-credit}    
+      
 
 <!--
 ## Where to Go From Here

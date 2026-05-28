@@ -11,7 +11,7 @@ Before you dive into the blog, these five guides will give you the foundation fo
 
 {% include pillar-card.html
   title="What Is Spoon Theory?"
-  description="The framework that explains chronic illness energy in a way healthy people can actually understand. If you're new to the spoonie community, start here."
+  description="Learn the framework that uses spoons as units of energy for managing daily life as a chronically ill person."
   url="/what-is-spoon-theory/"
   image="/images/what-is-spoon-theory.webp"
   alt="a wooden spoon on a blue surface"
@@ -34,16 +34,19 @@ Before you dive into the blog, these five guides will give you the foundation fo
 %}
 
 {% include pillar-card.html
-  title="How to Plan Meals With Chronic Fatigue"
+  title="Cooking With Chronic Illness"
   description="Practical strategies for cooking on the days you have nothing left."
-  url="/cooking-with-chronic-fatigue/"
-  image="/images/cooking-with-chronic-fatigue.webp"
+  url="/cooking-with-chronic-illness/"
+  image="/images/cooking-with-chronic-illness.webp"
   alt="Pale pink cooking pot on a cream background"
 %}
 
 {% include pillar-card.html
-  title="What to Keep in a Spoonie Pantry"
-  description="The ingredients and shortcuts that make low-energy cooking possible."
+  title="Cleaning With Chronic Illness"
+  description="The systems and mindset to keep a tidy house with no energy"
+  url="/cleaning-with-chronic-illness/"
+  image="/images/cleaning-with-chronic-illness.webp"
+  alt="A hand wearing a cleaning glove holding a spray bottle on a teal background"
 %}
 
 ---
