@@ -120,7 +120,7 @@ layout: default
           <h2 id="instructions-heading">Instructions</h2>
           <ol>
             {% for step in page.recipe.instructions %}
-              <li>{{ step }}</li>
+              <li id="step-{{ forloop.index }}">{{ step }}</li>
             {% endfor %}
           </ol>
         </section>

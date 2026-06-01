@@ -14,6 +14,8 @@ recipe:
   servings: 4
   servings_unit: "servings"
   difficulty: "Easy"
+  category: "Condiment"
+  cuisine: "American"
   spoons: 1
   ingredients:
     - "1 Cup Cherry Juice"

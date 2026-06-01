@@ -32,8 +32,9 @@
   "recipeInstructions": [
     {% for step in page.recipe.instructions %}{
       "@type": "HowToStep",
-      "name": {{ forloop.index | prepend: "Step " | jsonify }},
-      "text": {{ step | jsonify }}
+      "name": "Step {{ forloop.index }}",
+      "text": {{ step | jsonify }},
+      "url": "{{ page.url | absolute_url }}#step-{{ forloop.index }}"
     }{% unless forloop.last %},
     {% endunless %}{% endfor %}
 
