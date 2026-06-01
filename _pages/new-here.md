@@ -49,6 +49,14 @@ Before you dive into the blog, these five guides will give you the foundation fo
   alt="A hand wearing a cleaning glove holding a spray bottle on a teal background"
 %}
 
+{% include pillar-card.html
+  title="Mindset Support for Spoonies"
+  description="The mindsets that can help support chronic illness"
+  url="/mindset-support-for-spoonies/"
+  image="/images/mindset-support-for-spoonies.webp"
+  alt="Close up of two spoonies holding hands tightly"
+%}
+
 ---
 
 Ready to explore? [Browse all posts →](/blog/)
