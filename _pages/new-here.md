@@ -5,9 +5,11 @@ description: "New to No Spoons Wasted? Start with these foundational guides to u
 permalink: /new-here/
 ---
 
-**No Spoons Wasted** is a blog and newsletter for fellow spoonies and those who struggle with low-energy living for reason. We use Spoon Theory as a framework to express what it's like to live daily life for the spoonie community.
+**No Spoons Wasted** is a blog and newsletter for fellow spoonies and anyone living with chronic low energy, whatever the reason. We share easy recipes, practical lifehacks, and products for the days when your body just can't. Everything here is built around Spoon Theory, the metaphor chronically ill people use to describe what limited daily energy actually feels like.
 
-Before you dive into the blog, these five guides will give you the foundation for Spoon Theory and what it means to live the Spoonie Life.
+If you're new to spoonie life, these foundational guides will get you started.
+
+## Never Heard of Spoon Theory? Start Here.
 
 {% include pillar-card.html
   title="What Is Spoon Theory?"
@@ -32,6 +34,8 @@ Before you dive into the blog, these five guides will give you the foundation fo
   image="/images/what-does-low-spoon-mean.webp"
   alt="Purple background with cellphone displaying empyt battery logo"
 %}
+
+## New To Being a Spoonie? These Might Help.
 
 {% include pillar-card.html
   title="Cooking With Chronic Illness"
@@ -59,4 +63,4 @@ Before you dive into the blog, these five guides will give you the foundation fo
 
 ---
 
-Ready to explore? [Browse all posts →](/blog/)
+Ready to explore the blog? [Browse all posts →](/blog/)
