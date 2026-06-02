@@ -75,7 +75,7 @@ These are the actual changes that made cleaning sustainable for me. Some are pro
 
 **Double duty: cleaning is my exercise.** I can't clean AND exercise. So cleaning IS my exercise. I count my steps while I do it. It gives the work a different shape in my head. Less "chore" and more "this counts toward my health."
 
-**Go slow.** Slow, relaxing music. Staying slow and intentional with the work instead of trying to "knock it out frantically so I can go rest" has helped me stay balanced. Frantic cleaning costs more spoons than the same amount of slow cleaning. It also tends to trigger the very crash you were trying to avoid.
+**Go slow.** Slow, relaxing music. Staying slow and intentional with the work instead of trying to "knock it out frantically so I can go rest" has helped me stay balanced. Frantic cleaning costs more spoons than the same amount of slow cleaning. It also tends to trigger the very crash I am trying to avoid.
 
 **Cleaning supplies in every room.** I keep supplies where they're used, so I'm not lugging them around. Each bathroom has its own. The kitchen has its own. There are trash cans everywhere. 
 
@@ -89,13 +89,16 @@ These are the actual changes that made cleaning sustainable for me. Some are pro
 
 **Dishwasher tabs and laundry sheets.** No measuring. No lifting heavy bottles. The convenience tax is real and it's worth paying.
 
-## Closing
+## Where to Go From Here
 
-This is where I am now. And I always love learning new tips so reach out if you have any. I don't allow comments on the blog for multiple reasons, but I do read every email that comes in.
+If you found this helpful, here are a few other articles that might help too:
 
-And remember, if you spend all your spoons cleaning and keeping up appearances, you won't have any left for you. You need spoons for yourself. For rest, for calming hobbies, for the things that make your heart happy. It can't be about work and responsibility and duty all the time, or we lose what makes life rich and enjoyable.
+> - [Cooking with Chronic Illness](/cooking-with-chronic-illness/)
+- [Mindset Support for Spoonies](/mindset-support-for-spoonies/)
+{: .callout-resources}
 
-<!-- ## Where to Go From Here > - [Robot vacuums worth the money for spoonies](/blog/robot-vacuums-for-spoonies/) > - [Sensory-friendly cleaners I actually use](/blog/sensory-friendly-cleaners/) > - [Long-handled tools roundup](/blog/long-handled-cleaning-tools/) > - [Cooking with chronic fatigue (the kitchen pillar)](/cooking-with-chronic-fatigue/) {: .callout-resources} -->
+And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
+
 
 
 

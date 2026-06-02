@@ -19,7 +19,9 @@ faq:
     a: "Build a small rotation of three to five ingredient meals you can make on autopilot. Lean on the crockpot, the rice cooker, and the freezer. Keep three backup frozen meals at all times for the nights cooking isn't happening. And give yourself permission to ask the people you cook for to feed themselves on the worst days."
 ---
 
-Lying in bed exhausted one night, I was scrolling through Pinterest looking for easy recipes to make. Recipe after recipe I found had chopping, peeling, a long list of ingredients, multiple pots, multiple steps. I could feel my mood drop. Did easy mean something different to me than to other people? I watch the videos as diced vegetables just appear after a cut scene like it took no effort, the ingredients all pre-measured and ready to to go, how meals just get onto the plate as pretty as a picture. That was when I felt it. This was not real life, at least not my spoonie life. Easy did mean something different to me. It means one pot, less than 5 ingredients, one cooking method, minimal standing, minimal cleaning - and that is not what they were serving up on Pinterest that day.
+Lying in bed exhausted one night, I was scrolling through Pinterest looking for easy recipes to make. Recipe after recipe I found had chopping, peeling, a long list of ingredients, multiple pots, multiple steps. I could feel my mood drop. Did easy mean something different to me than to other people? 
+
+I watch the videos as diced vegetables just appear after a cut scene like it took no effort, the ingredients all pre-measured and ready to to go, how meals just get onto the plate as pretty as a picture. That was when I felt it. This was not real life, at least not my spoonie life. Easy did mean something different to me. It means one pot, less than 5 ingredients, one cooking method, minimal standing, minimal cleaning after - and that is not what they were serving up on Pinterest that day.
 
 If you've been there, this page is for you. 
 
@@ -49,7 +51,7 @@ It took me longer than it should have to accept a few things:
 
 **You can ask for help from your picky eaters.** This one was the hardest for me. If the people you cook for are old enough to complain about what's for dinner, they're old enough to make their own sandwich on the nights you can't. 
 
-## The Kitchen I Built Around My Body
+## Your Kitchen Looks Different As a Spoonie
 
 My kitchen looks different than it did before I became a spoonie. 
 
@@ -74,6 +76,17 @@ Some nights, dinner is going to be cereal. Or popcorn. Or peanut butter on a spo
 I also want to give you permission to ask for help. Whoever you cook for is going to be fine if they fend for themselves a few nights a week. You aren't letting anyone down. Meals can be a team effort. 
 
 This is what worked for me. I'm excited to share the recipes I've leaned on, the gadgets that make life easier, and the support for the days you feel like you just aren't measuring up.
+
+## Where to Go From Here
+
+If you found this helpful, here are a few other articles that might help too:
+
+> - [Cleaning with Chronic Illness](/cleaning-with-chronic-illness/)
+- [Mindset Support for Spoonies](/mindset-support-for-spoonies/)
+{: .callout-resources}
+
+And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
+
 
 > Photo by <a href="https://unsplash.com/@cookerking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cooker King</a> on <a href="https://unsplash.com/photos/white-and-pink-plastic-container-v5g1qGqems8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 {: .photo-credit}    

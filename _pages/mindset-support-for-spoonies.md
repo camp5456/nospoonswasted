@@ -29,17 +29,17 @@ We go through a lot of emotions as spoonies, and it is so important that you kno
 
 Here are some common, perfectly normal things to experience as a spoonie:
 
-**Grief.** For the loss of a future you thought you'd have. For the loss of capabilities you used to have. For activities you once enjoyed but can no longer do.
+- **Grief.** For the loss of a future you thought you'd have. For the loss of capabilities you used to have. For activities you once enjoyed but can no longer do.
 
-**Guilt.** For not doing things you think you should be doing. For needing to ask for help. For canceling plans. For having ups and downs.
+- **Guilt.** For not doing things you think you should be doing. For needing to ask for help. For canceling plans. For having ups and downs.
 
-**Anger.** At your body because it feels like it is failing you, refusing to heal, or letting you down no matter what you try.
+- **Anger.** At your body because it feels like it is failing you, refusing to heal, or letting you down no matter what you try.
 
-**Constant fear.** Of your next crash. Worrying how you will feel tomorrow, or in an hour. Always worrying if you will have the energy for the important things.
+- **Constant fear.** Of your next crash. Worrying how you will feel tomorrow, or in an hour. Always worrying if you will have the energy for the important things.
 
-**Mental exhaustion.** From having to explain your condition over and over to people with various levels of understanding, and making it through those conversations with well-intentioned people who give you suggestions for how to feel better.
+- **Mental exhaustion.** From having to explain your condition over and over to people with various levels of understanding, and making it through those conversations with well-intentioned people who give you suggestions for how to feel better.
 
-**Biting envy.** Of watching healthy people have the experiences you long for, followed by the guilt of feeling envy.
+- **Biting envy.** Of watching healthy people have the experiences you long for, followed by the guilt of feeling envy.
 
 > The mental health load of dealing with a chronic illness isn't hard because we are weak. It's hard because life with a chronic illness is hard. It asks us to be extra resilient, extra balanced, so we can find peace and joy despite it.
 
@@ -49,48 +49,59 @@ I've been a spoonie now for three decades, and it has been my greatest teacher. 
 
 Here's what I've learned:
 
-**There are lots of ways to live a life.** It's okay to do things differently from what you see other people doing. Stop comparing your life to others.
+- **There are lots of ways to live a life.** It's okay to do things differently from what you see other people doing. Stop comparing your life to others.
 
-**Don't look to people with healthy bodies for the answers.** Their context is going to be different than yours.
+- **Don't look to people with healthy bodies for the answers.** Their context is going to be different than yours.
 
-**Our lives have seasons because change is the only constant.** Your illness will change shape as you change shape.
+- **Our lives have seasons because change is the only constant.** Your illness will change shape as you change shape.
 
-**Sometimes your illness might surprise you in the best possible way.** Always keep hope alive in your heart.
+- **Sometimes your illness might surprise you in the best possible way.** Always keep hope alive in your heart.
 
-**Acceptance makes things so much easier than resistance.**
+- **Acceptance makes things so much easier than resistance.**
 
-**You don't have to tell everyone about your illness.** You certainly don't have to explain yourself. Just focus on you.
+- **You don't have to tell everyone about your illness.** You certainly don't have to explain yourself. Just focus on you.
 
 ## The Five Mental Shifts That Helped Me
 
-**Find your balance.** Get routines, schedules, and support in place so that you can break the crash cycle.
+1. **Find your balance.** Get routines, schedules, and support in place so that you can break the crash cycle.
 
-**Make your peace.** Your life can still be rich, meaningful, and enjoyable with a chronic illness. The experiences that generate all those positive feelings will just look different than they did before you became a spoonie.
+2. **Make your peace.** Your life can still be rich, meaningful, and enjoyable with a chronic illness. The experiences that generate all those positive feelings will just look different than they did before you became a spoonie.
 
-**Work on your mental health.** Depression, anxiety, lack of healthy boundaries, and guilt are all justified, normal, and completely understandable. But addressing them with trusted and competent healthcare professionals can really help.
+3. **Work on your mental health.** Depression, anxiety, lack of healthy boundaries, and guilt are all justified, normal, and completely understandable. But addressing them with trusted and competent healthcare professionals can really help.
 
-**Work on your stress levels.** Stress makes everything worse. While we don't have control over the things that stress us out, we do have control over how we respond to it.
+4. **Work on your stress levels.** Stress makes everything worse. While we don't have control over the things that stress us out, we do have control over how we respond to it.
 
-**Save spoons for YOU.** I can't emphasize this enough. Don't give all your spoons away to your responsibilities. Resting is not self-care, it is recovery. Self-care happens when you have the spoons to enjoy the care you are giving yourself.
+5. **Save spoons for YOU.** I can't emphasize this enough. Don't give all your spoons away to your responsibilities. Resting after running out of spoons is not self-care, it is recovery. Self-care happens when you have the spoons to enjoy the care you are giving yourself.
 
-## Real Tools That Help
+## Real Tools That Help Me
 
-**Therapy.** The number one thing that helped me reframe my experiences in helpful ways.
+Everyone is different but these are the things that helped me find balance:
 
-**Medication.** I tried to manage my illness with all-natural therapies for many years, and I still use them as supportive tools. But I now use medication for my mental wellness, and it has made a world of difference.
+- **Therapy.** The number one thing that helped me reframe my experiences in helpful ways.
 
-**Community.** You will have people who love you and support you who are not spoonies, and that love and support is wonderful. But finding other spoonies who deeply understand what you are going through can validate you on a soul level. You need both.
+- **Medication.** I tried to manage my illness with all-natural therapies for many years, and I still use them as supportive tools. But I now use medication for my mental wellness, and it has made a world of difference.
 
-**Permission.** Please give yourself permission to be human, to be imperfect, to not measure up to whatever standard is in your head, to let things go, to say no.
+- **Community.** You will have people who love you and support you who are not spoonies, and that love and support is wonderful. But finding other spoonies who deeply understand what you are going through can validate you on a soul level. You need both.
 
-**Resources.** Find the books, websites, apps, music, products, food, and supplements that make things easier.
+- **Permission.** Please give yourself permission to be human, to be imperfect, to not measure up to whatever standard is in your head, to let things go, to say no.
 
-**Journaling.** Free-form expression of how you are feeling has been scientifically proven to help mind and body. I'm not talking about bullet journals. I'm talking about therapeutic writing.
+- **Resources.** Find the books, websites, apps, music, products, food, and supplements that make things easier.
 
-**Gentleness.** Slow mornings. Wind-down rituals. Ear plugs. Warm baths. Soft socks. Anything and everything that calms the nervous system.
+- **Journaling.** Free-form expression of how you are feeling has been scientifically proven to help mind and body. I'm not talking about bullet journals. I'm talking about therapeutic writing.
 
-## Final Thoughts
+- **Gentleness.** Slow mornings. Wind-down rituals. Ear plugs. Warm baths. Soft socks. Anything and everything that calms the nervous system.
 
-Getting diagnosed with a chronic illness doesn't mean your life is over. It means it needs to evolve to a new chapter. It doesn't mean you will never enjoy life again. It means how you enjoy life will change. It doesn't mean you were robbed of something. It means you have to look harder to find it.
+> Getting diagnosed with a chronic illness doesn't mean your life is over. It means it needs to evolve to a new chapter. It doesn't mean you will never enjoy life again. It means how you enjoy life will change. It doesn't mean you were robbed of something. It means you have to look harder to find it.
+
+## Where to Go From Here
+
+If you found this helpful, here are a few other articles that might help too:
+
+> - [Cleaning with Chronic Illness](/cleaning-with-chronic-illness/)
+- [Cooking with Chronic Illness](/cooking-with-chronic-illness/)
+- [Ready to dive into the blog for more tips?](/blog/)
+{: .callout-resources}
+
+And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
 
 
