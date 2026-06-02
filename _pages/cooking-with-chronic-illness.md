@@ -19,17 +19,25 @@ faq:
     a: "Build a small rotation of three to five ingredient meals you can make on autopilot. Lean on the crockpot, the rice cooker, and the freezer. Keep three backup frozen meals at all times for the nights cooking isn't happening. And give yourself permission to ask the people you cook for to feed themselves on the worst days."
 ---
 
-Lying in bed exhausted one night, I was flipping through Instagram. Down some fancy meal hole, which turned into a meal prep hole, which turned into a party planning hole. I could feel my mood drop. Our dinner that night had been frozen meals. None of the vibrant colors, the way diced vegetables just appear after a cut scene like it took no effort, the steam rising up like a movie. That was when I felt it. I used to love to cook. Pour a glass of wine, put on music, and just cook. That was in my pre-spoonie days, when cooking was a joy. Now it's the task I kick down the road almost every day.
+Lying in bed exhausted one night, I was scrolling through Pinterest looking for easy recipes to make. Recipe after recipe I found had chopping, peeling, a long list of ingredients, multiple pots, multiple steps. I could feel my mood drop. Did easy mean something different to me than to other people? I watch the videos as diced vegetables just appear after a cut scene like it took no effort, the ingredients all pre-measured and ready to to go, how meals just get onto the plate as pretty as a picture. That was when I felt it. This was not real life, at least not my spoonie life. Easy did mean something different to me. It means one pot, less than 5 ingredients, one cooking method, minimal standing, minimal cleaning - and that is not what they were serving up on Pinterest that day.
 
-If you've been there, this page is for you. Here's what I've figured out.
+If you've been there, this page is for you. 
 
-## Why Cooking Is the Hardest Thing
+## Why Cooking Is Hard for Spoonies
 
-Cooking asks a lot from spoonies.
+Cooking asks a lot from our bodies.
 
-It happens at the end of day when we are already low on spoons. It asks us to stand for long periods of time. Even 15 minutes can be too long. Then there's the reading and comprehending a recipe when our brains are already illness. Bending down to get pots and pans causes fluctuations in blood pressure. The heat from the stove asks our bodies to regulate our temperature when we don't have the energy to spare. Even if you are making a recipe you've made a thousand times, it can still cost spoons to remember the steps. Don't forget the chopping and the prepping and the timing and the stirring. In the end, we sit down to a meal too tired to actually enjoy what we made.
+- It happens at the end of day when we are already low on spoons. 
+- It asks us to stand for long periods of time. 
+- There's reading and comprehending a recipe when our brains are already tired. 
+- Bending down to get pots and pans causes fluctuations in blood pressure. 
+- The heat from the stove asks our bodies to regulate our temperature when we don't have the energy to spare. 
 
-And please don't get me started on what it feels like to spend all your spoons making dinner just to hear "I don't like it" or "I'm not hungry,". Or worse, the meal gets burned, ruined, or it just tastes bad and you eat it anyway because the alternative is starting over. On days like those it can feel like you failed despite your best efforts. You didn't.
+Even if you are making a recipe you've made a thousand times, it can still cost spoons to remember the steps. Don't forget the chopping and the prepping and the timing and the stirring. In the end, we sit down to a meal too tired to actually enjoy what we made.
+
+And please don't get me started on what it feels like to spend all your spoons making dinner just to hear "I don't like it" or "I'm not hungry,". Or worse, the recipe doesn't work out but you eat it anyway because you don't have energy to start over. 
+
+**On days like those it can feel like you failed despite your best efforts. _You didn't_**.
 
 ## What I Had to Unlearn
 
@@ -59,7 +67,7 @@ My kitchen looks different than it did before I became a spoonie.
 
 ## Permission Not to Cook
 
-But here's the biggest support I can give you if you are new to being a spoonie. I give you permission to not cook. I give us all permission to not cook.
+But here's the biggest support I can give you if you are new to being a spoonie. I give you permission to not cook. I give us all permission not to cook.
 
 Some nights, dinner is going to be cereal. Or popcorn. Or peanut butter on a spoon while you sit on the kitchen floor because standing felt impossible. 
 

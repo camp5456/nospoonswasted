@@ -20,18 +20,17 @@ faq:
     a: "Triage early. Decide what to skip before brain fog makes decisions harder, lean on pre-made easy meals, use a shower chair, cancel without guilt, and protect rest as the highest priority. The goal of a low spoon day is to end it without going into spoon debt for the next three."
 ---
 
-"Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. The phrase comes from spoon theory, the framework Christine Miserandino created in 2003 to explain limited daily energy. 
+"Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. 
 
 > - [Read the full explainer on Spoon Theory](/what-is-spoon-theory)
 {: .callout-resources}
 
-## The Vocabulary: Low Spoon, No Spoons, and Borrowing From Tomorrow
-
+## The Spoon Vocabulary
 The spoonie community uses a small set of phrases to talk about energy levels, and they all mean slightly different things.
 
 - **Low spoon.** We still have energy, but we can feel it running out. The day is going to require tough decisions about what gets done and what doesn't.
 - **No spoons.** We're done. The energy is gone. Rest and recovery is the only remaining option.
-- **Out of spoons.** Same as no spoons left, often used in past tense at the end of a day to explain why something didn't happen.
+- **Out of spoons.** Same as no spoons, often used in past tense at the end of a day to explain why something didn't happen.
 - **Spoon count.** How many spoons we woke up with that day. Some of us use literal numbers ("I started with maybe four spoons"). Others use it loosely.
 - **Borrowing from tomorrow.** Pushing through when we're out, which always works in the moment and always costs us the next day.
 
@@ -56,13 +55,11 @@ Have you ever had a laptop where the battery doesn't hold a charge anymore? The 
 
 That's a pretty accurate picture of what being a spoonie feels like. Our bodies are the laptop. Rest, sleep, food, pacing are all the things that should recharge our battery. But the charger is faulty. A full night of sleep doesn't get us all the way to 100%. A normal day drains us faster than it should. We're always thinking about our energy levels, wondering when they will run out.
 
-Low spoon is the moment we glance at our internal battery and realize it's lower than it should be for this point in the day, and we have to decide how to adjust.
-
 ## What We Do on Low Spoon Days
 
 The most useful thing we can do on a low-spoon day is decide what to skip before our brains stop being able to decide anything at all. Pre-made rules save spoons:
 
-- **The easy meal.** Cereal for dinner is fine. The spoonie pantry is built for this exact day. 
+- **The easy meal.** Cereal for dinner is fine. 
 - **Physical accomodations.** We find creative ways to reduce the spoon cost. For example, sitting through a shower costs roughly half the spoons of standing through one. 
 - **The no-guilt cancel.** Plans get cancelled, sometimes last minute.
 - **The cut corner.** The bed doesn't always have to get made. 
@@ -93,7 +90,7 @@ If you're new to chronic illness, the hardest part of this won't be the resting.
 If you got here without reading about Spoon Theory, you might want to visit:
 
 > - [What Is Spoon Theory?](/what-is-spoon-theory)
-> - [What Is a Spoonie?](/what-is-a-spoonie)
+> - [Who Is a Spoonie?](/who-is-a-spoonie/)
 {: .callout-resources}
 
-And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <button class="link-btn" data-subscribe-modal-open>our newsletter</button>. 
+And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
