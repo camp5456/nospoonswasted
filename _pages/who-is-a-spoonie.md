@@ -35,7 +35,6 @@ The term has also expanded beyond formal diagnoses. The chronic illness communit
 
 People who have considered themselves part of the spoonie community include:
 
-- Caregivers, especially long-term ones
 - Cancer survivors 
 - People recovering from major surgery or injury
 - New parents of medically complex babies
@@ -61,11 +60,11 @@ Calling yourself a spoonie does three things at once.
 
 1. **It gives the experience context**. There is a real difference between "I'm tired" and "I'm out of spoons," and having a word that captures the difference matters. It signals that what you're going through is not the normal tiredness everyone has.
 
-2. **It's shorthand**. Instead of explaining a chronic condition, your pacing strategy, and your boundary for the day, you can just say you're low on spoons. A stranger may not get it. Another spoonie will get it immediately.
+2. **It's shorthand**. Instead of explaining a chronic condition, your pacing strategy, and your boundary for the day, you can just say you're low on spoons. A stranger may not get it. Another spoonie will.
 
 3. **It's a way to find your people**. Searching the word "spoonie" on Instagram, TikTok, Pinterest, or anywhere else turns up a community that doesn't need the explanation. There's a real relief in finding people who already understand.
 
-> - [What Does 'Low Spoons' Mean?](/what-does-low-spoon-mean/)
+> - [Not sure what 'Low Spoons' Means? Find out in this article.](/what-does-low-spoon-mean/)
 {: .callout-resources}
 
 ## A Note on Community Etiquette

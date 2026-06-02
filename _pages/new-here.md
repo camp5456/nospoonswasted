@@ -20,19 +20,19 @@ If you're new to spoonie life, these foundational guides will get you started.
 %}
 
 {% include pillar-card.html
-  title="Who Is a Spoonie?"
-  description="Who uses this term, where it came from, and why it matters to the chronic illness community"
-  url="/who-is-a-spoonie/"
-  image="/images/who-is-a-spoonie.webp"
-  alt="a wooden spoon on a blue surface"
-%}
-
-{% include pillar-card.html
   title="What Does 'Low Spoon' Mean?"
   description="Low spoon is a term spoonies use to describe a day when daily energy is running low or already gone."
   url="/what-does-low-spoon-mean/"
   image="/images/what-does-low-spoon-mean.webp"
   alt="Purple background with cellphone displaying empyt battery logo"
+%}
+
+{% include pillar-card.html
+  title="Who Is a Spoonie?"
+  description="Who uses this term, where it came from, and why it matters to the chronic illness community"
+  url="/who-is-a-spoonie/"
+  image="/images/who-is-a-spoonie.webp"
+  alt="a wooden spoon on a blue surface"
 %}
 
 ## New To Being a Spoonie? These Might Help.

@@ -74,7 +74,7 @@ On the days when there are no spoons left, the question stops being "what should
 
 The honest answer is: most things. Dishes can wait. Laundry can wait. Most of the inbox can wait. A messy house is not a failure of character. 
 
-A short permission list for the days when there's nothing left:
+Here's my short permission list for the days when there's nothing left:
 
 - We're allowed to eat the easiest possible thing
 - We're allowed to skip the shower
