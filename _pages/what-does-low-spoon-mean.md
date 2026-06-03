@@ -22,7 +22,7 @@ faq:
 
 "Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. 
 
-> - [Read the full explainer on Spoon Theory](/what-is-spoon-theory)
+> - [Read the full explainer on Spoon Theory](/what-is-spoon-theory/)
 {: .callout-resources}
 
 ## The Spoon Vocabulary
@@ -60,7 +60,7 @@ That's a pretty accurate picture of what being a spoonie feels like. Our bodies 
 The most useful thing we can do on a low-spoon day is decide what to skip before our brains stop being able to decide anything at all. Pre-made rules save spoons:
 
 - **The easy meal.** Cereal for dinner is fine. 
-- **Physical accomodations.** We find creative ways to reduce the spoon cost. For example, sitting through a shower costs roughly half the spoons of standing through one. 
+- **Physical accommodations.** We find creative ways to reduce the spoon cost. For example, sitting through a shower costs roughly half the spoons of standing through one. 
 - **The no-guilt cancel.** Plans get cancelled, sometimes last minute.
 - **The cut corner.** The bed doesn't always have to get made. 
 - **The water and the snack.** Dehydration and low blood sugar make low spoons worse for almost everyone.
@@ -89,6 +89,6 @@ If you're new to chronic illness, the hardest part of this won't be the resting.
 
 If you got here without reading about Spoon Theory, you might want to visit:
 
-> - [What Is Spoon Theory?](/what-is-spoon-theory)
+> - [What Is Spoon Theory?](/what-is-spoon-theory/)
 > - [Who Is a Spoonie?](/who-is-a-spoonie/)
 {: .callout-resources}

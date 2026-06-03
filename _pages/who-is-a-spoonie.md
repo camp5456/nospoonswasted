@@ -22,7 +22,7 @@ faq:
 
 A spoonie is a person living with limited daily energy often due to chronic illness or nervous system disorders. People who use the term do so as a self-identifier and a shorthand for a shared experience. The word grew out of Spoon Theory, and a spoonie is someone who identifies as a member of the community.
 
-> - [Read the full explainer on Spoon Theory](/what-is-spoon-theory)
+> - [Read the full explainer on Spoon Theory](/what-is-spoon-theory/)
 {: .callout-resources}
 
 ## Who Calls Themselves a Spoonie?

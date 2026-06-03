@@ -21,7 +21,7 @@ faq:
 
 Lying in bed exhausted one night, I was scrolling through Pinterest looking for easy recipes to make. Recipe after recipe I found had chopping, peeling, a long list of ingredients, multiple pots, multiple steps. I could feel my mood drop. Did easy mean something different to me than to other people? 
 
-I watch the videos as diced vegetables just appear after a cut scene like it took no effort, the ingredients all pre-measured and ready to to go, how meals just get onto the plate as pretty as a picture. That was when I felt it. This was not real life, at least not my spoonie life. Easy did mean something different to me. It means one pot, less than 5 ingredients, one cooking method, minimal standing, minimal cleaning after - and that is not what they were serving up on Pinterest that day.
+I watch the videos as diced vegetables just appear after a cut scene like it took no effort, the ingredients all pre-measured and ready to go, how meals just get onto the plate as pretty as a picture. That was when I felt it. This was not real life, at least not my spoonie life. Easy did mean something different to me. It means one pot, less than 5 ingredients, one cooking method, minimal standing, minimal cleaning after - and that is not what they were serving up on Pinterest that day.
 
 If you've been there, this page is for you. 
 
