@@ -92,5 +92,3 @@ If you got here without reading about Spoon Theory, you might want to visit:
 > - [What Is Spoon Theory?](/what-is-spoon-theory)
 > - [Who Is a Spoonie?](/who-is-a-spoonie/)
 {: .callout-resources}
-
-And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 

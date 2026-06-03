@@ -76,9 +76,6 @@ If you want to know more about the spoonie community, head to:
  - [What Does 'Low Spoon' Mean?](/what-does-low-spoon-mean/)
 {: .callout-resources}
 
-And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
-
-
 > Photo by <a href="https://unsplash.com/@beredelvallephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bere Del Valle</a> on <a href="https://unsplash.com/photos/a-spoon-with-a-wooden-handle-on-a-blue-surface-N65qGwArfp8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 {: .photo-credit}
       

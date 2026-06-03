@@ -82,7 +82,5 @@ If you're new to this community, or newly suspecting you might be part of it, th
 - [Mindset Support for Spoonies](/mindset-support-for-spoonies/)
 {: .callout-resources}
 
-And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
-
 > Photo by <a href="https://unsplash.com/@ahmetsali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ahmet Sali</a> on <a href="https://unsplash.com/photos/person-holding-silver-spoon-with-light-BIjIJ_ywTDk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 {: .photo-credit}

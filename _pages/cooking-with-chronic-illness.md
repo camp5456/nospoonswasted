@@ -85,9 +85,6 @@ If you found this helpful, here are a few other articles that might help too:
 - [Mindset Support for Spoonies](/mindset-support-for-spoonies/)
 {: .callout-resources}
 
-And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
-
-
 > Photo by <a href="https://unsplash.com/@cookerking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cooker King</a> on <a href="https://unsplash.com/photos/white-and-pink-plastic-container-v5g1qGqems8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 {: .photo-credit}    
       

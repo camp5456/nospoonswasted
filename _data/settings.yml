@@ -112,8 +112,8 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Start Here'
-      url: '/start-here/'
+    - title: 'New Here?'
+      url: '/new-here/'
     - title: 'The Blog'
       url: '/blog/'
     - title: 'About'

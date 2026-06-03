@@ -5,6 +5,8 @@ description: "New to No Spoons Wasted? Start with these foundational guides to u
 permalink: /new-here/
 ---
 
+If your energy runs out before your day does, you're in the right place.
+
 **No Spoons Wasted** is a blog and newsletter for fellow spoonies and anyone living with chronic low energy, whatever the reason. We share easy recipes, practical lifehacks, and products for the days when your body just can't. Everything here is built around Spoon Theory, the metaphor chronically ill people use to describe what limited daily energy actually feels like.
 
 If you're new to spoonie life, these foundational guides will get you started.
@@ -61,6 +63,4 @@ If you're new to spoonie life, these foundational guides will get you started.
   alt="Close up of two spoonies holding hands tightly"
 %}
 
----
 
-Ready to explore the blog? [Browse all posts →](/blog/)

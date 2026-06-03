@@ -8,14 +8,14 @@ image: /images/mindset-support-for-spoonies.webp
 image_alt: "Close up of two spoonies holding hands tightly" 
 tags: [] 
 faq:
-q: "Why is mental health so hard with chronic illness?" 
-a: "The mental load of chronic illness is real. Grief that doesn't end, guilt that doesn't ease, fear of the next crash, and the exhaustion of explaining yourself over and over. It isn't hard because you are weak or thinking wrong. It is hard because life with a chronic illness is genuinely hard. The same emotional resilience healthy people use for occasional setbacks, you are using every single day."
-q: "What should you do when you are first diagnosed with a chronic illness?" 
-a: "First, give yourself permission to grieve and to be scared. Both are normal. Then find one trusted healthcare provider who actually listens. Find one person who understands what you are going through, ideally another spoonie. Start learning about gentle routines. Be patient with yourself while you figure out what your new life is going to look like. You are not broken. You are adjusting to something hard, and adjustment takes time."
-q: "How do you cope with the grief of being chronically ill?" 
-a: "You let yourself grieve. It is loss, real and ongoing, and pretending otherwise doesn't make it easier. You also find community with other spoonies who understand without explanation. You let the shape of your life evolve instead of fighting to keep the old shape. And you work with a therapist if you can find one who actually understands chronic illness."
-q: "Should chronically ill people see a therapist?" 
-a: "If you can find one, yes. Therapy is the single biggest thing that helped me reframe my experiences in ways that made them livable. Look for someone who understands chronic illness specifically. Ask up front whether they have experience with chronic illness clients."
+  - q: "Why is mental health so hard with chronic illness?"
+    a: "The mental load of chronic illness is real. Grief that doesn't end, guilt that doesn't ease, fear of the next crash, and the exhaustion of explaining yourself over and over. It isn't hard because you are weak or thinking wrong. It is hard because life with a chronic illness is genuinely hard. The same emotional resilience healthy people use for occasional setbacks, you are using every single day."
+  - q: "What should you do when you are first diagnosed with a chronic illness?"
+    a: "First, give yourself permission to grieve and to be scared. Both are normal. Then find one trusted healthcare provider who actually listens. Find one person who understands what you are going through, ideally another spoonie. Start learning about gentle routines. Be patient with yourself while you figure out what your new life is going to look like. You are not broken. You are adjusting to something hard, and adjustment takes time."
+  - q: "How do you cope with the grief of being chronically ill?"
+    a: "You let yourself grieve. It is loss, real and ongoing, and pretending otherwise doesn't make it easier. You also find community with other spoonies who understand without explanation. You let the shape of your life evolve instead of fighting to keep the old shape. And you work with a therapist if you can find one who actually understands chronic illness."
+  - q: "Should chronically ill people see a therapist?"
+    a: "If you can find one, yes. Therapy is the single biggest thing that helped me reframe my experiences in ways that made them livable. Look for someone who understands chronic illness specifically. Ask up front whether they have experience with chronic illness clients."
 ---
 For many spoonies, the mindset piece is the hardest part of finding out you have a chronic illness. Facing the fact that something out of your control will limit what you are able to do physically every day for the rest of your life can be scary.
 
@@ -102,6 +102,5 @@ If you found this helpful, here are a few other articles that might help too:
 - [Ready to dive into the blog for more tips?](/blog/)
 {: .callout-resources}
 
-And if you want a weekly email with easy recipes and lifehacks we use to make low-spoon days more survivable, sign up for <a class="link-btn" data-subscribe-modal-open>our newsletter</a>. 
 
 
