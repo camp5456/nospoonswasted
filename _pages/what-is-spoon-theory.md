@@ -64,9 +64,9 @@ Spoonies can borrow spoons from tomorrow by pushing through, but that creates a 
 
 ## Spoon Theory Is the Framework. Spoonies Are the People.
 
-[Christine Miserandino's essay](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) created the metaphor that have benefited so many. Spoon Theory create a framework for more meaningful discussions around the chronic fatigue that accompanies so many health conditions. 
+[Christine Miserandino's essay](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) created the metaphor that have benefited so many. Spoon Theory creates a framework for more meaningful discussions around the chronic fatigue that accompanies so many health conditions. 
 
-Those that identify with Spoon Theory have built a community around the concept. We call ourselves spoonies. We affectionaly refer to living the spoonie life because, although it is a uniquely challenging lifestyle, it is still ours. It helps to have a sense of humor about these things.
+Those that identify with Spoon Theory have built a community around the concept. We call ourselves spoonies. We affectionately refer to living the spoonie life because, although it is a uniquely challenging lifestyle, it is still ours. It helps to have a sense of humor about these things.
 
 ## Where to Go From Here
 
