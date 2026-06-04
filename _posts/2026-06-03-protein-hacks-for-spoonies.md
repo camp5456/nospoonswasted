@@ -68,8 +68,9 @@ I made a list of foods and their protein amounts as my building blocks. Think of
 - **Keto bread** (6g per slice)
 - **Edamame** (17g)
 
-### Building my protein meals
 Once I had my list, I printed it out and taped it to the inside of my pantry door as reference. There was no way I was going to remember this, and putting it on my phone means I need to know where my phone is, which is a struggle.
+
+### Building my protein meals
 
 Then I set a goal. I only eat two meals a day plus a snack, so I knew I needed to combine.
 
