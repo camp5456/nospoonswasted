@@ -37,7 +37,7 @@
   {% if page.layout == 'recipe' %}
     {% include recipe-schema.html %}
   {% endif %}
-  {% if page.layout == 'post' %}
+  {% if page.layout == 'post' or page.layout == 'page' %}
     {% include article-schema.html %}
   {% endif %}
 </head>
