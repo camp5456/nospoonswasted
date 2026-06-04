@@ -45,7 +45,7 @@ Of course I cleaned right before people came over, robbing me of the spoons to e
 
 Now I have a gentle, rhythmic relationship with cleaning. It's a combination of lifehacks I'll share on the blog, products that help me save spoons, and changed expectations so that my mindset doesn't sabotage me.
 
-## **Why Cleaning Takes So Many Spoons**
+## Why Cleaning Takes So Many Spoons
 
 It's the physical exertion. The bending, the standing, scrubbing, lifting. It's the mental exertion. _Where do I start_? _Do I have the energy for this_? _Will I pay for it later_?
 
