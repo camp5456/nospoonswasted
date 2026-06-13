@@ -48,9 +48,13 @@ layout: default
 
   <article class="post">
 
+    {% include page-tldr.html %}
+
     <div class="post__content">
       {{ content }}
     </div>
+
+    {% include page-faq.html %}
 
     <div class="post__share">
       <p class="share__heading">Sharing is caring</p>
