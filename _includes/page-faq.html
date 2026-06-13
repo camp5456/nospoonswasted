@@ -1,0 +1,13 @@
+{% if page.faq %}
+<section class="page-faq">
+  <h2 class="page-faq__heading">Common Spoonie Questions</h2>
+  <dl class="page-faq__list">
+    {% for item in page.faq %}
+    <div class="page-faq__item">
+      <dt class="page-faq__question">{{ item.q }}</dt>
+      <dd class="page-faq__answer">{{ item.a }}</dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+{% endif %}

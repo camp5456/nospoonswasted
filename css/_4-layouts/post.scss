@@ -176,7 +176,7 @@
     &::before {
       content: "Spoonie Tip";
       display: block;
-      font-size: 11px;
+      font-size: 13px;
       font-weight: 700;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -189,6 +189,76 @@
       background-repeat: no-repeat;
       background-position: left center;
     }
+  }
+}
+
+/* TL;DR */
+.page-tldr {
+  background: rgba(163, 72, 91, 0.06);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 $global-radius $global-radius 0;
+  padding: 20px 24px;
+  margin: 0 0 40px;
+
+  .page-tldr__label {
+    font-size: 13px;
+    font-family: $base-font-family;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin: 0 0 10px;
+  }
+
+  .page-tldr__text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text);
+    margin: 0;
+  }
+}
+
+/* FAQ */
+.page-faq {
+  margin-top: 48px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border-color);
+
+  .page-faq__heading {
+    margin-bottom: 32px;
+  }
+
+  .page-faq__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-faq__item {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--light-gray);
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .page-faq__question {
+    font-family: $heading-font-family;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--heading-font-color);
+    margin-bottom: 8px;
+  }
+
+  .page-faq__answer {
+    margin: 0 0 0 0;
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--color-text);
   }
 }
 

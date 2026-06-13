@@ -25,9 +25,11 @@ layout: default
 <!-- begin page -->
 <div class="container animate">
   <article class="page">
+    {% include page-tldr.html %}
     <div class="page__content">
       {{ content }}
     </div>
+    {% include page-faq.html %}
   </article>
 </div>
 <!-- end page -->
@@ -35,5 +37,3 @@ layout: default
 {% include author-bio.html %}
 
 {% include post-newsletter.html %}
-
-{% include related-posts.html %}

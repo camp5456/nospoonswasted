@@ -132,15 +132,14 @@ blockquote.callout-resources {
   margin: 32px 0;
   color: var(--color-text);
 
-  &::before {
-    content: "📚  Further Reading";
-    display: block;
-    font-size: 16px;
+  .callout-label {
+    font-size: 13px;
+    font-family: $base-font-family;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--color-text);
-    margin-bottom: 12px;
+    margin: 0 0 12px;
     line-height: 2;
   }
 
