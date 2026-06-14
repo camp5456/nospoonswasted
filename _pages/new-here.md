@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "New Here?"
-description: "New to No Spoons Wasted? Start with these foundational guides to understanding life with chronic illness — written by a spoonie, for spoonies."
+description: "New to No Spoons Wasted? Start with these foundational guides to understanding life with chronic illness."
 permalink: /new-here/
 ---
 
