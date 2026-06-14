@@ -8,14 +8,6 @@ image: /images/what-is-spoon-theory.webp
 image_alt: "a wooden spoon on a blue surface"
 tags: []
 faq:
-  - q: "What Is Spoon Theory?"
-    a: "Spoon Theory uses spoons as a unit of energy for chronically ill people. Unlike healthy people, spoonies start their day with limited spoons that are then spent on daily activities like showering. Once spoons are spent, the person has no more energy for daily living tasks."
-  - q: "Where Did Spoon Theory Come From?"
-    a: "Spoon Theory was created by Christine Miserandino, a blogger living with Lupus, to explain to her friend what it was like to live with a chronic illness."
-  - q: "Why do we need Spoon Theory Anyway?"
-    a: "Spoon Theory gives the chronically ill community a framework for talking to others about their daily living experience. It helps them assign units of energy to tasks so they can prioritize the most important tasks. And it gives them a way to track how much energy they have spent so they can pace themselves throughout the day."
-  - q: "What Happens When You're Out of Spoons?"
-    a: "Being out of spoons means you're out of energy for the day. Spoonies can borrow spoons from tomorrow by pushing through, but that creates a deficit the next day and so on."
   - q: "Who are considered Spoonies?"
     a: "Anyone with a condition that limits the amount of energy they have on a daily basis."
   - q: "What conditions are most likely to be Spoonies?"
@@ -23,11 +15,6 @@ faq:
   - q: "Why spoons? Why not forks or coins or anything else?"
     a: "Because that's what was on the table. Christine Miserandino created the metaphor during a real conversation in a diner with a friend who asked what living with lupus felt like. She grabbed spoons from nearby tables to use as visual units for daily energy. There's no symbolic reason for spoons. They were just what was at hand. After the conversation, she wrote about the experience on her blog and Spoon Theory was born."
 ---
-
-Spoon Theory is a framework that uses spoons as units of energy for managing daily life as a chronically ill person. Unlike healthy people who may start their day with an unlimited amount of spoons, chronically ill people start their day with limited spoons. Daily activity costs spoons and when all the spoons are gone, so is a person's energy.
-
-> - [Learn More About What It Means to Be A Spoonie](/who-is-a-spoonie/)
-{: .callout-resources}
 
 ## Where Did Spoon Theory Come From?
 
@@ -53,6 +40,7 @@ When your experience is drastically different from someone else's, it can be har
 This framework has given millions of people a language to talk about their experience. In fact, 75% of people in midlife have a chronic illness and 60% of young adults have one according to the Centers for Disease Control. The chances that you or someone you know would benefit from Spoon Theory is pretty high.
 
 > - [Learn more about Chronic Disease from the CDC](https://www.cdc.gov/chronic-disease/about/index.html)
+> - [Learn More About What It Means to Be A Spoonie](/who-is-a-spoonie/)
 > - [Read more about what it means to have no spoons left](/what-does-low-spoon-mean/)
 {: .callout-resources}
 
