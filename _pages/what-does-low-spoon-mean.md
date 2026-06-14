@@ -14,7 +14,9 @@ faq:
     a: "It varies. Some low spoon days resolve with a few hours of rest. Others stretch into multi-day flares, especially if a spoonie has pushed through and borrowed energy from the next day."
 ---
 
-"Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. Because spoons represent units of energy, having low spoons means your energy reserves are running low, requiring you to carefully decide which tasks are worth spending your remaining spoons on. The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. Spoon Theory gives people with chronic illnesses a practical way to talk about their energy levels, especially when common terms like “tired” fail to capture the reality of living with limited and unpredictable energy.
+"Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. Because spoons represent units of energy, having low spoons means your energy reserves are running low, requiring you to carefully decide which tasks are worth spending your remaining spoons on. 
+
+The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. Spoon Theory gives people with chronic illnesses a practical way to talk about their energy levels, especially when common terms like “tired” fail to capture the reality of living with limited and unpredictable energy.
 
 > - [Read the full explainer on Spoon Theory](/what-is-spoon-theory/)
 {: .callout-resources}
