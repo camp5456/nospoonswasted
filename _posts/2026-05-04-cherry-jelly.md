@@ -22,7 +22,7 @@ recipe:
     - "3 TB Psyllium Husk"
     - "Lemon to taste (optional)"
   instructions:
-    - "Heat the cherry juice up in a sauce pan until steaming. No need to boiling. Watch for steam not bubbles."
+    - "Heat the cherry juice up in a sauce pan until steaming. No need to boil. Watch for steam not bubbles."
     - "Add in the Psyllium Husk and whisk it rigorously."
     - "Optional: Squeeze in some lemon to taste for more tartness or use crystalized lemon."
     - "Put it in the fridge until it sets up."
