@@ -40,9 +40,9 @@ You can read more about our affiliate partnerships on our [disclosures statement
 
 ## A note on AI generated content
 
-This site is made by humans for humans. AI doesn't know what it feels like to be chronically ill or struggle with low-energy. We do. The voice you hear on this site is our voice. 
+This site is made by humans for humans. AI doesn't know what it feels like to be chronically ill or struggle with low-energy. We do. The voice you hear on this site is our voice. We do not use generative AI to build our posts.
 
-That doesn't mean we are against the use of AI, we genuinely think it can help save spoons. But the advice, the recommendations, the content - that's all us.
+That doesn't mean we are against the use of AI, we genuinely think it can help save spoons. We use it in other contexts but the advice, the recommendations, the content - that's made by us.
 
 <hr>
 
