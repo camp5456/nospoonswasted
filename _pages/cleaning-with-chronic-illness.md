@@ -10,12 +10,12 @@ faq:
   - q: "Is it okay to hire a cleaner if you have chronic illness?"
     a: "Yes. Hiring help is not a moral failing. If you can afford a cleaning service once a month, the math is often in your favor. A flare from doing it all yourself can cost you a week of function and the spoons you needed for everything else. Outsourcing the deep clean buys back your spoons for the things only you can do. The guilt you feel about it is conditioning, not truth."
   - q: "What cleaning products are best for people with sensitivities?"
-    a: "Unscented, low-VOC products that don't trigger flares. Strong fragrances and harsh chemicals are common triggers for the chronically ill, especially those with MCAS, long COVID, asthma, or fibromyalgia. Even some natural products like vinegar can be too strong for sensitive systems. The right cleaners for you are the ones that don't cost you a day. Read labels, test small, and don't feel guilty about choosing convenience over crunchy when your body needs it."
+    a: "Unscented, low-VOC products that don't trigger flares. Strong fragrances and harsh chemicals are common triggers for the chronically ill, especially those with MCAS, long COVID, asthma, or fibromyalgia. Even some natural products like vinegar can be too strong for sensitive systems. The right cleaners for you are the ones that don't cost you a day. Read labels, test small, and don't feel guilty about choosing convenience when your body needs it."
 ---
 
-My relationship with cleaning has changed dramatically over the many years of being a spoonie. 
-
 ## Cleaning the Old Way
+
+My relationship with cleaning has changed dramatically over the many years of being a spoonie. 
 
 For a decade I tried to keep up with everything while having no energy to do it. Keeping a clean house made me feel in control. Like my illness wasn't winning. If I could still clean, it wouldn't have taken everything from me. I could still act "normal".
 
