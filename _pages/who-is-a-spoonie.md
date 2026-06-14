@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Who Is a Spoonie?"
-description: "A spoonie is a person living with chronic illness that limits their daily energy. The term is a self-identifier and used as shorthand for a shared experience. The word grew out of spoon theory and the community built around it."
+description: "A spoonie is a person living with limited daily energy often due to chronic illness or nervous system disorders. People who use the term do so as a self-identifier and a shorthand for a shared experience. The word grew out of Spoon Theory, and a spoonie is someone who identifies as a member of the community."
 date: 2026-05-19
 author: Twila
 image: /images/who-is-a-spoonie.webp
@@ -14,7 +14,7 @@ faq:
     a: "No. Spoon theory is the metaphor Christine Miserandino created in 2003 to explain limited daily energy. Spoonie is the identity the community built on top of that metaphor. The metaphor is a thinking tool. The label is about belonging."
 ---
 
-A spoonie is a person living with limited daily energy often due to chronic illness or nervous system disorders. People who use the term do so as a self-identifier and a shorthand for a shared experience. The word grew out of Spoon Theory, and a spoonie is someone who identifies as a member of the community.
+A spoonie is someone with an energy limiting condition that impacts their daily living. It requires them to develop pacing skills so they don't run out of spoons before the end of the day. Being a spoonie means recognizing that energy is a limited resource that must often be budgeted carefully throughout the day. The term has also become a source of community and identity, connecting people who share the experience of navigating life with limited or unpredictable energy.
 
 > - [Read the full explainer on Spoon Theory](/what-is-spoon-theory/)
 {: .callout-resources}
