@@ -1,9 +1,7 @@
 ---
 layout: page 
 title: "Cleaning with Chronic Illness" 
-description: "Cleaning with chronic illness is challenging because every part of it is a body task. Standing, bending, scrubbing, lifting, the strong smells. Here's what I unlearned, the tools that do the work for me now, and the mindset I had to adopt to stop chasing a clean house I couldn't sustain." 
-date: 2026-05-25 
-author: Twila 
+description: "Cleaning with chronic illness is challenging because every part of it is a body task. Standing, bending, scrubbing, lifting, the strong smells. Here's what I unlearned, the tools that do the work for me now, and the mindset I had to adopt to stop chasing a clean house I couldn't sustain."  
 image: /images/cleaning-with-chronic-illness.webp 
 image_alt: "A hand wearing a cleaning glove holding a spray bottle on a teal background" 
 faq:

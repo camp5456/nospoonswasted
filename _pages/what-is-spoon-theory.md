@@ -60,8 +60,8 @@ Those that identify with Spoon Theory have built a community around the concept.
 
 If you want to know more about the spoonie community, head to: 
 
- > - [Who Is a Spoonie](/who-is-a-spoonie/)
- - [What Does 'Low Spoon' Mean?](/what-does-low-spoon-mean/)
+ > - [What Does 'Low Spoon' Mean?](/what-does-low-spoon-mean/)
+ - [Who Is a Spoonie](/who-is-a-spoonie/)
 {: .callout-resources}
 
 > Photo by <a href="https://unsplash.com/@beredelvallephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bere Del Valle</a> on <a href="https://unsplash.com/photos/a-spoon-with-a-wooden-handle-on-a-blue-surface-N65qGwArfp8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

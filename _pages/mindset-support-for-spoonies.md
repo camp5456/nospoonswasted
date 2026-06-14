@@ -2,8 +2,6 @@
 layout: page 
 title: "Mindset Support for Spoonies" 
 description: "Being diagnosed with a chronic illness can challenge our mental health in significant ways. It isn't hard because you are weak. It is hard because living with a chronic illness is hard. There are mindset shifts that can help make life as a spoonie easier." 
-date: 2026-05-25 
-author: Twila 
 image: /images/mindset-support-for-spoonies.webp 
 image_alt: "Close up of two spoonies holding hands tightly" 
 tags: [] 

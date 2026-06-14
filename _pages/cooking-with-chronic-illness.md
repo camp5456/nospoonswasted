@@ -2,8 +2,6 @@
 layout: page
 title: "Cooking with Chronic Illness"
 description: "Cooking with chronic illness is hard for spoonies because of the physical exertion it requires. The standing, bending, lifting, heat, comprehension of recipes and the remembering of steps. Here's what I unlearned, the tools I lean on, and the permission slip I had to write myself to stop trying to cook the way I used to."
-date: 2026-05-24
-author: Twila
 image: /images/cooking-with-chronic-illness.webp
 image_alt: "Pale pink cooking pot on a cream background"
 faq:
