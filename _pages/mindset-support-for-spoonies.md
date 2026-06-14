@@ -8,8 +8,6 @@ image: /images/mindset-support-for-spoonies.webp
 image_alt: "Close up of two spoonies holding hands tightly" 
 tags: [] 
 faq:
-  - q: "Why is mental health so hard with chronic illness?"
-    a: "The mental load of chronic illness is real. Grief that doesn't end, guilt that doesn't ease, fear of the next crash, and the exhaustion of explaining yourself over and over. It isn't hard because you are weak or thinking wrong. It is hard because life with a chronic illness is genuinely hard. The same emotional resilience healthy people use for occasional setbacks, you are using every single day."
   - q: "What should you do when you are first diagnosed with a chronic illness?"
     a: "First, give yourself permission to grieve and to be scared. Both are normal. Then find one trusted healthcare provider who actually listens. Find one person who understands what you are going through, ideally another spoonie. Start learning about gentle routines. Be patient with yourself while you figure out what your new life is going to look like. You are not broken. You are adjusting to something hard, and adjustment takes time."
   - q: "How do you cope with the grief of being chronically ill?"

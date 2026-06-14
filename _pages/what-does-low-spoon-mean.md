@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "What Does 'Low Spoon' Mean?"
-description: "Low spoon is a term spoonies use to describe a day when daily energy is running low or already gone. The phrase comes from spoon theory."
+description: "Having low spoons means your available energy is running low, making even simple tasks feel more demanding than usual. Physical activities, mental effort, social interactions, and everyday responsibilities can quickly become exhausting when only a few spoons remain. When spoons are low, rest and recovery often become necessary before taking on additional demands."
 date: 2026-05-21
 author: Twila
 image: /images/what-does-low-spoon-mean.webp
@@ -14,7 +14,7 @@ faq:
     a: "It varies. Some low spoon days resolve with a few hours of rest. Others stretch into multi-day flares, especially if a spoonie has pushed through and borrowed energy from the next day."
 ---
 
-"Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. 
+"Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. Because spoons represent units of energy, having low spoons means your energy reserves are running low, requiring you to carefully decide which tasks are worth spending your remaining spoons on. The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. Spoon Theory gives people with chronic illnesses a practical way to talk about their energy levels, especially when common terms like “tired” fail to capture the reality of living with limited and unpredictable energy.
 
 > - [Read the full explainer on Spoon Theory](/what-is-spoon-theory/)
 {: .callout-resources}
