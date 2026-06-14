@@ -2,8 +2,6 @@
 layout: page
 title: "What Does 'Low Spoon' Mean?"
 description: "Having low spoons means your available energy is running low, making even simple tasks feel more demanding than usual. Physical activities, mental effort, social interactions, and everyday responsibilities can quickly become exhausting when only a few spoons remain. When spoons are low, rest and recovery often become necessary before taking on additional demands."
-date: 2026-05-21
-author: Twila
 image: /images/what-does-low-spoon-mean.webp
 image_alt: "Purple background with cellphone displaying empyt battery logo"
 tags: []

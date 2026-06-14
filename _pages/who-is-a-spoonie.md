@@ -2,8 +2,6 @@
 layout: page
 title: "Who Is a Spoonie?"
 description: "A spoonie is a person living with limited daily energy often due to chronic illness or nervous system disorders. People who use the term do so as a self-identifier and a shorthand for a shared experience. The word grew out of Spoon Theory, and a spoonie is someone who identifies as a member of the community."
-date: 2026-05-19
-author: Twila
 image: /images/who-is-a-spoonie.webp
 image_alt: "a spoon with a happy face cut out of it in a diner"
 tags: []
