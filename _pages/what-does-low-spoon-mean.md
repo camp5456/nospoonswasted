@@ -9,7 +9,7 @@ image_alt: "Purple background with cellphone displaying empyt battery logo"
 tags: []
 faq:
   - q: "What's the difference between low spoon and out of spoons?"
-    a: "Low spoon means you still have some energy left but can feel it running out, and you have to make decisions about what to skip. Out of spoons means the energy is fully gone for the day."
+    a: "Low spoon means you still have some energy left but can feel it running out, and you have to make decisions about what to skip. Out of spoons means the energy is fully gone for the day and recovery is the only real option."
   - q: "How long does a low spoon day last?"
     a: "It varies. Some low spoon days resolve with a few hours of rest. Others stretch into multi-day flares, especially if a spoonie has pushed through and borrowed energy from the next day."
 ---
