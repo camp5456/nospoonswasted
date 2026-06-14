@@ -8,16 +8,10 @@ image: /images/who-is-a-spoonie.webp
 image_alt: "a spoon with a happy face cut out of it in a diner"
 tags: []
 faq:
-  - q: "What is a spoonie?"
-    a: "A spoonie is someone who lives with a chronic illness that limits their daily energy, and who uses the term to identify themselves and connect with others who share that experience. The word comes from spoon theory."
   - q: "Do you have to be diagnosed to be a spoonie?"
     a: "No. Many people in the community self-identify as spoonies long before they receive a formal diagnosis, and the term has expanded beyond chronic illness to include caregivers, people recovering from major surgery, parents of medically complex kids, and others living with chronic low energy."
   - q: "Is being a spoonie the same as having spoon theory?"
     a: "No. Spoon theory is the metaphor Christine Miserandino created in 2003 to explain limited daily energy. Spoonie is the identity the community built on top of that metaphor. The metaphor is a thinking tool. The label is about belonging."
-  - q: "Can anyone call themselves a spoonie?"
-    a: "The community generally welcomes anyone whose daily energy is genuinely limited, including those without a formal diagnosis. Using the framework casually to describe normal tiredness or general frustration is considered out of bounds, since it dilutes a term that helps real spoonies be understood."
-  - q: "What conditions are most common in the spoonie community?"
-    a: "Common conditions include ME/CFS, fibromyalgia, lupus, MS, EDS, POTS, long COVID, autoimmune diseases, thyroid disease, diabetes, and mental health conditions like depression, anxiety, and complex PTSD. The community is deliberately broader than any single diagnosis."
 ---
 
 A spoonie is a person living with limited daily energy often due to chronic illness or nervous system disorders. People who use the term do so as a self-identifier and a shorthand for a shared experience. The word grew out of Spoon Theory, and a spoonie is someone who identifies as a member of the community.

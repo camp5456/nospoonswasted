@@ -7,14 +7,8 @@ author: Twila
 image: /images/cleaning-with-chronic-illness.webp 
 image_alt: "A hand wearing a cleaning glove holding a spray bottle on a teal background" 
 faq:
-  - q: "Why is cleaning so hard when you have chronic illness?"
-    a: "Cleaning is one of the physically demanding things a spoonie does in a day. The bending, the standing, the scrubbing, the lifting. It usually happens at the end of an already-long day. There's also the mental load of deciding what to clean first, and the toll of harsh smells on a sensitive body. And cleaning is impermanent. Every task you finish will need to be done again."
-  - q: "What are the best cleaning tools for someone with chronic illness?"
-    a: "The ones that save you the most spoons. A robot vacuum means you never have to push a vacuum again. Long-handled scrubbers, dusters, and toilet brushes mean you don't have to bend over twice. A sit-down stool in the kitchen and the bathroom turns standing tasks into seated ones. Disposable mop pads and toilet wands save the labor of cleaning the tools themselves. The right tool for a spoonie isn't always the fanciest one. It's the one that asks the least of your body."
   - q: "Is it okay to hire a cleaner if you have chronic illness?"
     a: "Yes. Hiring help is not a moral failing. If you can afford a cleaning service once a month, the math is often in your favor. A flare from doing it all yourself can cost you a week of function and the spoons you needed for everything else. Outsourcing the deep clean buys back your spoons for the things only you can do. The guilt you feel about it is conditioning, not truth."
-  - q: "How do you keep up with housework when you can barely stand?"
-    a: "You stop trying to do tasks the way healthy people do them. You break tasks down into stages and spread them across days. You sit while you fold, sit while you wash dishes, sit while you scrub the tub. You automate everything you can with robot vacuums and autoship subscriptions. And you accept that maintenance, not marathons, is how a spoonie keeps a house functional. The goal is functional, not Instagram-perfect."
   - q: "What cleaning products are best for people with sensitivities?"
     a: "Unscented, low-VOC products that don't trigger flares. Strong fragrances and harsh chemicals are common triggers for the chronically ill, especially those with MCAS, long COVID, asthma, or fibromyalgia. Even some natural products like vinegar can be too strong for sensitive systems. The right cleaners for you are the ones that don't cost you a day. Read labels, test small, and don't feel guilty about choosing convenience over crunchy when your body needs it."
 ---

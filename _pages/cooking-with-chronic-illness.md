@@ -7,14 +7,8 @@ author: Twila
 image: /images/cooking-with-chronic-illness.webp
 image_alt: "Pale pink cooking pot on a cream background"
 faq:
-  - q: "Why is cooking so hard with chronic illness?"
-    a: "Cooking is one of the most physically demanding things a chronically ill person does in a day. The standing at the stove, the bending down for pots and pans, the lifting, the heat, the comprehension of a new recipe, the remembering of steps to an old one. Every piece of it asks the body for capacity we don't have to spare, which is why most days the meal that actually happens is the simplest one."
-  - q: "What kitchen tools help most with chronic illness?"
-    a: "Crockpots and rice cookers do most of the cooking with no standing required. Pre-cut frozen vegetables, pre-cooked proteins, and good sauces and seasonings cut prep time down to almost nothing. A few three to five ingredient recipes you know by heart cover the nights your brain isn't online."
   - q: "Is it okay to use frozen meals and shortcuts if you're chronically ill?"
     a: "Yes. The goal is getting fed, not winning a cooking contest. Frozen meals, rotisserie chicken, pre-cut produce, and jarred sauces are all real food. The energy you don't spend chopping onions is energy you have left for the rest of your day."
-  - q: "What should I do when I'm too tired to cook at all?"
-    a: "Don't cook. Eat the easiest thing in the house. Cereal counts. Toast counts. A frozen meal counts. Asking your family to fend for themselves counts."
   - q: "How do you cook when you have chronic illness and people to feed?"
     a: "Build a small rotation of three to five ingredient meals you can make on autopilot. Lean on the crockpot, the rice cooker, and the freezer. Keep three backup frozen meals at all times for the nights cooking isn't happening. And give yourself permission to ask the people you cook for to feed themselves on the worst days."
 ---

@@ -8,16 +8,10 @@ image: /images/what-does-low-spoon-mean.webp
 image_alt: "Purple background with cellphone displaying empyt battery logo"
 tags: []
 faq:
-  - q: "What does low spoon mean?"
-    a: "Low spoon is a term spoonies use to describe a day when daily energy is running low or already gone. The phrase comes from spoon theory, which uses spoons as units of energy. Being low spoons means you have to decide what you will spend your remaining energy on."
   - q: "What's the difference between low spoon and out of spoons?"
     a: "Low spoon means you still have some energy left but can feel it running out, and you have to make decisions about what to skip. Out of spoons means the energy is fully gone for the day."
-  - q: "Is being low spoon the same as being tired?"
-    a: "No. Tiredness responds to rest and sleep. Low spoon is a whole-body, whole-brain state that doesn't always refill with sleep, and pushing through it often costs days of recovery instead of one."
   - q: "How long does a low spoon day last?"
     a: "It varies. Some low spoon days resolve with a few hours of rest. Others stretch into multi-day flares, especially if a spoonie has pushed through and borrowed energy from the next day."
-  - q: "What should you do when you're low on spoons?"
-    a: "Triage early. Decide what to skip before brain fog makes decisions harder, lean on pre-made easy meals, use a shower chair, cancel without guilt, and protect rest as the highest priority. The goal of a low spoon day is to end it without going into spoon debt for the next three."
 ---
 
 "Low spoon" is the term spoonies use to describe a day when our daily energy is running low or already gone. The phrase comes from Spoon Theory, the framework [Christine Miserandino created in 2003](https://web.archive.org/web/20231001120000/https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) to explain limited daily energy. 
