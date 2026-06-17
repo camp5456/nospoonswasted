@@ -80,11 +80,13 @@ There are lots of ways to combine this with other healthy foods depending on you
 > - [Easy ways to eat more protein](/blog/protein-hacks-for-spoonies/)
 {: .callout-resources}
 
-## What I Use
-The following are affiliate links. As an Amazon Associate I earn from qualifying purchases, at no extra cost to you.
+## What I Actually Use
+These are the products I use. You can use whatever juice fits your needs and taste preferences. And since you can make the base whatever you want, there's a real opportunity to create some fun jelly flavors. What about pinapple cranberry? yum. If you get creative, let me know what you end up liking.
 
 - [Antioxidant Solutions 100% Pure Tart Cherry Juice](https://amzn.to/4eHVgvr).
 - [NOW Foods Supplements, Psyllium Husk Powder](https://amzn.to/4a1xeJd)
 - [TRUE LEMON Crystalized Lemon](https://amzn.to/4xtSyBg)
+
+{% include affiliate-disclosure.html %}
 
 ## Recipe

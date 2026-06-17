@@ -98,5 +98,8 @@ If you found this helpful, here are a few other articles that might help too:
 - [Ready to dive into the blog for more tips?](/blog/)
 {: .callout-resources}
 
+> Photo by <a href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">National Cancer Institute</a> on <a href="https://unsplash.com/photos/person-wearing-gold-wedding-band-BxXgTQEw1M4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+{: .photo-credit}
+
 
 

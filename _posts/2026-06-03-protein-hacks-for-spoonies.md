@@ -113,5 +113,7 @@ Getting in more protein is a work in progress. I'll come back and tell you what'
 
 - **[WILDE Himalayan Pink Salt Protein Chips](https://amzn.to/4vnZCgJ)**. Very tasty, natural. Easy way to replace high-carb food with better for you protein. 
 
+{% include affiliate-disclosure.html %}
+
 > Photo by <a href="https://unsplash.com/@alexsaks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Saks</a> on <a href="https://unsplash.com/photos/a-container-of-protein-powder-next-to-a-spoon-4CzpHxVzTFA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 {: .photo-credit}

@@ -190,6 +190,19 @@ blockquote.photo-credit {
   }
 }
 
+blockquote.affiliate-disclosure {
+  font-family: $base-font-family;
+  font-style: normal;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  background: rgba(0, 0, 0, 0.04);
+  border-left: none;
+  padding: 8px 14px;
+  margin: 24px 0;
+
+  p { margin: 0; }
+}
+
 pre {
   overflow: auto;
   padding: 15px;
