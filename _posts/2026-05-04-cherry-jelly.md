@@ -83,9 +83,9 @@ There are lots of ways to combine this with other healthy foods depending on you
 ## What I Actually Use
 These are the products I use. You can use whatever juice fits your needs and taste preferences. And since you can make the base whatever you want, there's a real opportunity to create some fun jelly flavors. What about pinapple cranberry? yum. If you get creative, let me know what you end up liking.
 
-- [Antioxidant Solutions 100% Pure Tart Cherry Juice](https://amzn.to/4eHVgvr).
-- [NOW Foods Supplements, Psyllium Husk Powder](https://amzn.to/4a1xeJd)
-- [TRUE LEMON Crystalized Lemon](https://amzn.to/4xtSyBg)
+- [Antioxidant Solutions 100% Pure Tart Cherry Juice](https://antioxidantsolutions.com/collections/antioxidant-collection/products/100-tart-cherry-juice).
+- [NOW Foods Supplements, Psyllium Husk Powder](https://amzn.to/4oEW8V2)
+- [TRUE LEMON Crystalized Lemon](https://amzn.to/4vpiV9Q)
 
 {% include affiliate-disclosure.html %}
 
