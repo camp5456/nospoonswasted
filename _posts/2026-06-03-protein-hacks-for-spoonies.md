@@ -103,15 +103,15 @@ Getting in more protein is a work in progress. I'll come back and tell you what'
 
 ## **What I Actually Use**
 
-- **[Great Lakes Wellness Collagen Peptides Powder](https://amzn.to/4o5221n)**. My forever collagen. Great taste. Blends effortlessly in coffee. 
+- **[Great Lakes Wellness Collagen Peptides Powder](https://amzn.to/4w88Uy3)**. My forever collagen. Great taste. Blends effortlessly in coffee. 
 
-- **[Manitoba Harvest Hemp Hearts](https://amzn.to/4e4SfUH)**. Love the protein and healthy fats. Dump a few tablespoons on nearly anything for a nutty flavor. Works for sweet or savory.
+- **[Manitoba Harvest Hemp Hearts](https://amzn.to/4vsQpo0)**. Love the protein and healthy fats. Dump a few tablespoons on nearly anything for a nutty flavor. Works for sweet or savory.
 
-- **[Atkins Strong High Protein Shake](https://amzn.to/4uaTDuN)**. Works for now. I don't love it but I can get it locally and it's affordable. I would like to replace it with something just as easy with better ingredients.
+- **[Atkins Strong High Protein Shake](https://amzn.to/4eoGXvR)**. Works for now. I don't love it but I can get it locally and it's affordable. I would like to replace it with something just as easy with better ingredients.
 
-- **[Safe Catch Canned Wild Tuna Fish](https://amzn.to/3Q3yDZ0)**: My forever tuna. It's wild caught and tested for lowest mercury. The kind of company I want to support. 
+- **[Safe Catch Canned Wild Tuna Fish](https://amzn.to/4eZ7ik8)**: My forever tuna. It's wild caught and tested for lowest mercury. The kind of company I want to support. 
 
-- **[WILDE Himalayan Pink Salt Protein Chips](https://amzn.to/4vnZCgJ)**. Very tasty, natural. Easy way to replace high-carb food with better for you protein. 
+- **[WILDE Himalayan Pink Salt Protein Chips](https://amzn.to/4g1eKfO)**. Very tasty, natural. Easy way to replace high-carb food with better for you protein. 
 
 {% include affiliate-disclosure.html %}
 

@@ -101,15 +101,15 @@ Weighted blankets aren't a cure for chronic pain. The research is clear about th
 
 ## What I Actually Use
 
-- **[Cottonblue Jacquard Weighted Blanket 15lbs](https://amzn.to/4xmUQ5d)**: Stylish. Comfy. Good quality.
+- **[Cottonblue Jacquard Weighted Blanket 15lbs](https://amzn.to/4uOUiT6)**: Stylish. Comfy. Good quality.
 
-- **[Cottonblue Weighted Lap Blanket 7lbs ](https://amzn.to/4efEwul)**: This is my every day weighted blanket for pain management
+- **[Cottonblue Weighted Lap Blanket 7lbs ](https://amzn.to/4vpZ0HX)**: This is my every day weighted blanket for pain management
 
-- **[RENPHO Eyeris 1 Eye Massager with Heat](https://amzn.to/3Q1KYwT)**: It's a luxury item and I love it. You might not necessarily buy it for yourself but it makes a great spoonie gift.
+- **[RENPHO Eyeris 1 Eye Massager with Heat](https://amzn.to/43LU3x7)**: It's a luxury item and I love it. You might not necessarily buy it for yourself but it makes a great spoonie gift.
 
-- **[Clip On USB Mini Desk Fan with Emergency Power Ban](https://amzn.to/4xbbAwd)**: Absolutely essential for temperature management.
+- **[Clip On USB Mini Desk Fan with Emergency Power Bank](https://amzn.to/4eTQsDn)**: Absolutely essential for temperature management.
 
-- **[Mindspa](https://apps.apple.com/us/app/mindspa-com-sound-therapy/id1166940722)** My forever meditation app. Expensive I understand, but worth it for me. 
+- **[Mindspa](https://apps.apple.com/us/app/mindspa-com-sound-therapy/id1166940722)**: My forever meditation app. Expensive I understand, but worth it for me. 
 
 {% include affiliate-disclosure.html %}
 
