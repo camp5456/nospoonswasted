@@ -3,14 +3,16 @@ layout: page
 title: About
 permalink: /about/
 image: 
-description: No Spoons Wasted helps people with energy limiting conditions by providing a blog and newsletter with helpful articles and advice about living life with low-energy.
+description: I created No Spoons Wasted to help people with energy limiting conditions by providing a blog and newsletter with helpful articles and advice about living life with low-energy.
 ---
 
-**No Spoons Wasted** is a blog and newsletter for fellow spoonies and those who struggle with low-energy living whether due to illness or some other reason. We post recipes that don't require standing for forty-five minutes. Lifehacks for those days when it's hard to just take a shower. Products that help bodies that don't always cooperate.
+Hi, I'm Twila. I've been managing multiple chronic illnesses for over twenty-five years. A mold illness in my twenties led to fibromyalgia and other central nervous system disorders. 
 
-## Why we do this
+I started **No Spoons Wasted** as a blog and newsletter for fellow spoonies and those who struggle with low-energy living whether due to illness or some other reason. I post recipes that don't require standing for forty-five minutes. Lifehacks for those days when it's hard to just take a shower. Products that help bodies that don't always cooperate.
 
-Our mission is simple: to help fellow spoonies live their best life with whatever energy they have. That's it. We know how hard it is. Our founder is a spoonie too.
+## Why I do this
+
+My mission is simple: to help fellow spoonies live their best life with whatever energy they have. That's it. I know how hard it is. I'm a spoonie too.
 
 ## What you'll find here
 
@@ -22,28 +24,28 @@ Our mission is simple: to help fellow spoonies live their best life with whateve
 
 ## The No Spoons Wasted newsletter
 
-Every week we send a roundup of things that have helped us. 
+Once a week, I send a roundup of things that have helped me. 
 
-Our goal is to save you spoons.
+The goal is to save you spoons.
 
 <button class="link-btn" data-subscribe-modal-open>Join the list</button> if that sounds like something you need.
 
 ## Affiliate partnerships
 
-**No Spoons Wasted** participates in the Amazon Associates Program and other affiliate programs. Affiliate links are how we make the site self-sustaining so we don't have to plaster the site with ads. 
+I participate in the Amazon Associates Program and other affiliate programs. Affiliate links are how I keep the site self-sustaining so I can avoid plastering the site with ads. 
 
-We are fierce advocates of your privacy and we cannot protect your privacy with ad infrastructure. We hate ads. You hate ads. We're not doing ads. That's why we chose to make the site self-sustaining with affiliate links.
+I am a fierce advocate of your privacy and I cannot protect your privacy with ad infrastructure. I hate ads. You hate ads. I'm not doing ads. That's why I chose to make the site self-sustaining with affiliate links.
 
-We only recommend products we genuinely believe are useful for our community. Products we have tried. Products that helped us. We feel this business model is beneficial for everyone. It helps us support you with quality content with no added cost to you and without the use of predatory marketing or business practices. 
+I only recommend products I genuinely believe are useful for our community. Products I have tried. Products that helped me. I feel this business model is beneficial for everyone. It helps me support you with quality content with no added cost to you and without the use of predatory marketing or business practices. 
 
-You can read more about our affiliate partnerships on our [disclosures statement](/disclosures/).
+You can read more about my affiliate partnerships on my [disclosures statement](/disclosures/).
 
 ## A note on AI generated content
 
-This site is made by humans for humans. AI doesn't know what it feels like to be chronically ill or struggle with low-energy. We do. The voice you hear on this site is our voice. We do not use generative AI to build our posts.
+This site is made by humans for humans. AI doesn't know what it feels like to be chronically ill or struggle with low-energy. I do. The voice you hear on this site is my voice. I do not use generative AI to build posts.
 
-That doesn't mean we are against the use of AI, we genuinely think it can help save spoons. We use it in other contexts but the advice, the recommendations, the content - that's made by us.
+That doesn't mean I am against the use of AI. I genuinely think it can help save spoons. I use it in other contexts but the advice, the recommendations, the content - that's made by me.
 
 <hr>
 
-Questions, partnerships, or just want to say hi? [Contact us](/contact/).
+Questions, partnerships, or just want to say hi? [Contact me](/contact/).
