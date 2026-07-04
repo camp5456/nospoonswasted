@@ -2,41 +2,41 @@
 layout: page
 title: Accessibility
 permalink: /accessibility/
-description: We are passionate about accessibility and meet WCAG 2.1 AA standard because everyone deserves access to information that will help them.
+description: No Spoons Wasted is committed to accessibility and meets WCAG 2.1 AA standard because everyone deserves access to information that will help them.
 ---
 
-*Last updated: May 2026*
+*Last updated: July 2026*
 
-**No Spoons Wasted** is built by someone who understands firsthand that access matters. We are committed to making this site usable for everyone, regardless of ability or the assistive technology they rely on.
-
----
-
-## Our commitment
-
-We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standard across all pages of this site. These guidelines explain how to make web content more accessible to people with disabilities, including those with visual, auditory, physical, cognitive, and neurological conditions.
+**No Spoons Wasted** is built by someone who understands firsthand that access matters. This site is committed to being usable for everyone, regardless of ability or the assistive technology they rely on.
 
 ---
 
-## How we test
+## Commitment
 
-We actively test this site for accessibility using:
+No Spoons Wasted aims to meet the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standard across all pages of this site. These guidelines explain how to make web content more accessible to people with disabilities, including those with visual, auditory, physical, cognitive, and neurological conditions.
+
+---
+
+## How this site is tested
+
+This site is actively tested for accessibility using:
 
 - **WAVE** (Web Accessibility Evaluation Tool) — checks for errors, contrast issues, and structural problems
 - **SilkTide** — automated accessibility scanning across the full site
 
-We test regularly and address issues as they are identified. We treat accessibility as an ongoing practice, not a one-time checkbox.
+Testing happens regularly and issues are addressed as they are identified. Accessibility is treated as an ongoing practice.
 
 ---
 
 ## Known limitations
 
-No site is perfect. If you encounter something that creates a barrier for you, we want to know about it. We will not assume something is accessible just because our tools did not flag it.
+No site is perfect. If you encounter something that creates a barrier, please report it.
 
 ---
 
-## What we've done
+## What has been done
 
-To meet WCAG 2.1 AA standards, we have:
+To meet WCAG 2.1 AA standards, this site has:
 
 - Ensured all color combinations meet minimum contrast ratios
 - Added descriptive alt text to images
@@ -49,15 +49,15 @@ To meet WCAG 2.1 AA standards, we have:
 
 ## Feedback and contact
 
-If you experience an accessibility barrier on this site, please let us know using our [contact form](/contact/). Tell us:
+If you experience an accessibility barrier on this site, please report it using the [contact form](/contact/). Include:
 
 - The page where you encountered the issue
 - What you were trying to do
 - What assistive technology you were using, if any
 
-We will respond within 10 business days and do our best to provide the information or functionality you need in an accessible format while we work on a fix.
+A response will be sent within 10 business days and every effort will be made to provide the information or functionality needed in an accessible format while a fix is in progress.
 
-We take all accessibility feedback seriously. Your experience using this site matters to us.
+All accessibility feedback is taken seriously.
 
 ---
 
@@ -74,6 +74,6 @@ This site is built with Jekyll and hosted on SiteGround. It is designed to be co
 
 ## Contact
 
-Questions about accessibility on this site? We welcome the conversation.
+Questions about accessibility on this site?
 
-Use our [contact form](/contact/) to email us directly.
+Use the [contact form](/contact/) to get in touch.
