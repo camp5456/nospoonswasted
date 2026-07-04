@@ -9,9 +9,10 @@
       </div>
 
       <div class="subscribe-band__right">
-        <form class="subscribe-band__form" action="#" method="post" data-subscribe-form>
+        <form class="subscribe-band__form" action="https://assets.mailerlite.com/jsonp/2318003/forms/186591408660939828/subscribe" method="post" target="_blank" data-subscribe-form>
+          <input type="hidden" name="ml-submit" value="1">
           <label class="screen-reader-text" for="subscribe-band-email">Email address</label>
-          <input class="subscribe-band__input" id="subscribe-band-email" type="email" name="email" placeholder="your@email" required autocomplete="email">
+          <input class="subscribe-band__input" id="subscribe-band-email" type="email" name="fields[email]" placeholder="your@email" required autocomplete="email">
           <button class="subscribe-band__btn" type="submit">Subscribe →</button>
         </form>
         <p class="subscribe-band__success" aria-live="polite" hidden>You're in — see you soon ♡</p>

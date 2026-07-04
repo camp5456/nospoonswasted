@@ -9,13 +9,13 @@ tags:   [health]
 author: Twila
 faq:
   - q: Do weighted blankets help with fibromyalgia / ME/CFS / POTS / long COVID?
-  - a: Weighted blankets have the potential to help with any condition where pain signals are amplified by the nervous system. I use mine to manage fibromyalgia and find it soothing. But we are all built differently and so it has to be something you try and see for yourself. Always talk to your doctor before adding in new tools to your care routine.
+    a: Weighted blankets have the potential to help with any condition where pain signals are amplified by the nervous system. I use mine to manage fibromyalgia and find it soothing. But we are all built differently and so it has to be something you try and see for yourself. Always talk to your doctor before adding in new tools to your care routine.
   - q: Do they really help you sleep, or is that hype?
     a: I would caution against sleeping with a 15 lb blanket unless you are sure it is helping. I always set a timer to prevent over heating and dehydration.
   - q: Can hot sleepers use a weighted blanket?
     a: Yes in the sense that we can use it in a time limited therapeutic session, but again I would caution against sleeping with it for long periods. Dehydration is a risk for healthy people and a serious threat to people with chronic illness.
   - q: How do you wash a weighted blanket?
-    a: For the blankets in this post, the manufacturer recommends commercial washing because of the weight. I would get it professionally washed if needed rather than using a laundry matt. You can always get a duvet cover for it and wash that instead.
+    a: For the blankets in this post, the manufacturer recommends commercial washing because of the weight. I would get it professionally washed if needed rather than using a laundry mat. You can always get a duvet cover for it and wash that instead.
   - q: Are weighted blankets worth the money?
     a: Are they going to reverse your condition, no. Are they going to help on the bad days, possibly. It is worth a try. But if finances are a concern and I had to pick between the weighted blanket and something else, I would probably pick something else.
   - q: Can you use a weighted blanket all day?

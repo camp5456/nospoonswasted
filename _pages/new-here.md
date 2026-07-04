@@ -26,7 +26,7 @@ If you're new to spoonie life, these foundational guides will get you started.
   description="Low spoon is a term spoonies use to describe a day when daily energy is running low or already gone."
   url="/what-does-low-spoon-mean/"
   image="/images/what-does-low-spoon-mean.webp"
-  alt="Purple background with cellphone displaying empyt battery logo"
+  alt="Purple background with cellphone displaying empty battery logo"
 %}
 
 {% include pillar-card.html

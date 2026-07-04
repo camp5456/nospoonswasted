@@ -52,7 +52,7 @@ If we do not think the product will help, we will not publish any content about 
 
 If we think the product will help other spoonies, we will reach out about an affiliate partnership where appropriate. Once a partnership is established, we will publish our honest review. 
 
-Parnerships of this nature helps us generate revenue that keeps our site self-sufficient.
+Partnerships of this nature helps us generate revenue that keeps our site self-sufficient.
 
 If you are interested in this form of partnership, [Contact us](/contact/) to start a conversation.
 

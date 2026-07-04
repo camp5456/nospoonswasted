@@ -2,7 +2,7 @@
 layout: recipe
 title: "2-Ingredient Homemade Jelly That Won't Crash Your Energy"
 description: "This easy homemade jelly adds fiber and a little sweetness to your spoonie meals. The extra fiber helps lessen the sugar spikes that can lead to energy crashes."
-date:   2026-05-13 08:00:00 +0000
+date:   2026-05-04 08:00:00 +0000
 image:  '/images/cherry-jelly.webp'
 image_alt: "small jars of ruby red cherry jelly on a kitchen counter"
 tags:   [recipes]
@@ -81,11 +81,11 @@ There are lots of ways to combine this with other healthy foods depending on you
 {: .callout-resources}
 
 ## What I Actually Use
-These are the products I use. You can use whatever juice fits your needs and taste preferences. And since you can make the base whatever you want, there's a real opportunity to create some fun jelly flavors. What about pinapple cranberry? yum. If you get creative, let me know what you end up liking.
+These are the products I use. You can use whatever juice fits your needs and taste preferences. And since you can make the base whatever you want, there's a real opportunity to create some fun jelly flavors. What about pineapple cranberry? yum. If you get creative, let me know what you end up liking.
 
 - [Antioxidant Solutions 100% Pure Tart Cherry Juice](https://antioxidantsolutions.com/collections/antioxidant-collection/products/100-tart-cherry-juice).
 - [NOW Foods Supplements, Psyllium Husk Powder](https://amzn.to/4oEW8V2)
-- [TRUE LEMON Crystalized Lemon](https://amzn.to/4vpiV9Q)
+- [TRUE LEMON Crystallized Lemon](https://amzn.to/4vpiV9Q)
 
 {% include affiliate-disclosure.html %}
 
