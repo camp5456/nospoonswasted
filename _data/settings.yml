@@ -40,7 +40,7 @@ social:
 # Hero Settings
 hero:
   hero__title: No spoons wasted.
-  hero__description: Smart lifehacks for people running on empty. <br> Made by Humans for Humans 🩷
+  hero__description: Smart lifehacks for people running on empty. 
   hero__image: '/images/01.webp'
 
 

@@ -43,6 +43,10 @@
   max-height: 80px;
   width: auto;
   display: block;
+
+  @media only screen and (max-width: 1350px) and (min-width: 1025px) {
+    max-height: 60px;
+  }
 }
 
 .logo__text {
@@ -60,23 +64,12 @@
   color: #fff;
   margin: 0;
 
+  @media only screen and (max-width: 1350px) and (min-width: 1025px) {
+    font-size: 20px;
+  }
+
   @media only screen and (max-width: $mobile) {
     font-size: 18px;
-  }
-}
-
-.logo__tagline {
-  font-family: $base-font-family;
-  font-size: 11px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: rgba(255, 255, 255, 0.8);
-  margin: 5px 0 0;
-
-  @media only screen and (max-width: $mobile) {
-    font-size: 9px;
-    letter-spacing: 0.1em;
   }
 }
 
@@ -299,6 +292,10 @@
       margin-right: 0;
     }
 
+    @media only screen and (max-width: 1350px) and (min-width: 1025px) {
+      margin-right: 20px;
+    }
+
     .nav__link {
       position: relative;
       padding: 8px 0 12px 0;
@@ -308,6 +305,7 @@
       line-height: 1;
       letter-spacing: normal;
       text-decoration: none;
+      white-space: nowrap;
       color: #fff;
       background: linear-gradient(#fff, #fff) no-repeat bottom / 100% 0%;
       transition: all .2s ease-in-out;

@@ -18,7 +18,7 @@
                  href="{{ '/tags/' | relative_url }}{{ cat.tag }}/"
                  style="--pill-color: {{ cat.color }}">
                 <span class="blog-filter__dot"></span>
-                {% if cat.featured %}★ {% endif %}{{ cat.title }}
+                {% if cat.featured %} {% endif %}{{ cat.title }}
                 <span class="blog-filter__count">{{ site.tags[cat.tag].size | default: 0 }}</span>
               </a>
             {% endfor %}

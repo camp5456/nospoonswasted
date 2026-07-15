@@ -63,4 +63,4 @@ If you're new to spoonie life, these foundational guides will get you started.
   alt="Close up of two spoonies holding hands tightly"
 %}
 
-If you thought these were helpful, sign up to our newsletter and never miss a post.
+

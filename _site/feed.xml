@@ -3,10 +3,10 @@
     <channel>
         <title>No Spoons Wasted</title>
         <description>Smart lifehacks for people running on empty. Easy recipes, simple strategies, and helpful products for the spoonie community.</description>
-        <link>https://nospoonswasted.com/</link>
-        <atom:link href="https://nospoonswasted.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Jul 2026 09:59:53 -0500</pubDate>
-        <lastBuildDate>Sun, 05 Jul 2026 09:59:53 -0500</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 14 Jul 2026 19:58:17 -0500</pubDate>
+        <lastBuildDate>Tue, 14 Jul 2026 19:58:17 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -136,8 +136,8 @@
 
 </description>
                 <pubDate>Mon, 15 Jun 2026 03:00:00 -0500</pubDate>
-                <link>https://nospoonswasted.com/blog/weighted-blankets/</link>
-                <guid isPermaLink="true">https://nospoonswasted.com/blog/weighted-blankets/</guid>
+                <link>http://localhost:4000/blog/weighted-blankets/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/weighted-blankets/</guid>
                 
                 <category>health</category>
                 
@@ -276,8 +276,8 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Wed, 03 Jun 2026 00:00:00 -0500</pubDate>
-                <link>https://nospoonswasted.com/blog/protein-hacks-for-spoonies/</link>
-                <guid isPermaLink="true">https://nospoonswasted.com/blog/protein-hacks-for-spoonies/</guid>
+                <link>http://localhost:4000/blog/protein-hacks-for-spoonies/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/protein-hacks-for-spoonies/</guid>
                 
                 <category>health</category>
                 
@@ -360,8 +360,8 @@
 &lt;h2 id=&quot;recipe&quot;&gt;Recipe&lt;/h2&gt;
 </description>
                 <pubDate>Mon, 04 May 2026 03:00:00 -0500</pubDate>
-                <link>https://nospoonswasted.com/blog/cherry-jelly/</link>
-                <guid isPermaLink="true">https://nospoonswasted.com/blog/cherry-jelly/</guid>
+                <link>http://localhost:4000/blog/cherry-jelly/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/cherry-jelly/</guid>
                 
                 <category>recipes</category>
                 

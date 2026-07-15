@@ -29,7 +29,7 @@
                 </div>
                 <div class="hero__card-body">
                   <p class="hero__card-eyebrow">
-                    ♦ {{ featured.date | date: "%d %b %Y" }}
+                      {{ featured.date | date: "%d %b %Y" }}
                       {% assign words = featured.content | number_of_words %}
                       {% assign mins = words | divided_by: 200 | plus: 1 %}
                        · {{ mins }} min read
