@@ -34,9 +34,7 @@ The goal is to save you spoons.
 
 I participate in the Amazon Associates Program and other affiliate programs. Affiliate links are how I keep the site self-sustaining so I can avoid plastering the site with ads. 
 
-I am a fierce advocate of your privacy and I cannot protect your privacy with ad infrastructure. I hate ads. You hate ads. I'm not doing ads. That's why I chose to make the site self-sustaining with affiliate links.
-
-I only recommend products I genuinely believe are useful for our community. Products I have tried. Products that helped me. I feel this business model is beneficial for everyone. It helps me support you with quality content with no added cost to you and without the use of predatory marketing or business practices. 
+I only recommend products I genuinely believe are useful for our community. Products I have tried. Products that helped me. I feel this business model is beneficial for everyone.
 
 You can read more about my affiliate partnerships on my [disclosures statement](/disclosures/).
 
